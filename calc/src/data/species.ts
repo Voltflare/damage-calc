@@ -8727,6 +8727,13 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
     baseSpecies: 'Zigzagoon',
   },
+    Miasma: {
+    types: ['Poison'],
+    bs: {hp: 73, at: 76, df: 75, sp: 100, sl: 100},
+    weightkg: 19.9,
+    abilities: {0: 'Corrosion'},
+    gender: 'F',
+  },
 };
 
 const SS: {[name: string]: SpeciesData} = extend(true, {}, SM, SS_PATCH);
