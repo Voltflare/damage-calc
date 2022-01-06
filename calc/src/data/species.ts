@@ -8729,10 +8729,9 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
     Miasma: {
     types: ['Poison'],
-    bs: {hp: 73, at: 76, df: 75, sp: 100, sl: 100},
+    bs: {hp: 73, at: 76, df: 75, sa: 81, sd: 100, sp 100},
     weightkg: 19.9,
     abilities: {0: 'Corrosion'},
-    gender: 'F',
   },
 };
 
