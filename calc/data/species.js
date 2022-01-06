@@ -8396,7 +8396,14 @@ var SS_PATCH = {
         abilities: { 0: 'Pickup' },
         nfe: true,
         baseSpecies: 'Zigzagoon'
-    }
+    },
+    Miasma: {
+    types: ['Poison'],
+    bs: {hp: 73, at: 76, df: 75, sp: 100, sl: 100},
+    weightkg: 19.9,
+    abilities: {0: 'Corrosion'},
+    gender: 'F'
+  }
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
 delete SS['Pikachu-Starter'];
