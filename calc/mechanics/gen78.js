@@ -126,7 +126,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
             move.type = 'Ice';
         }
-        else if ((isFireMeld = attacker.hasAbility('Fire Meld') && normal) {
+        else if ((isFireMeld = attacker.hasAbility('Fire Meld') && normal)) {
             move.type = 'Fire';
         }
         else if ((isNormalize = attacker.hasAbility('Normalize'))) {
