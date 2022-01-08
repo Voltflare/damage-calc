@@ -767,8 +767,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x1400);
         desc.attackerAbility = attacker.ability;
     }
+    //Sniper effect- all "high crit" moves +50%
+    //Super Luck- this but 35%
     var highCritRatio = move.named('Aeroblast', 'Air Cutter', 'Attack Order', 'Blaze Kick', 'Crabhammer', 'Cross Chop', 'Cross Poison', 'Drill Run', 'Karate Chop', 'Leaf Blade', 'Night Slash', 'Poison Tail', 'Psycho Cut', 'Razor Leaf', 'Razor Wind', 'Shadow Claw', 'Sky Attack', 'Slash', 'Snipe Shot', 'Spacial Rend', 'Stone Edge');
-    if (attacker.hasAbility('Sniper') && isCritical) {
+    if (attacker.hasAbility('Sniper') && highCritRatio) {
+        finalMods.push(0x1800);
+        desc.attackerAbility = attacker.ability;
+    }
+    else if (attacker.hasAbility('Super Luck') && highCritRatio) {
         finalMods.push(0x1800);
         desc.attackerAbility = attacker.ability;
     }
