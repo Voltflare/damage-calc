@@ -775,7 +775,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if (attacker.hasAbility('Super Luck') && highCritRatio) {
-        finalMods.push(0x16cc);
+        finalMods.push(0x14cc);
         desc.attackerAbility = attacker.ability;
     }
     //Stall: When counterattacking a Move, power is raised by 50%
