@@ -759,8 +759,15 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x1400);
         desc.attackerAbility = attacker.ability;
     }
+    //Sniper effect- all "high crit" moves +50%
+    //Super Luck- this but 30%
     else if (attacker.hasAbility('Sniper') && isCritical) {
         finalMods.push(0x1800);
+        desc.attackerAbility = attacker.ability;
+    }
+    //Stall: When counterattacking a Move, power is raised by 50%
+    else if (attacker.hasAbility('Stall')) {
+        finalMods.push(0x16cc);
         desc.attackerAbility = attacker.ability;
     }
     else if (attacker.hasAbility('Tinted Lens') && typeEffectiveness < 1) {
@@ -781,13 +788,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x800);
         desc.defenderAbility = defender.ability;
     }
+    //Punk Rock changed to +20% to sound Moves and -25% damage when hit by them
     else if ((defender.hasAbility('Punk Rock') && move.flags.sound) ||
         (defender.hasAbility('Ice Scales') && move.category === 'Special')) {
-        finalMods.push(0x800);
+        finalMods.push(0xc00);
         desc.defenderAbility = defender.ability;
     }
     if (move.flags.sound && attacker.hasAbility('Punk Rock')) {
-        finalMods.push(0x14cd);
+        finalMods.push(0x1333);
         desc.attackerAbility = attacker.ability;
     }
     if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor') && typeEffectiveness > 1) {
@@ -800,6 +808,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if (defender.hasAbility('Fluffy') && move.hasType('Fire')) {
         finalMods.push(0x2000);
+        desc.defenderAbility = defender.ability;
+    }
+    //new effect: Pressure reduces all incoming damage by 20%
+    if (defender.hasAbility('Pressure')) {
+        finalMods.push(0xc00);
         desc.defenderAbility = defender.ability;
     }
     if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
