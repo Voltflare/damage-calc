@@ -427,7 +427,15 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         }
     }
     if (attacker.hasAbility('Steely Spirit') && move.hasType('Steel')) {
-        bpMods.push(0x1800);
+        bpMods.push(0x14cd);
+        desc.attackerAbility = attacker.ability;
+    }
+    if (attacker.hasAbility('Transistor') && move.hasType('Electric')) {
+        bpMods.push(0x14cd);
+        desc.attackerAbility = attacker.ability;
+    }
+    if (attacker.hasAbility("Dragon's Maw") && move.hasType('Dragon')) {
+        bpMods.push(0x14cd);
         desc.attackerAbility = attacker.ability;
     }
     if (gen.num === 7) {
@@ -767,7 +775,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     //Stall: When counterattacking a Move, power is raised by 50%
     else if (attacker.hasAbility('Stall')) {
-        finalMods.push(0x16cc);
+        finalMods.push(0x1800);
         desc.attackerAbility = attacker.ability;
     }
     else if (attacker.hasAbility('Tinted Lens') && typeEffectiveness < 1) {
