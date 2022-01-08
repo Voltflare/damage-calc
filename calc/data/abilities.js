@@ -305,7 +305,7 @@ var SS = SM.concat([
     'Wandering Spirit',
     'Fire Meld',
     'Transistor',
-    "Dragon's Maw",
+    'Dragons Maw',
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Abilities = (function () {
