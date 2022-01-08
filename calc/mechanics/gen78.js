@@ -767,7 +767,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x1400);
         desc.attackerAbility = attacker.ability;
     }
-
+    if (attacker.hasAbility('Sniper') && isCritical) {
+        finalMods.push(0x1800);
+        desc.attackerAbility = attacker.ability;
+    }
     //Stall: When counterattacking a Move, power is raised by 50%
     else if (attacker.hasAbility('Stall')) {
         finalMods.push(0x1800);
