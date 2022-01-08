@@ -434,7 +434,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x14cd);
         desc.attackerAbility = attacker.ability;
     }
-    if (attacker.hasAbility("Dragon's Maw") && move.hasType('Dragon')) {
+    if (attacker.hasAbility('Dragons Maw') && move.hasType('Dragon')) {
         bpMods.push(0x14cd);
         desc.attackerAbility = attacker.ability;
     }
