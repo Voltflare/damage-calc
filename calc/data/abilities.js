@@ -303,6 +303,7 @@ var SS = SM.concat([
     'Steam Engine',
     'Steely Spirit',
     'Wandering Spirit',
+    'Fire Meld',
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Abilities = (function () {
