@@ -107,6 +107,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     var isGalvanize = false;
     var isLiquidVoice = false;
     var isNormalize = false;
+    var isFireMeld = false;
     var noTypeChange = move.named('Revelation Dance', 'Judgment', 'Nature Power', 'Techo Blast', 'Multi Attack', 'Natural Gift', 'Weather Ball');
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
@@ -125,10 +126,13 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
             move.type = 'Ice';
         }
+        else if ((isFireMeld = attacker.hasAbility('Fire Meld') && normal) {
+            move.type = 'Fire';
+        }
         else if ((isNormalize = attacker.hasAbility('Normalize'))) {
             move.type = 'Normal';
         }
-        if (isGalvanize || isLiquidVoice || isPixilate || isRefrigerate || isAerilate || isNormalize) {
+        if (isGalvanize || isLiquidVoice || isPixilate || isRefrigerate || isAerilate || isFireMeld || isNormalize) {
             desc.attackerAbility = attacker.ability;
         }
     }
@@ -381,7 +385,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     if (!move.isZ && !move.isMax &&
-        (isAerilate || isPixilate || isRefrigerate || isGalvanize || isNormalize)) {
+        (isAerilate || isPixilate || isRefrigerate || isGalvanize || isFireMeld || isNormalize)) {
         bpMods.push(0x1333);
         desc.attackerAbility = attacker.ability;
     }
