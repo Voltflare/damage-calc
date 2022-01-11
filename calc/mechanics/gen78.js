@@ -323,11 +323,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             desc.moveBP = basePower;
             break;
         case 'Terrain Pulse':
-            basePower = move.bp * (isGrounded(attacker, field) && field.terrain ? 2 : 1);
+            basePower = move.bp * (util_2.isGrounded(attacker, field) && field.terrain ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Rising Voltage':
-            basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
+            basePower = move.bp * ((util_2.isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Fling':
@@ -507,8 +507,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
     }
     else if (move.named('Knock Off') && !resistedKnockOffDamage) ||
-        (move.named('Expanding Force') && isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
-        (move.named('Misty Explosion') && isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
+        (move.named('Expanding Force') && util_2.isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
+        (move.named('Misty Explosion') && util_2.isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
         (move.named('Grav Apple') && field.isGravity){
             bpMods.push(0x1800);
             desc.moveBP = basePower * 1.5;
@@ -520,7 +520,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
         (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
-    (move.named('Lash Out') && (countBoosts(gen, attacker.boosts) < 0))) {
+    (move.named('Lash Out') && (util_2.countBoosts(gen, attacker.boosts) < 0))) {
         bpMods.push(0x2000);
         desc.moveBP = basePower * 2;
     }
