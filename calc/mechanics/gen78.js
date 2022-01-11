@@ -46,7 +46,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
       (move.named('Dream Eater') &&
         (!(defender.hasStatus('slp') || defender.hasAbility('Comatose')))) ||
-      (move.named('Steel Roller') && !field.terrain) 
+      (move.named('Steel Roller') && !field.terrain) ||
+      (move.named('Poltergeist') && !defender.item)
   ) {
     return result;
   }
