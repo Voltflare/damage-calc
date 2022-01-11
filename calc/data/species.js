@@ -8398,107 +8398,107 @@ var SS_PATCH = {
         baseSpecies: 'Zigzagoon'
     },
     //The Island- Type Shifted Pokemon
-    'Ninetales (Poison)': {
+    'Ninetales-Poison': {
     types: ['Poison'],
     bs: {hp: 73, at: 76, df: 75, sa: 81, sd: 100, sp: 100},
     weightkg: 19.9,
     abilities: {0: 'Corrosion'},
   },
-   'Espeon (Psychic/Fire)': {
+   'Espeon-Psychic/Fire': {
         types: ['Psychic', 'Fire'],
         bs: { hp: 65, at: 65, df: 60, sa: 130, sd: 95, sp: 110 },
         weightkg: 26.5,
         abilities: {0: 'Fire Meld'}
     },
-      'Porygon-Z (Normal/Water)': {
+      'Porygon-Z-Normal/Water': {
         types: ['Normal', 'Water'],
         bs: { hp: 85, at: 80, df: 70, sa: 135, sd: 75, sp: 90 },
         weightkg: 34,
         gender: 'N',
         abilities: { 0: 'Steam Engine' }
     },
-      'Charizard (Electric/Flying)': {
+      'Charizard-Electric/Flying': {
         types: ['Electric', 'Flying'],
         bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
         weightkg: 119,
         abilities: {0: 'Transistor'}
     },
-      'Zoroark (Dark/Ghost)': {
+      'Zoroark-Dark/Ghost': {
         types: ['Dark', 'Ghost'],
         bs: { hp: 60, at: 105, df: 60, sa: 120, sd: 60, sp: 105 },
         weightkg: 81.1,
         abilities: { 0: 'Illusion' }
     },
-      'Luxray (Electric/Fire)': {
+      'Luxray-Electric/Fire': {
         types: ['Electric', 'Fire'],
         bs: { hp: 80, at: 120, df: 79, sa: 95, sd: 79, sp: 70 },
         weightkg: 42,
         abilities: { 0: 'Rivalry' }
     },
-      'Gabite (Dragon/Ice)': {
+      'Gabite-Dragon/Ice': {
         types: ['Dragon', 'Ice'],
         bs: { hp: 68, at: 90, df: 65, sa: 50, sd: 55, sp: 82 },
         weightkg: 56,
         nfe: true,
         abilities: { 0: 'Snow Cloak' }
     },
-      'Luxray (Rock)': {
+      'Luxray-Rock': {
         types: ['Rock'],
         bs: { hp: 80, at: 120, df: 79, sa: 95, sd: 79, sp: 70 },
         weightkg: 65,
         abilities: { 0: 'Solid Rock' }
     },
-    'Girafarig (Dragon/Psychic)': {
+    'Girafarig-Dragon/Psychic': {
         types: ['Dragon', 'Psychic'],
         bs: { hp: 80, at: 90, df: 75, sa: 80, sd: 65, sp: 85 },
         weightkg: 55.5,
         abilities: {0: 'Sheer Force'}
     },
-    'Jigglypuff (Normal/Dark)': {
+    'Jigglypuff-Normal/Dark': {
         types: ['Normal', 'Dark'],
         bs: { hp: 115, at: 45, df: 20, sa: 45, sd: 25, sp: 20 },
         weightkg: 5.5,
         nfe: true,
         abilities: {0: 'Cute Charm'}
     },
-    'Riolu (Fighting/Ghost)': {
+    'Riolu-Fighting/Ghost': {
         types: ['Fighting', 'Ghost'],
         bs: { hp: 40, at: 70, df: 40, sa: 35, sd: 40, sp: 60 },
         weightkg: 10.2,
         nfe: true,
         abilities: { 0: 'Cursed Body' }
     },
-    'Lucario (Ghost/Steel)': {
+    'Lucario-Ghost/Steel': {
         types: ['Ghost', 'Steel'],
         bs: { hp: 70, at: 110, df: 70, sa: 115, sd: 70, sp: 90 },
         weightkg: 54,
         abilities: { 0: 'Inner Focus' }
     },
-    'Skarmory (Steel/Electric)': {
+    'Skarmory-Steel/Electric': {
         types: ['Steel', 'Electric'],
         bs: { hp: 65, at: 80, df: 140, sa: 40, sd: 70, sp: 70 },
         weightkg: 50.5,
         abilities: {0: 'Keen Eye'}
     },
-    'Ditto (Bug)': { 
+    'Ditto-Bug': { 
         types: ['Bug'], 
         bs: { hp: 48, at: 48, df: 48, sa: 48, sd: 48, sp: 48 }, 
         weightkg: 1,
         abilities: {0: 'The Fae'}
     },
-    'Mienshao (Dragon/Fighting)': {
+    'Mienshao-Dragon/Fighting': {
         types: ['Dragon','Fighting'],
         bs: { hp: 65, at: 125, df: 60, sa: 95, sd: 60, sp: 105 },
         weightkg: 35.5,
         abilities: { 0: 'Battle Armor' }
     },
-    'Garchomp (Dragon/Steel)': {
+    'Garchomp-Dragon/Steel': {
         types: ['Dragon', 'Steel'],
         bs: { hp: 108, at: 130, df: 95, sa: 80, sd: 85, sp: 102 },
         weightkg: 200,
         abilities: { 0: 'Iron Barbs' }
     },
-    'Metang (Rock/Psychic)': {
+    'Metang-Rock/Psychic': {
         types: ['Rock', 'Psychic'],
         bs: { hp: 60, at: 75, df: 100, sa: 55, sd: 80, sp: 50 },
         weightkg: 202.5,
@@ -8506,14 +8506,14 @@ var SS_PATCH = {
         gender: 'N',
         abilities: { 0: 'Clear Body' }
     },
-    'Sliggoo (Dragon/Steel)': {
+    'Sliggoo-Dragon/Steel': {
         types: ['Dragon', 'Steel'],
         bs: { hp: 68, at: 75, df: 53, sa: 83, sd: 113, sp: 60 },
         weightkg: 25.5,
         nfe: true,
         abilities: { 0: 'Mercury' }
     },
-    'Golurk (Ground/Electric)': {
+    'Golurk-Ground/Electric': {
         types: ['Ground', 'Electric'],
         bs: { hp: 89, at: 124, df: 80, sa: 55, sd: 80, sp: 55 },
         weightkg: 330,
@@ -8522,30 +8522,24 @@ var SS_PATCH = {
     },
   
     //The Island Updated BST Pokemon
-    'Furret (Myo)': {
+    'Furret-Myo': {
     types: ['Normal'],
     bs: { hp: 95, at: 76, df: 64, sa: 75, sd: 65, sp: 100 },
     weightkg: 19.9,
     abilities: {0: 'Run Away'},
     },
-    'Smeargle (Blot)': {
+    'Smeargle-Blot': {
         types: ['Normal'],
         bs: { hp: 85, at: 45, df: 75, sa: 50, sd: 85, sp: 75 },
         weightkg: 58,
         abilities: {0: 'Moody'},
     },
-    'Glameow (Narset)': {
+    'Glameow-Narset': {
         types: ['Normal'],
         bs: { hp: 70, at: 85, df: 60, sa: 60, sd: 50, sp: 90 },
         weightkg: 3.9,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
-    },
-    'Zangoose (Zoja Kalnins)': {
-        types: ['Normal'],
-        bs: { hp: 73, at: 115, df: 60, sa: 60, sd: 60, sp: 90 },
-        weightkg: 40.3,
-        abilities: { 0: 'Toxic Boost' }
     },
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
