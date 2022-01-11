@@ -8521,7 +8521,7 @@ var SS_PATCH = {
         abilities: { 0: 'Iron Fist' }
     },
     'Flygon-Fairy/Dragon': {
-        types: ['Ground', 'Dragon'],
+        types: ['Fairy', 'Dragon'],
         bs: { hp: 80, at: 100, df: 80, sa: 80, sd: 80, sp: 100 },
         weightkg: 82,
         abilities: { 0: 'Fairy Aura' }
