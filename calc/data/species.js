@@ -8526,6 +8526,13 @@ var SS_PATCH = {
         weightkg: 82,
         abilities: { 0: 'Fairy Aura' }
     },
+    'Stufful-Fire/Fighting': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 70, at: 75, df: 50, sa: 45, sd: 50, sp: 50 },
+        weightkg: 6.8,
+        abilities: { 0: 'Fluffy' },
+        nfe: true
+    },
   
     //The Island Updated BST Pokemon
     'Furret-Myo': {
