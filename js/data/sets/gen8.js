@@ -1,3 +1,4 @@
+//bs: { hp: 100, at: 70, df: 85, sa: 80, sd: 70, sp: 70 } (abbreviations)
 var SETDEX_SS = {
   "Miasma":
   {"Ethrus Ninetales":
@@ -8,5 +9,15 @@ var SETDEX_SS = {
     "evs":{"sa":100},
     "moves":["Nasty Plot","Confuse Ray","Clear Smog","Toxic"]
    }
-  } //end Miasma
+  },
+    "Myo":
+  {"Non-Islander Furret [-HP]":
+   {"level":100,
+    "ability":"Run Away",
+    "item":"None",
+    "nature":"Quiet",
+    "evs":{"sa":200},
+    "moves":["Iron Tail","Blizzard","Thunder","Coil"]
+   }
+  }
 }; //end set_dex
