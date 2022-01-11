@@ -320,6 +320,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             basePower = field.weather && !field.hasWeather('Strong Winds') ? 100 : 50;
             desc.moveBP = basePower;
             break;
+        case 'Terrain Pulse':
+            basePower = move.bp * (util_2.isGrounded(attacker, field) && field.terrain ? 2 : 1);
+            desc.moveBP = basePower;
+            break;
+        case 'Rising Voltage':
+            basePower = move.bp * ((util_2.isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
+            desc.moveBP = basePower;
+            break;
         case 'Fling':
             basePower = items_1.getFlingPower(attacker.item);
             desc.moveBP = basePower;
