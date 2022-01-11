@@ -829,7 +829,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x1333);
         desc.attackerAbility = attacker.ability;
     }
-    if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor') && typeEffectiveness > 1) {
+    if (defender.hasAbility('Solid Rock', 'Filter', 'Prism Armor', 'Battle Armor', 'Shell Armor') && typeEffectiveness > 1) {
         finalMods.push(0xc00);
         desc.defenderAbility = defender.ability;
     }
