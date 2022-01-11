@@ -8520,6 +8520,12 @@ var SS_PATCH = {
         gender: 'N',
         abilities: { 0: 'Iron Fist' }
     },
+    'Flygon-Fairy/Dragon': {
+        types: ['Ground', 'Dragon'],
+        bs: { hp: 80, at: 100, df: 80, sa: 80, sd: 80, sp: 100 },
+        weightkg: 82,
+        abilities: { 0: 'Fairy Aura' }
+    },
   
     //The Island Updated BST Pokemon
     'Furret-Myo': {
