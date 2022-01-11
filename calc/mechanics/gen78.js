@@ -496,10 +496,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.moveBP = basePower / 2;
         desc.weather = field.weather;
     }
-    else if (move.named('Knock Off') && !resistedKnockOffDamage) {
-        bpMods.push(0x1800);
-        desc.moveBP = basePower * 1.5;
-    }
+    else if ((move.named('Knock Off') && !resistedKnockOffDamage) ||
+    (move.named('Expanding Force') && util_2.isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
+    (move.named('Misty Explosion') && util_2.isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
+    (move.named('Grav Apple') && field.isGravity)
+  ) {
+    bpMods.push(0x1800);
+    desc.moveBP = basePower * 1.5;
+  } 
     if (field.attackerSide.isHelpingHand) {
         bpMods.push(0x1800);
         desc.isHelpingHand = true;
