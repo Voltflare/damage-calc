@@ -1,6 +1,6 @@
 //bs: { hp: 100, at: 70, df: 85, sa: 80, sd: 70, sp: 70 } (abbreviations)
 var SETDEX_SS = {
-  "Ninetales (Poison)":
+  "Ninetales-Poison":
   {"Miasma":
    {"level":100,
     "ability":"Corrosion",
@@ -10,7 +10,7 @@ var SETDEX_SS = {
     "moves":["Nasty Plot","Confuse Ray","Clear Smog","Toxic"]
    }
   },
-    "Furret (Myo)":
+    "Furret-Myo":
   {"Myo [-HP]":
    {"level":100,
     "ability":"Run Away",
@@ -20,7 +20,7 @@ var SETDEX_SS = {
     "moves":["Iron Tail","Blizzard","Thunder","Coil"]
    }
   },
-    "Smeargle (Blot)":
+    "Smeargle-Blot":
   {"Blot":
    {"level":100,
     "ability":"Moody",
