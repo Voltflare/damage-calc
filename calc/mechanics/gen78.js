@@ -181,7 +181,9 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
             (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-        (move.named('Dream Eater') && !(defender.hasStatus('slp') || defender.hasAbility('Comatose')))) {
+        (move.named('Dream Eater') && !(defender.hasStatus('slp') || defender.hasAbility('Comatose'))) ||
+        (move.named('Steel Roller') && !field.terrain) ||
+        (move.named('Poltergeist') && !defender.item)) {
         return result;
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
@@ -318,6 +320,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             break;
         case 'Weather Ball':
             basePower = field.weather && !field.hasWeather('Strong Winds') ? 100 : 50;
+            desc.moveBP = basePower;
+            break;
+        case 'Terrain Pulse':
+            basePower = move.bp * (isGrounded(attacker, field) && field.terrain ? 2 : 1);
+            desc.moveBP = basePower;
+            break;
+        case 'Rising Voltage':
+            basePower = move.bp * ((isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Fling':
@@ -496,9 +506,12 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.moveBP = basePower / 2;
         desc.weather = field.weather;
     }
-    else if (move.named('Knock Off') && !resistedKnockOffDamage) {
-        bpMods.push(0x1800);
-        desc.moveBP = basePower * 1.5;
+    else if (move.named('Knock Off') && !resistedKnockOffDamage) ||
+        (move.named('Expanding Force') && isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
+        (move.named('Misty Explosion') && isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
+        (move.named('Grav Apple') && field.isGravity){
+            bpMods.push(0x1800);
+            desc.moveBP = basePower * 1.5;
     }
     if (field.attackerSide.isHelpingHand) {
         bpMods.push(0x1800);
@@ -506,7 +519,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
-        (move.named('Venoshock') && defender.hasStatus('psn', 'tox'))) {
+        (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
+    (move.named('Lash Out') && (countBoosts(gen, attacker.boosts) < 0))) {
         bpMods.push(0x2000);
         desc.moveBP = basePower * 2;
     }
@@ -541,7 +555,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     basePower = util_2.OF16(Math.max(1, util_2.pokeRound((basePower * util_2.chainMods(bpMods)) / 0x1000)));
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    if (move.named('Photon Geyser', 'Light That Burns The Sky')) {
+    if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm')) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     var attackStat = move.category === 'Special' ? 'spa' : move.named('Body Press') ? 'def' : 'atk';
