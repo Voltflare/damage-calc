@@ -1,7 +1,7 @@
 //bs: { hp: 100, at: 70, df: 85, sa: 80, sd: 70, sp: 70 } (abbreviations)
 var SETDEX_SS = {
-  "Miasma":
-  {"Ethrus Ninetales":
+  "Ninetales (Poison)":
+  {"Miasma":
    {"level":100,
     "ability":"Corrosion",
     "item":"None",
@@ -10,8 +10,8 @@ var SETDEX_SS = {
     "moves":["Nasty Plot","Confuse Ray","Clear Smog","Toxic"]
    }
   },
-    "Myo":
-  {"Non-Islander Furret [-HP]":
+    "Furret (Myo)":
+  {"Myo [-HP]":
    {"level":100,
     "ability":"Run Away",
     "item":"None",
@@ -20,8 +20,8 @@ var SETDEX_SS = {
     "moves":["Iron Tail","Blizzard","Thunder","Coil"]
    }
   },
-    "Blot":
-  {"Non-Islander Smeargle":
+    "Smeargle (Blot)":
+  {"Blot":
    {"level":100,
     "ability":"Moody",
     "item":"None",
@@ -30,8 +30,8 @@ var SETDEX_SS = {
     "moves":["Poltergeist","Phantom Force","Sketch","Sketch"]
    }
   },
-    "Narset":
-  {"Cat with Swords":
+    "Glameow (Narset)":
+  {"Narset":
    {"level":100,
     "ability":"Keen Eye",
     "item":"None",
