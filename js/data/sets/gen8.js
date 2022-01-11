@@ -390,4 +390,14 @@ var SETDEX_SS = {
     "moves":["Protect","Mirror Shot","Rain Dance","Acid Spray"]
    }
   },
+    "Flygon-Fairy/Dragon":
+  {"Beacon":
+   {"level":100,
+    "ability":"Fairy Aura",
+    "item":"None",
+    "nature":"Modest",
+    "evs":{"hp":100, "sa":200},
+    "moves":["Moonblast","Moonlight","Aromatic Mist","Misty Terrain"]
+   }
+  },
 }; //end set_dex
