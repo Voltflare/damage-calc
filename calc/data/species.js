@@ -8402,7 +8402,14 @@ var SS_PATCH = {
     bs: {hp: 73, at: 76, df: 75, sa: 81, sd: 100, sp: 100},
     weightkg: 19.9,
     abilities: {0: 'Corrosion'},
+  },
+    Myo: {
+    types: ['Normal'],
+    bs: { hp: 95, at: 76, df: 64, sa: 75, sd: 65, sp: 100 },
+    weightkg: 19.9,
+    abilities: {0: 'Run Away'},
   }
+    
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
 delete SS['Pikachu-Starter'];
