@@ -2868,7 +2868,27 @@ var SS_PATCH = {
         zp: 120,
         maxPower: 110
     },
+    'Burning Jealousy': {
+    bp: 70,
+    type: 'Fire',
+    target: 'allAdjacentFoes',
+    category: 'Special',
+    secondaries: true,
+    zp: 140,
+    maxPower: 120,
+  },
     'Clangorous Soul': { bp: 0, type: 'Dragon', isSound: true },
+   'Coaching': {
+    bp: 0,
+    type: 'Fighting',
+    category: 'Status',
+  },
+    'Corrosive Gas': {
+    bp: 0,
+    type: 'Poison',
+    category: 'Status',
+    target: 'allAdjacent',
+  },
     'Court Change': { bp: 0, type: 'Normal' },
     Decorate: { bp: 0, type: 'Fairy' },
     'Dragon Darts': {
@@ -2887,6 +2907,15 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+    'Dual Wingbeat': {
+    bp: 40,
+    type: 'Flying',
+    category: 'Physical',
+    makesContact: true,
+    multihit: 2,
+    zp: 100,
+    maxPower: 130,
+  },
     'Dynamax Cannon': {
         bp: 100,
         type: 'Dragon',
@@ -2901,6 +2930,13 @@ var SS_PATCH = {
         zp: 200,
         maxPower: 150
     },
+      'Expanding Force': {
+    bp: 80,
+    type: 'Psychic',
+    category: 'Special',
+    zp: 160,
+    maxPower: 130,
+  },
     'False Surrender': {
         bp: 80,
         type: 'Dark',
@@ -2918,6 +2954,14 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+      'Flip Turn': {
+    bp: 60,
+    type: 'Water',
+    category: 'Physical',
+    makesContact: true,
+    zp: 120,
+    maxPower: 110,
+  },
     'G-Max Befuddle': {
         bp: 10,
         type: 'Bug',
@@ -3126,6 +3170,14 @@ var SS_PATCH = {
         isMax: true,
         maxPower: 1
     },
+      'Grassy Glide': {
+    bp: 70,
+    type: 'Grass',
+    category: 'Physical',
+    makesContact: true,
+    zp: 140,
+    maxPower: 120,
+  },
     'Grav Apple': {
         bp: 80,
         type: 'Grass',
@@ -3143,6 +3195,14 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+      'Lash Out': {
+    bp: 75,
+    type: 'Dark',
+    makesContact: true,
+    category: 'Physical',
+    zp: 140,
+    maxPower: 130,
+  },
     'Life Dew': { bp: 0, type: 'Water' },
     'Magic Powder': { bp: 0, type: 'Psychic' },
     'Max Airstream': {
@@ -3297,6 +3357,21 @@ var SS_PATCH = {
         zp: 200,
         maxPower: 100
     },
+      'Meteor Beam': {
+    bp: 120,
+    type: 'Rock',
+    category: 'Special',
+    zp: 190,
+    maxPower: 140,
+  },
+    'Misty Explosion': {
+    bp: 100,
+    type: 'Fairy',
+    category: 'Special',
+    target: 'allAdjacent',
+    zp: 180,
+    maxPower: 130,
+  },
     'No Retreat': { bp: 0, type: 'Fighting' },
     Obstruct: { bp: 0, type: 'Dark', priority: 4 },
     Octolock: { bp: 0, type: 'Fighting' },
@@ -3309,6 +3384,13 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+      Poltergeist: {
+    bp: 110,
+    type: 'Ghost',
+    category: 'Physical',
+    zp: 185,
+    maxPower: 140,
+  },
     'Pyro Ball': {
         bp: 120,
         type: 'Fire',
@@ -3318,6 +3400,29 @@ var SS_PATCH = {
         zp: 190,
         maxPower: 140
     },
+    'Rising Voltage': {
+    bp: 70,
+    type: 'Electric',
+    category: 'Special',
+    zp: 140,
+    maxPower: 140,
+  },
+  'Scale Shot': {
+    bp: 25,
+    type: 'Dragon',
+    category: 'Physical',
+    multihit: [2, 5],
+    zp: 140,
+    maxPower: 130,
+  },
+    'Shell Side Arm': {
+    bp: 90,
+    type: 'Poison',
+    category: 'Special',
+    secondaries: true,
+    zp: 175,
+    maxPower: 90,
+  },
     'Snap Trap': {
         bp: 35,
         type: 'Grass',
@@ -3333,6 +3438,23 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+      'Scorching Sands': {
+    bp: 70,
+    type: 'Ground',
+    category: 'Special',
+    secondaries: true,
+    zp: 140,
+    maxPower: 120,
+  },
+  'Skitter Smack': {
+    bp: 70,
+    type: 'Bug',
+    category: 'Physical',
+    makesContact: true,
+    secondaries: true,
+    zp: 140,
+    maxPower: 120,
+  },
     'Spirit Break': {
         bp: 75,
         type: 'Fairy',
@@ -3350,6 +3472,14 @@ var SS_PATCH = {
         zp: 200,
         maxPower: 140
     },
+     'Steel Roller': {
+    bp: 130,
+    type: 'Steel',
+    category: 'Physical',
+    makesContact: true,
+    zp: 195,
+    maxPower: 140,
+  },
     'Strange Steam': {
         bp: 90,
         type: 'Fairy',
@@ -3358,6 +3488,44 @@ var SS_PATCH = {
         zp: 175,
         maxPower: 130
     },
+    'Surging Strikes': {
+    bp: 25,
+    type: 'Water',
+    category: 'Physical',
+    makesContact: true,
+    willCrit: true,
+    isPunch: true,
+    multihit: 3,
+    zp: 140,
+    maxPower: 130,
+  },
+  'Terrain Pulse': {
+    bp: 50,
+    type: 'Normal',
+    category: 'Special',
+    isPulse: true,
+    zp: 160,
+    maxPower: 130,
+  },
+  'Triple Axel': {
+    bp: 20,
+    type: 'Ice',
+    category: 'Physical',
+    makesContact: true,
+    multihit: 3,
+    zp: 120,
+    maxPower: 140,
+  },
+  'Wicked Blow': {
+    bp: 80,
+    type: 'Dark',
+    category: 'Physical',
+    makesContact: true,
+    willCrit: true,
+    isPunch: true,
+    zp: 160,
+    maxPower: 130,
+  },
     'Stuff Cheeks': { bp: 0, type: 'Normal' },
     'Tar Shot': { bp: 0, type: 'Rock' },
     Teatime: { bp: 0, type: 'Normal' },
