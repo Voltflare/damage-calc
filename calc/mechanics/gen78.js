@@ -40,6 +40,17 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
+    if ((move.named('Sky Drop') &&
+        (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
+      (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
+        (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
+      (move.named('Dream Eater') &&
+        (!(defender.hasStatus('slp') || defender.hasAbility('Comatose')))) ||
+      (move.named('Steel Roller') && !field.terrain) ||
+      (move.named('Poltergeist') && !defender.item)
+  ) {
+    return result;
+  }
     var defenderIgnoresAbility = defender.hasAbility('Full Metal Body', 'Prism Armor', 'Shadow Shield');
     var attackerIgnoresAbility = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze');
     var moveIgnoresAbility = move.named('Light That Burns the Sky', 'Menacing Moonraze Maelstrom', 'Moongeist Beam', 'Photon Geyser', 'Searing Sunraze Smash', 'Sunsteel Strike');
@@ -177,17 +188,6 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     if (typeEffectiveness === 0) {
         return result;
     }
-  if ((move.named('Sky Drop') &&
-        (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
-      (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
-        (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-      (move.named('Dream Eater') &&
-        (!(defender.hasStatus('slp') || defender.hasAbility('Comatose')))) ||
-      (move.named('Steel Roller') && !field.terrain) ||
-      (move.named('Poltergeist') && !defender.item)
-  ) {
-    return result;
-  }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
         (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
         (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
