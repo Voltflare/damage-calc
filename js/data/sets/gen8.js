@@ -30,7 +30,7 @@ var SETDEX_SS = {
     "moves":["Poltergeist","Phantom Force","Sketch","Sketch"]
    }
   },
-    "Glameow (Narset)":
+    "Glameow-Narset":
   {"Narset":
    {"level":100,
     "ability":"Keen Eye",
