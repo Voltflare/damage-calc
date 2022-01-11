@@ -508,9 +508,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x1800);
         desc.isHelpingHand = true;
     }
-    if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
-        (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
-        (move.named('Venoshock') && defender.hasStatus('psn', 'tox'))) {
+  if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
+    (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
+    (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
+    (move.named('Lash Out') && (util_2.countBoosts(gen, attacker.boosts) < 0))
+  ) {
         bpMods.push(0x2000);
         desc.moveBP = basePower * 2;
     }
