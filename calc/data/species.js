@@ -8411,9 +8411,16 @@ var SS_PATCH = {
     },
     Blot: {
         types: ['Normal'],
-        bs: { hp: 70, at: 85, df: 60, sa: 60, sd: 50, sp: 90 },
+        bs: { hp: 85, at: 45, df: 75, sa: 50, sd: 85, sp: 75 },
         weightkg: 58,
         abilities: {0: 'Moody'},
+    },
+    Narset: {
+        types: ['Normal'],
+        bs: { hp: 70, at: 85, df: 60, sa: 60, sd: 50, sp: 90 },
+        weightkg: 3.9,
+        nfe: true,
+        abilities: { 0: 'Keen Eye' }
     },
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
