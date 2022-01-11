@@ -40,4 +40,14 @@ var SETDEX_SS = {
     "moves":["Slash","U-turn","Hypnosis","Aerial Ace"]
    }
   },
+    "Golurk-Ground/Electric":
+  {"Colossus":
+   {"level":100,
+    "ability":"Iron Fist",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"hp":200, "at":100},
+    "moves":["Zing Zap","Earthquake","Hammer Arm","Giga Impact"]
+   }
+  },
 }; //end set_dex
