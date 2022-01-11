@@ -181,9 +181,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
             (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-        (move.named('Dream Eater') && !(defender.hasStatus('slp') || defender.hasAbility('Comatose'))) ||
-        (move.named('Steel Roller') && !field.terrain) ||
-        (move.named('Poltergeist') && !defender.item)) {
+        (move.named('Dream Eater') && !(defender.hasStatus('slp') || defender.hasAbility('Comatose'))) 
+//         ||
+//         (move.named('Steel Roller') && !field.terrain) ||
+//         (move.named('Poltergeist') && !defender.item)) 
+    {
         return result;
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
@@ -322,14 +324,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             basePower = field.weather && !field.hasWeather('Strong Winds') ? 100 : 50;
             desc.moveBP = basePower;
             break;
-        case 'Terrain Pulse':
-            basePower = move.bp * (util_2.isGrounded(attacker, field) && field.terrain ? 2 : 1);
-            desc.moveBP = basePower;
-            break;
-        case 'Rising Voltage':
-            basePower = move.bp * ((util_2.isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
-            desc.moveBP = basePower;
-            break;
+//         case 'Terrain Pulse':
+//             basePower = move.bp * (util_2.isGrounded(attacker, field) && field.terrain ? 2 : 1);
+//             desc.moveBP = basePower;
+//             break;
+//         case 'Rising Voltage':
+//             basePower = move.bp * ((util_2.isGrounded(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
+//             desc.moveBP = basePower;
+//             break;
         case 'Fling':
             basePower = items_1.getFlingPower(attacker.item);
             desc.moveBP = basePower;
@@ -507,8 +509,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
     }
     else if (move.named('Knock Off') && !resistedKnockOffDamage) ||
-        (move.named('Expanding Force') && util_2.isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
-        (move.named('Misty Explosion') && util_2.isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
+//         (move.named('Expanding Force') && util_2.isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
+//         (move.named('Misty Explosion') && util_2.isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
         (move.named('Grav Apple') && field.isGravity){
             bpMods.push(0x1800);
             desc.moveBP = basePower * 1.5;
@@ -519,8 +521,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
-        (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||
-    (move.named('Lash Out') && (util_2.countBoosts(gen, attacker.boosts) < 0))) {
+        (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) 
+//         ||
+//     (move.named('Lash Out') && (util_2.countBoosts(gen, attacker.boosts) < 0))
+       ) {
         bpMods.push(0x2000);
         desc.moveBP = basePower * 2;
     }
