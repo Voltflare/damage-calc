@@ -7,6 +7,48 @@ exports.SEED_BOOSTED_STAT = {
     'Misty Seed': 'spd',
     'Psychic Seed': 'spd'
 };
+function getPlateBoostType(item) {
+    switch (item) {
+        case 'Draco Plate':
+            return 'Dragon';
+        case 'Dread Plate':
+            return 'Dark';
+        case 'Earth Plate':
+            return 'Ground';
+        case 'Fist Plate':
+            return 'Fighting';
+        case 'Flame Plate':
+            return 'Fire';
+        case 'Icicle Plate':
+            return 'Ice';
+        case 'Insect Plate':
+            return 'Bug';
+        case 'Iron Plate':
+            return 'Steel';
+        case 'Meadow Plate':
+        case 'Miracle Seed':
+            return 'Grass';
+        case 'Mind Plate':
+            return 'Psychic';
+        case 'Pixie Plate':
+            return 'Fairy';
+        case 'Sky Plate':
+            return 'Flying';
+        case 'Splash Plate':
+            return 'Water';
+        case 'Spooky Plate':
+            return 'Ghost';
+        case 'Stone Plate':
+            return 'Rock';
+        case 'Toxic Plate':
+            return 'Poison';
+        case 'Zap Plate':
+            return 'Electric';
+        default:
+            return undefined;
+    }
+}
+exports.getPlateBoostType = getPlateBoostType;
 function getItemBoostType(item) {
     switch (item) {
         case 'Draco Plate':
