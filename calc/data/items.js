@@ -480,6 +480,7 @@ var SS = SM.concat([
     'Star Sweet',
     'Strawberry Sweet',
     'Sweet Apple',
+    'Sylph Stardust',
     'Tart Apple',
     'Throat Spray',
 ]);
