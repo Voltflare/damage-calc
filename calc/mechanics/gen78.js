@@ -475,7 +475,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.defenderAbility = defender.ability;
     }
     if (attacker.item && move.hasType(items_1.getPlateBoostType(attacker.item))) {
-        bpMods.push(0x1199);
+        bpMods.push(0x1333);
         desc.attackerItem = attacker.item;
     }
     else if (attacker.item && move.hasType(items_1.getItemBoostType(attacker.item))) {
