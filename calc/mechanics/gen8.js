@@ -905,7 +905,7 @@ function calculateGen8(gen, attacker, defender, move, field) {
         description.attackerItem = attacker.item;
     }
     if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
-        finalMods.push(0x1333);
+        finalMods.push(0x14cc);
         description.attackerItem = attacker.item;
     }
     else if (attacker.hasItem('Life Orb')) {
