@@ -474,7 +474,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x1400);
         desc.defenderAbility = defender.ability;
     }
-    if (attacker.item && move.hasType(items_1.getItemBoostType(attacker.item))) {
+    if (attacker.item && move.hasType(items_1.getPlateBoostType(attacker.item))) {
+        bpMods.push(0x1199);
+        desc.attackerItem = attacker.item;
+    }
+    else if (attacker.item && move.hasType(items_1.getItemBoostType(attacker.item))) {
         bpMods.push(0x1333);
         desc.attackerItem = attacker.item;
     }
@@ -704,14 +708,21 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         desc.defenderAbility = defender.ability;
     }
-    if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
-        (!hitsPhysical && defender.hasItem('Assault Vest'))) {
+    if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) {
         dfMods.push(0x1800);
         desc.defenderItem = defender.item;
     }
     else if ((defender.hasItem('Metal Powder') && defender.named('Ditto') && hitsPhysical) ||
         (defender.hasItem('Deep Sea Scale') && defender.named('Clamperl') && !hitsPhysical)) {
-        dfMods.push(0x2000);
+        dfMods.push(0x1800);
+        desc.defenderItem = defender.item;
+    }
+    else if (defender.hasItem('Assault Vest')) {
+        dfMods.push(0x1333);
+        desc.defenderItem = defender.item;
+    }
+    else if (defender.hasItem && items_1.getPlateBoostType(defender.item) === move.type) {
+        dfMods.push(0x14cc);
         desc.defenderItem = defender.item;
     }
     defense = util_2.OF16(Math.max(1, util_2.pokeRound((defense * util_2.chainMods(dfMods)) / 0x1000)));
