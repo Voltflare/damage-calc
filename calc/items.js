@@ -84,6 +84,7 @@ function getItemBoostType(item) {
         case 'Twisted Spoon':
             return 'Psychic';
         case 'Pixie Plate':
+        case 'Sylph Stardust':
             return 'Fairy';
         case 'Sky Plate':
         case 'Sharp Beak':
@@ -322,6 +323,7 @@ var FLING_30 = new Set([
     'Eject Button',
     'Snowball',
     'Bottle Cap',
+    'Sylph Stardust',
 ]);
 var FLING_10 = new Set([
     'Air Balloon',
