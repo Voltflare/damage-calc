@@ -400,4 +400,13 @@ var SETDEX_SS = {
     "moves":["Moonblast","Moonlight","Aromatic Mist","Misty Terrain"]
    }
   },
+    "Girafarig":
+  {"Stick":
+   {"level":100,
+    "ability":"Early Bird",
+    "item":"None",
+    "nature":"Lax",
+    "moves":["Agility","Take Down","Stomp","Iron Tail"]
+   }
+  },
 }; //end set_dex
