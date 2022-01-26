@@ -260,7 +260,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Stufful-Fire/Fighting":
+    "Stufful-Fire/Fighting-Spike":
   {"Spike":
    {"level":50,
     "ability":"Fluffy",
