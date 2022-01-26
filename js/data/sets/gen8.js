@@ -7,7 +7,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Timid",
     "evs":{"sa":100},
-    "moves":["Nasty Plot","Confuse Ray","Clear Smog","Toxic"]
+    "moves":["Nasty Plot","Confuse Ray","Clear Smog","Toxic"],
+    "gender": "F"
    }
   },
     "Furret-Myo":
@@ -17,7 +18,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Quiet",
     "evs":{"sa":200},
-    "moves":["Iron Tail","Blizzard","Thunder","Coil"]
+    "moves":["Iron Tail","Blizzard","Thunder","Coil"],
+    "gender": "M"
    }
   },
     "Smeargle-Blot":
@@ -27,7 +29,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"df":100, "sd":100},
-    "moves":["Poltergeist","Phantom Force","Sketch","Sketch"]
+    "moves":["Poltergeist","Phantom Force","Sketch","Sketch"],
+    "gender": "F"
    }
   },
     "Glameow-Narset":
@@ -37,7 +40,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Lonely",
     "evs":{"hp":100, "at":100},
-    "moves":["Slash","U-turn","Hypnosis","Aerial Ace"]
+    "moves":["Slash","U-turn","Hypnosis","Aerial Ace"],
+    "gender": "F"
    }
   },
     "Golurk-Ground/Electric":
@@ -57,7 +61,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Sassy",
     "evs":{"hp":100, "sd":100},
-    "moves":["Future Sight","Swift","Helping Hand","Copycat"]
+    "moves":["Future Sight","Swift","Helping Hand","Copycat"],
+    "gender": "M"
    }
   },
     "Porygon-Z-Normal/Water":
@@ -77,7 +82,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Quiet",
     "evs":{"hp":100, "sa":200},
-    "moves":["Air Slash","Thunderbolt","Discharge","Dragon Claw"]
+    "moves":["Air Slash","Thunderbolt","Discharge","Dragon Claw"],
+    "gender": "M"
    }
   },
     "Zoroark-Dark/Ghost":
@@ -87,7 +93,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Naive",
     "evs":{"sa":200, "sp":100},
-    "moves":["Shadow Claw","Night Daze","Nasty Plot","Confuse Ray"]
+    "moves":["Shadow Claw","Night Daze","Nasty Plot","Confuse Ray"],
+    "gender": "F"
    }
   },
     "Luxray-Electric/Fire":
@@ -97,7 +104,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Rash",
     "evs":{"hp":100, "sa": 100, "sd":100},
-    "moves":["Incinerate","Discharge","Roar","Scary Face"]
+    "moves":["Incinerate","Discharge","Roar","Scary Face"],
+    "gender": "M"
    }
   },
     "Excadrill":
@@ -107,7 +115,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":100},
-    "moves":["Earthquake","Rock Slide","Swords Dance","Iron Head"]
+    "moves":["Earthquake","Rock Slide","Swords Dance","Iron Head"],
+    "gender": ""
    }
   },
     "Porygon":
@@ -127,7 +136,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"hp":200, "at": 100},
-    "moves":["Roost","Light Screen","Breaking Swipe","Wrap"]
+    "moves":["Roost","Light Screen","Breaking Swipe","Wrap"],
+    "gender": "M"
    }
   },
     "Gabite-Dragon/Ice":
@@ -137,7 +147,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Rash",
     "evs":{"hp":200, "at": 100},
-    "moves":["Avalanche","Hail","Haze","Dragon Breath"]
+    "moves":["Avalanche","Hail","Haze","Dragon Breath"],
+    "gender": "M"
    }
   },
     "Lucario":
@@ -147,7 +158,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Serious",
     "evs":{"df":200, "sa":100},
-    "moves":["Focus Blast","Metal Sound","Heal Pulse","Meteor Mash"]
+    "moves":["Focus Blast","Metal Sound","Heal Pulse","Meteor Mash"],
+    "gender": "M"
    }
   },
     "Eiscue":
@@ -167,7 +179,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Quirky",
     "evs":{"sp":100, "sp":100},
-    "moves":["Obstruct","Counter","Snarl","Hyper Voice"]
+    "moves":["Obstruct","Counter","Snarl","Hyper Voice"],
+    "gender": "M"
    }
   },
     "Luxray-Rock":
@@ -177,7 +190,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Naive",
     "evs":{"hp":100, "at":100},
-    "moves":["Iron Defense","Rock Slide","Stealth Rock","Brick Break"]
+    "moves":["Iron Defense","Rock Slide","Stealth Rock","Brick Break"],
+    "gender": "F"
    }
   },
     "Braixen":
@@ -187,7 +201,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"hp":100, "df":100, "sd":100},
-    "moves":["Echoed Voice","Shock Wave","Lucky Chant","Flame Charge"]
+    "moves":["Echoed Voice","Shock Wave","Lucky Chant","Flame Charge"],
+    "gender": "M"
    }
   },
     "Girafarig-Dragon/Psychic":
@@ -197,7 +212,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":100, "sd":100},
-    "moves":["Dragon Rush","Zen Headbutt","Telekinesis","Dragon Dance"]
+    "moves":["Dragon Rush","Zen Headbutt","Telekinesis","Dragon Dance"],
+    "gender": "M"
    }
   },
     "Jigglypuff-Normal/Dark":
@@ -207,19 +223,21 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"hp":100},
-    "moves":["Sing","Attract","Echoed Voice","Fake Tears"]
+    "moves":["Sing","Attract","Echoed Voice","Fake Tears"],
+    "gender": "F"
    }
   },
-    "Salandit":
-  {"Iris":
-   {"level":50,
-    "ability":"Corrosion",
-    "item":"None",
-    "nature":"Quirky",
-    "evs":{"hp":200},
-    "moves":["Toxic","Venoshock","Venom Drench","Flamethrower"]
-   }
-  },
+//     "Salandit":
+//   {"Iris":
+//    {"level":50,
+//     "ability":"Corrosion",
+//     "item":"None",
+//     "nature":"Quirky",
+//     "evs":{"hp":200},
+//     "moves":["Toxic","Venoshock","Venom Drench","Flamethrower"],
+//     "gender": "F"
+//    }
+//   },
     "Indeedee":
   {"Belrephon":
    {"level":50,
@@ -227,7 +245,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"hp":200, "sd":100},
-    "moves":["Expanding Force","Calm Mind","Aromatherapy","Dazzling Gleam"]
+    "moves":["Expanding Force","Calm Mind","Aromatherapy","Dazzling Gleam"],
+    "gender": "M"
    }
   },
     "Raichu":
@@ -237,7 +256,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Impish",
     "evs":{"at":100, "sp":100},
-    "moves":["Electro Ball","Iron Tail","Volt Tackle","Laser Focus"]
+    "moves":["Electro Ball","Iron Tail","Volt Tackle","Laser Focus"],
+    "gender": "M"
    }
   },
     "Stufful-Fire/Fighting":
@@ -247,7 +267,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Naughty",
     "evs":{"at":100, "df":100},
-    "moves":["Will-O-Wisp","Fire Lash","Payback","Thunder Punch"]
+    "moves":["Will-O-Wisp","Fire Lash","Payback","Thunder Punch"],
+    "gender": "M"
    }
   },
     "Lucario-Ghost/Steel":
@@ -257,7 +278,19 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"hp":100, "sd":100},
-    "moves":["Shadow Ball","Calm Mind","Shadow Punch","Meteor Mash"]
+    "moves":["Shadow Ball","Calm Mind","Shadow Punch","Meteor Mash"],
+    "gender": "F"
+   }
+  },
+    "Riolu-Ghost/Fighting-Rose":
+  {"Rose":
+   {"level":50,
+    "ability":"Cursed Body",
+    "item":"None",
+    "nature":"Naughty",
+    "evs":{"hp":100, "at":100},
+    "moves":["Phantom Force","Shadow Sneak","Quick Attack","Rock Smash"],
+    "gender": "F"
    }
   },
     "Zangoose":
@@ -267,7 +300,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Brave",
     "evs":{"at":100, "sp":100},
-    "moves":["Hone Claws","Slash","Night Slash","Revenge"]
+    "moves":["Hone Claws","Slash","Night Slash","Revenge"],
+    "gender": "F"
    }
   },
     "Ralts":
@@ -277,7 +311,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Timid",
     "evs":{"sa":100, "sp":100},
-    "moves":["Disarming Voice","Psybeam","Teleport","Shadow Sneak"]
+    "moves":["Disarming Voice","Psybeam","Teleport","Shadow Sneak"],
+    "gender": "M"
    }
   },
     "Skarmory-Steel/Electric":
@@ -287,7 +322,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"sp":200},
-    "moves":["Steel Wing","Spark","Autotomize","Spikes"]
+    "moves":["Steel Wing","Spark","Autotomize","Spikes"],
+    "gender": "M"
    }
   },
     "Ditto-Bug":
@@ -307,7 +343,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":200, "sp":100},
-    "moves":["Bounce","High Jump Kick","Dragon Rush","Bulk Up"]
+    "moves":["Bounce","High Jump Kick","Dragon Rush","Bulk Up"],
+    "gender": "F"
    }
   },
     "Lycanroc-Midday":
@@ -317,7 +354,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"hp":100, "sd":200},
-    "moves":["Stone Edge","Protect","Rock Tomb"]
+    "moves":["Stone Edge","Protect","Rock Tomb"],
+    "gender": "M"
    }
   },
     "Leafeon":
@@ -327,7 +365,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Brave",
     "evs":{"at":100, "df":100},
-    "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"]
+    "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"],
+    "gender": "M"
    }
   },
     "Garchomp-Dragon/Steel":
@@ -337,7 +376,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":100, "df":200},
-    "moves":["Meteor Mash","Dragon Rush","Iron Defense","Sandstorm"]
+    "moves":["Meteor Mash","Dragon Rush","Iron Defense","Sandstorm"],
+    "gender": "M"
    }
   },
     "Slowking":
@@ -347,7 +387,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Calm",
     "evs":{"sp":100, "sd":200},
-    "moves":["Heal Pulse","Calm Mind","Trick Room","Psychic"]
+    "moves":["Heal Pulse","Calm Mind","Trick Room","Psychic"],
+    "gender": "M"
    }
   },
     "Metang-Rock/Psychic":
@@ -367,7 +408,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Bold",
     "evs":{"hp":100, "sd":100},
-    "moves":["Psybeam","Agility","Conversion","Recover"]
+    "moves":["Psybeam","Agility","Conversion","Recover"],
+    "gender": "M"
    }
   },
     "Aggron":
@@ -377,7 +419,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Careful",
     "evs":{"at":200, "df":100},
-    "moves":["Sunny Day","Fire Punch","Autotomize","Iron Tail"]
+    "moves":["Sunny Day","Fire Punch","Autotomize","Iron Tail"],
+    "gender": "M"
    }
   },
     "Sliggoo-Dragon/Steel":
@@ -387,7 +430,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Timid",
     "evs":{"hp":100},
-    "moves":["Protect","Mirror Shot","Rain Dance","Acid Spray"]
+    "moves":["Protect","Mirror Shot","Rain Dance","Acid Spray"],
+    "gender": "F"
    }
   },
     "Flygon-Fairy/Dragon":
@@ -397,7 +441,8 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Modest",
     "evs":{"hp":100, "sa":200},
-    "moves":["Moonblast","Moonlight","Aromatic Mist","Misty Terrain"]
+    "moves":["Moonblast","Moonlight","Aromatic Mist","Misty Terrain"],
+    "gender": "M"
    }
   },
     "Girafarig":
@@ -406,7 +451,8 @@ var SETDEX_SS = {
     "ability":"Early Bird",
     "item":"None",
     "nature":"Lax",
-    "moves":["Agility","Take Down","Stomp","Iron Tail"]
+    "moves":["Agility","Take Down","Stomp","Iron Tail"],
+    "gender": "M"
    }
   },
 }; //end set_dex
