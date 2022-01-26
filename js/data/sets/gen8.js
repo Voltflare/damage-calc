@@ -282,7 +282,7 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Riolu-Ghost/Fighting-Rose":
+    "Riolu-Fighting/Ghost-Rose":
   {"Rose":
    {"level":50,
     "ability":"Cursed Body",
