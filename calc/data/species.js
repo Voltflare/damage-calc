@@ -8461,10 +8461,10 @@ var SS_PATCH = {
         nfe: true,
         abilities: {0: 'Cute Charm'}
     },
-    'Riolu-Fighting/Ghost': {
+    'Riolu-Fighting/Ghost-Rose': {
         types: ['Fighting', 'Ghost'],
-        bs: { hp: 40, at: 70, df: 40, sa: 35, sd: 40, sp: 60 },
-        weightkg: 10.2,
+        bs: { hp: 55, at:80, df:60, sa:70, sd:65, sp:80 },
+        weightkg: 8.2,
         nfe: true,
         abilities: { 0: 'Cursed Body' }
     },
