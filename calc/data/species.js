@@ -8526,9 +8526,9 @@ var SS_PATCH = {
         weightkg: 82,
         abilities: { 0: 'Fairy Aura' }
     },
-    'Stufful-Fire/Fighting': {
+    'Stufful-Fire/Fighting-Spike': {
         types: ['Fire', 'Fighting'],
-        bs: { hp: 70, at: 75, df: 50, sa: 45, sd: 50, sp: 50 },
+        bs: {hp: 85, at:95, df:70, sa:45, sd:55, sp:50 },
         weightkg: 6.8,
         abilities: { 0: 'Fluffy' },
         nfe: true
