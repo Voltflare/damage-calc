@@ -8533,6 +8533,13 @@ var SS_PATCH = {
         abilities: { 0: 'Fluffy' },
         nfe: true
     },
+    'Lycanroc-Midnight-Rock/Ice': {
+        types: ['Rock','Ice'],
+        bs: { hp: 85, at: 115, df: 75, sa: 55, sd: 75, sp: 82 },
+        weightkg: 31,
+        baseSpecies: 'Lycanroc',
+        abilities: { 0: 'Refrigerate' }
+    },
   
     //The Island Updated BST Pokemon
     'Furret-Myo': {
