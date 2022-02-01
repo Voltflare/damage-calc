@@ -455,4 +455,26 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+    "Galvantula-Normal/Electric":
+  {"Quinn":
+   {"level":50,
+    "ability":"Fur Coat",
+    "item":"None",
+    "nature":"Quirky",
+    "evs":{"sd":100, "sp":100},
+    "moves":["Electro Ball","Screech","Copycat","Tri Attack"],
+    "gender": "F"
+   }
+  },
+    "Galvantula-Normal/Electric":
+  {"Lycanroc-Midnight-Rock/Ice":
+   {"level":50,
+    "ability":"Refrigerate",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"at":100, "sa":100},
+    "moves":["Counter","Ice Fang","Tackle","Leer"],
+    "gender": "M"
+   }
+  },
 }; //end set_dex
