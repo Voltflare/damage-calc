@@ -449,13 +449,13 @@ function calculateGen8(gen, attacker, defender, move, field) {
         bpMods.push(0x1400);
         description.defenderAbility = defender.ability;
     }
-    else if (defender.hasAbility('Fluffy') &&
+    else if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat')) &&
         (!move.makesContact || attacker.hasAbility('Long Reach')) &&
         move.type === 'Fire') {
         bpMods.push(0x2000);
         description.defenderAbility = defender.ability;
     }
-    else if (defender.hasAbility('Fluffy') &&
+    else if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat')) &&
         move.makesContact &&
         !attacker.hasAbility('Long Reach') &&
         move.type !== 'Fire') {
@@ -756,10 +756,10 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         description.defenderItem = defender.item;
     }
-    if (defender.hasAbility('Fur Coat') && hitsPhysical) {
-        dfMods.push(0x2000);
-        description.defenderAbility = defender.ability;
-    }
+//     if (defender.hasAbility('Fur Coat') && hitsPhysical) {
+//         dfMods.push(0x2000);
+//         description.defenderAbility = defender.ability;
+//     }
     if (defender.hasAbility('Dauntless Shield') && hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderAbility = defender.ability;
