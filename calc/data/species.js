@@ -8540,6 +8540,12 @@ var SS_PATCH = {
         baseSpecies: 'Lycanroc',
         abilities: { 0: 'Refrigerate' }
     },
+    'Galvantula-Normal/Electric': {
+        types: ['Normal', 'Electric'],
+        bs: { hp: 70, at: 77, df: 60, sa: 97, sd: 60, sp: 108 },
+        weightkg: 14.3,
+        abilities: { 0: 'Fur Coat' }
+    },
   
     //The Island Updated BST Pokemon
     'Furret-Myo': {
