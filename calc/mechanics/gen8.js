@@ -453,14 +453,12 @@ function calculateGen8(gen, attacker, defender, move, field) {
         (!move.makesContact || attacker.hasAbility('Long Reach')) &&
         move.type === 'Fire') {
         bpMods.push(0x2000);
-        description.defenderAbility = defender.ability;
-    }
-    //Special version of Fluffy to keep Pokemon that add a resistance to it via TS, weak to Fire
-    else if ((defender.hasAbility('Fluffy Fuel')) &&
+        //Special version of Fluffy to keep Pokemon that add a resistance to it via TS, weak to Fire
+        if ((defender.hasAbility('Fluffy Fuel')) &&
         (!move.makesContact || attacker.hasAbility('Long Reach')) &&
         move.type === 'Fire') {
-        bpMods.push(0x2000);
-        bpMods.push(0x2000);
+            bpMods.push(0x2000);
+        }
         description.defenderAbility = defender.ability;
     }
     else if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat') || defender.hasAbility('Fluffy Fuel')) &&
