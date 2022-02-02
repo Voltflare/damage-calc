@@ -853,7 +853,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.defenderAbility = defender.ability;
     }
     if (defender.hasAbility('Fluffy-Fuel') && move.hasType('Fire')) {
-        finalMods.push(0x2000);
+        finalMods.push(0x4000);
         desc.defenderAbility = defender.ability;
     }
     if (defender.hasAbility('Fur Coat') && move.hasType('Fire')) {
