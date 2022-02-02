@@ -826,23 +826,18 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x800);
         desc.defenderAbility = defender.ability;
     }
-    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat')) &&
+    else if (defender.hasAbility('Fluffy') &&
         (!move.makesContact || attacker.hasAbility('Long Reach')) &&
         move.type === 'Fire') {
         bpMods.push(0x2000);
-        if ((defender.hasAbility('Fluffy Fuel') &&
-        (!move.makesContact || attacker.hasAbility('Long Reach'))) &&
-        move.type === 'Fire') {
-            bpMods.push(0x2000);
-        }
-        desc.defenderAbility = defender.ability;
+        description.defenderAbility = defender.ability;
     }
-    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat') || defender.hasAbility('Fluffy Fuel')) &&
+    else if (defender.hasAbility('Fluffy') &&
         move.makesContact &&
         !attacker.hasAbility('Long Reach') &&
         move.type !== 'Fire') {
         bpMods.push(0x800);
-        desc.defenderAbility = defender.ability;
+        description.defenderAbility = defender.ability;
     }
     //Punk Rock changed to +20% to sound Moves and -25% damage when hit by them
     else if ((defender.hasAbility('Punk Rock') && move.flags.sound) ||
