@@ -263,7 +263,7 @@ var SETDEX_SS = {
     "Stufful-Fire/Fighting-Spike":
   {"Spike":
    {"level":50,
-    "ability":"Fluffy",
+    "ability":"Fluffy-Fuel",
     "item":"None",
     "nature":"Naughty",
     "evs":{"at":100, "df":100},
