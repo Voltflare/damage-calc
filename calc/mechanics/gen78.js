@@ -826,7 +826,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x800);
         desc.defenderAbility = defender.ability;
     }
-    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fluffy Fuel')) && move.flags.contact && !attacker.hasAbility('Long Reach')) {
+    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fluffy-Fuel')) && move.flags.contact && !attacker.hasAbility('Long Reach')) {
         finalMods.push(0x800);
         desc.defenderAbility = defender.ability;
     }
@@ -848,7 +848,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0xc00);
         desc.isFriendGuard = true;
     }
-    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fluffy Fuel') || defender.hasAbility('Fur Coat')) && move.hasType('Fire')) {
+    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fluffy-Fuel') || defender.hasAbility('Fur Coat')) && move.hasType('Fire')) {
         finalMods.push(0x2000);
         desc.defenderAbility = defender.ability;
     }
