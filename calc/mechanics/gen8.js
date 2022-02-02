@@ -461,7 +461,7 @@ function calculateGen8(gen, attacker, defender, move, field) {
         }
         description.defenderAbility = defender.ability;
     }
-    else if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat') || defender.hasAbility('Fluffy Fuel')) &&
+    if ((defender.hasAbility('Fluffy') || defender.hasAbility('Fur Coat') || defender.hasAbility('Fluffy Fuel')) &&
         move.makesContact &&
         !attacker.hasAbility('Long Reach') &&
         move.type !== 'Fire') {
