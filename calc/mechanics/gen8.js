@@ -756,10 +756,10 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         description.defenderItem = defender.item;
     }
-//     if (defender.hasAbility('Fur Coat') && hitsPhysical) {
-//         dfMods.push(0x2000);
-//         description.defenderAbility = defender.ability;
-//     }
+    if (defender.hasAbility('Fur Coat') && hitsPhysical) {
+        dfMods.push(0x2000);
+        description.defenderAbility = defender.ability;
+    }
     if (defender.hasAbility('Dauntless Shield') && hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderAbility = defender.ability;
