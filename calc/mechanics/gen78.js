@@ -852,10 +852,6 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x2000);
         desc.defenderAbility = defender.ability;
     }
-    if ((defender.hasAbility('Fluffy Fuel') || defender.hasAbility('Fur Coat')) && move.hasType('Fire')) {
-        finalMods.push(0x2000);
-        desc.defenderAbility = defender.ability;
-    }
     //new effect: Pressure reduces all incoming damage by 20%
     if (defender.hasAbility('Pressure')) {
         finalMods.push(0xc00);
