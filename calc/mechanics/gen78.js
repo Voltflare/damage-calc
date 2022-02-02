@@ -704,10 +704,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         dfMods.push(0x1800);
         desc.defenderAbility = defender.ability;
     }
-//     else if (defender.hasAbility('Fur Coat') && hitsPhysical) {
-//         dfMods.push(0x2000);
-//         desc.defenderAbility = defender.ability;
-//     }
+    else if (defender.hasAbility('Fur Coat') && hitsPhysical) {
+        dfMods.push(0x2000);
+        desc.defenderAbility = defender.ability;
+    }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) {
         dfMods.push(0x1800);
         desc.defenderItem = defender.item;
@@ -830,14 +830,14 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         (!move.makesContact || attacker.hasAbility('Long Reach')) &&
         move.type === 'Fire') {
         bpMods.push(0x2000);
-        description.defenderAbility = defender.ability;
+        desc.defenderAbility = defender.ability;
     }
     else if (defender.hasAbility('Fluffy') &&
         move.makesContact &&
         !attacker.hasAbility('Long Reach') &&
         move.type !== 'Fire') {
         bpMods.push(0x800);
-        description.defenderAbility = defender.ability;
+        desc.defenderAbility = defender.ability;
     }
     //Punk Rock changed to +20% to sound Moves and -25% damage when hit by them
     else if ((defender.hasAbility('Punk Rock') && move.flags.sound) ||
