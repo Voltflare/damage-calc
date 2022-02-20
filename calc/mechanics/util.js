@@ -311,12 +311,12 @@ function getBaseDamage(level, basePower, attack, defense) {
     return Math.floor(OF32(Math.floor(OF32(OF32(Math.floor((2 * level) / 5 + 2) * basePower) * attack) / defense) / 50 + 2));
 }
 exports.getBaseDamage = getBaseDamage;
-function getFinalDamage(baseAmount, i, effectiveness, isBurned, stabMod, finalMod, protect) {
+function getFinalDamage(baseAmount, i, effectiveness, isBurned, isFrostbitten, stabMod, finalMod, protect) {
     var damageAmount = Math.floor(OF32(baseAmount * (85 + i)) / 100);
     if (stabMod !== 0x1000)
         damageAmount = OF32(damageAmount * stabMod) / 0x1000;
     damageAmount = Math.floor(OF32(pokeRound(damageAmount) * effectiveness));
-    if (isBurned)
+    if (isBurned || isFrostbitten)
         damageAmount = Math.floor(damageAmount / 2);
     if (protect)
         damageAmount = pokeRound(OF32(damageAmount * 0x400) / 0x1000);
