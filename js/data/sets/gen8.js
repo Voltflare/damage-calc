@@ -2,7 +2,7 @@
 var SETDEX_SS = {
   "Ninetales-Poison":
   {"Miasma":
-   {"level":50,
+   {"level":57,
     "ability":"Corrosion",
     "item":"None",
     "nature":"Timid",
@@ -13,7 +13,7 @@ var SETDEX_SS = {
   },
     "Furret-Myo":
   {"Myo [-HP]":
-   {"level":50,
+   {"level":53,
     "ability":"Run Away",
     "item":"None",
     "nature":"Quiet",
@@ -35,7 +35,7 @@ var SETDEX_SS = {
   },
     "Glameow-Narset":
   {"Narset":
-   {"level":50,
+   {"level":60,
     "ability":"Keen Eye",
     "item":"None",
     "nature":"Lonely",
@@ -46,7 +46,7 @@ var SETDEX_SS = {
   },
     "Golurk-Ground/Electric":
   {"Colossus":
-   {"level":50,
+   {"level":59,
     "ability":"Iron Fist",
     "item":"None",
     "nature":"Lonely",
@@ -56,7 +56,7 @@ var SETDEX_SS = {
   },
     "Espeon-Psychic/Fire":
   {"Daedalus [-HP]":
-   {"level":50,
+   {"level":56,
     "ability":"Fire Meld",
     "item":"None",
     "nature":"Sassy",
@@ -67,7 +67,7 @@ var SETDEX_SS = {
   },
     "Porygon-Z-Normal/Water":
   {"Lizzy":
-   {"level":50,
+   {"level":61,
     "ability":"Steam Engine",
     "item":"None",
     "nature":"Sassy",
@@ -77,7 +77,7 @@ var SETDEX_SS = {
   },
     "Charizard-Electric/Flying":
   {"Draken":
-   {"level":50,
+   {"level":57,
     "ability":"Transistor",
     "item":"None",
     "nature":"Quiet",
@@ -88,7 +88,7 @@ var SETDEX_SS = {
   },
     "Zoroark-Dark/Ghost":
   {"Zyra":
-   {"level":50,
+   {"level":60,
     "ability":"Illusion",
     "item":"None",
     "nature":"Naive",
@@ -99,7 +99,7 @@ var SETDEX_SS = {
   },
     "Luxray-Electric/Fire":
   {"Vash":
-   {"level":50,
+   {"level":62,
     "ability":"Rivalry",
     "item":"None",
     "nature":"Rash",
@@ -110,7 +110,7 @@ var SETDEX_SS = {
   },
     "Excadrill":
   {"Garlic":
-   {"level":50,
+   {"level":57,
     "ability":"Mold Breaker",
     "item":"None",
     "nature":"Jolly",
@@ -131,7 +131,7 @@ var SETDEX_SS = {
   },
     "Dragonite":
   {"Helix [+HP]":
-   {"level":50,
+   {"level":66,
     "ability":"Multiscale",
     "item":"None",
     "nature":"Jolly",
@@ -142,7 +142,7 @@ var SETDEX_SS = {
   },
     "Gabite-Dragon/Ice":
   {"Odysseus [-HP]":
-   {"level":50,
+   {"level":57,
     "ability":"Multiscale",
     "item":"None",
     "nature":"Rash",
@@ -153,7 +153,7 @@ var SETDEX_SS = {
   },
     "Lucario":
   {"Weyland [+HP]":
-   {"level":50,
+   {"level":57,
     "ability":"Steadfast",
     "item":"None",
     "nature":"Serious",
@@ -164,7 +164,7 @@ var SETDEX_SS = {
   },
     "Eiscue":
   {"Oxford":
-   {"level":50,
+   {"level":53,
     "ability":"Ice Face",
     "item":"None",
     "nature":"Timid",
@@ -174,7 +174,7 @@ var SETDEX_SS = {
   },
     "Obstagoon":
   {"Loralei":
-   {"level":50,
+   {"level":55,
     "ability":"Defiant",
     "item":"None",
     "nature":"Quirky",
@@ -185,7 +185,7 @@ var SETDEX_SS = {
   },
     "Luxray-Rock":
   {"Grace [+HP]":
-   {"level":50,
+   {"level":60,
     "ability":"Solid Rock",
     "item":"None",
     "nature":"Naive",
@@ -194,20 +194,20 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Braixen":
-  {"Grave Lohl":
-   {"level":50,
-    "ability":"Magician",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"hp":100, "df":100, "sd":100},
-    "moves":["Echoed Voice","Shock Wave","Lucky Chant","Flame Charge"],
-    "gender": "M"
-   }
-  },
+//     "Braixen":
+//   {"Grave Lohl":
+//    {"level":50,
+//     "ability":"Magician",
+//     "item":"None",
+//     "nature":"Careful",
+//     "evs":{"hp":100, "df":100, "sd":100},
+//     "moves":["Echoed Voice","Shock Wave","Lucky Chant","Flame Charge"],
+//     "gender": "M"
+//    }
+//   },
     "Girafarig-Dragon/Psychic":
   {"Neroh Corsair":
-   {"level":50,
+   {"level":55,
     "ability":"Sheer Force",
     "item":"None",
     "nature":"Jolly",
@@ -240,7 +240,7 @@ var SETDEX_SS = {
 //   },
     "Indeedee":
   {"Belrephon":
-   {"level":50,
+   {"level":53,
     "ability":"Psychic Surge",
     "item":"None",
     "nature":"Careful",
@@ -251,7 +251,7 @@ var SETDEX_SS = {
   },
     "Raichu":
   {"Drifter [-HP]":
-   {"level":50,
+   {"level":60,
     "ability":"Lightning Rod",
     "item":"None",
     "nature":"Impish",
@@ -262,7 +262,7 @@ var SETDEX_SS = {
   },
     "Stufful-Fire/Fighting-Spike":
   {"Spike":
-   {"level":50,
+   {"level":56,
     "ability":"Fluffy-Fuel",
     "item":"None",
     "nature":"Naughty",
@@ -273,18 +273,18 @@ var SETDEX_SS = {
   },
     "Lucario-Ghost/Steel":
   {"Ninghe":
-   {"level":50,
+   {"level":59,
     "ability":"Inner Focus",
     "item":"None",
     "nature":"Careful",
     "evs":{"hp":100, "sd":100},
     "moves":["Shadow Ball","Calm Mind","Shadow Punch","Meteor Mash"],
-    "gender": "F"
+    "gender": "M"
    }
   },
     "Riolu-Fighting/Ghost-Rose":
   {"Rose":
-   {"level":50,
+   {"level":57,
     "ability":"Cursed Body",
     "item":"None",
     "nature":"Naughty",
@@ -295,7 +295,7 @@ var SETDEX_SS = {
   },
     "Zangoose":
   {"Zoja Kalnins":
-   {"level":50,
+   {"level":64,
     "ability":"Toxic Boost",
     "item":"None",
     "nature":"Brave",
@@ -317,7 +317,7 @@ var SETDEX_SS = {
   },
     "Skarmory-Steel/Electric":
   {"Briar":
-   {"level":50,
+   {"level":59,
     "ability":"Keen Eye",
     "item":"None",
     "nature":"Careful",
@@ -338,7 +338,7 @@ var SETDEX_SS = {
   },
     "Mienshao-Dragon/Fighting":
   {"Gila Hearth":
-   {"level":50,
+   {"level":62,
     "ability":"Battle Armor",
     "item":"None",
     "nature":"Jolly",
@@ -349,7 +349,7 @@ var SETDEX_SS = {
   },
     "Lycanroc-Midday":
   {"Cal":
-   {"level":50,
+   {"level":51,
     "ability":"Keen Eye",
     "item":"None",
     "nature":"Jolly",
@@ -360,7 +360,7 @@ var SETDEX_SS = {
   },
     "Leafeon":
   {"Sol [-HP]":
-   {"level":50,
+   {"level":56,
     "ability":"Chlorophyll",
     "item":"None",
     "nature":"Brave",
@@ -371,7 +371,7 @@ var SETDEX_SS = {
   },
     "Garchomp-Dragon/Steel":
   {"Magnus [HP+]":
-   {"level":50,
+   {"level":66,
     "ability":"Iron Barbs",
     "item":"None",
     "nature":"Jolly",
@@ -382,7 +382,7 @@ var SETDEX_SS = {
   },
     "Slowking":
   {"Seaghdha":
-   {"level":50,
+   {"level":59,
     "ability":"Own Tempo",
     "item":"None",
     "nature":"Calm",
@@ -403,7 +403,7 @@ var SETDEX_SS = {
   },
     "Pansear":
   {"Dubstep":
-   {"level":50,
+   {"level":51,
     "ability":"Blaze",
     "item":"None",
     "nature":"Bold",
@@ -414,7 +414,7 @@ var SETDEX_SS = {
   },
     "Aggron":
   {"Coal":
-   {"level":50,
+   {"level":64,
     "ability":"Heavy Metal",
     "item":"None",
     "nature":"Careful",
@@ -425,7 +425,7 @@ var SETDEX_SS = {
   },
     "Sliggoo-Dragon/Steel":
   {"Ismini":
-   {"level":50,
+   {"level":51,
     "ability":"Mercury",
     "item":"None",
     "nature":"Timid",
@@ -436,7 +436,7 @@ var SETDEX_SS = {
   },
     "Flygon-Fairy/Dragon":
   {"Beacon":
-   {"level":50,
+   {"level":65,
     "ability":"Fairy Aura",
     "item":"None",
     "nature":"Modest",
@@ -447,7 +447,7 @@ var SETDEX_SS = {
   },
     "Girafarig":
   {"Stick":
-   {"level":50,
+   {"level":51,
     "ability":"Early Bird",
     "item":"None",
     "nature":"Lax",
@@ -457,7 +457,7 @@ var SETDEX_SS = {
   },
     "Galvantula-Normal/Electric":
   {"Quinn":
-   {"level":50,
+   {"level":53,
     "ability":"Fur Coat",
     "item":"None",
     "nature":"Quirky",
@@ -466,15 +466,80 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Galvantula-Normal/Electric":
-  {"Lycanroc-Midnight-Rock/Ice":
-   {"level":50,
+    "Lycanroc-Midnight-Rock/Ice":
+  {"Frost":
+   {"level":56,
     "ability":"Refrigerate",
     "item":"None",
     "nature":"Lonely",
     "evs":{"at":100, "sa":100},
     "moves":["Counter","Ice Fang","Tackle","Leer"],
     "gender": "M"
+   }
+  },
+    "Greninja":
+  {"Azure":
+   {"level":53,
+    "ability":"Protean",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sa":100},
+    "moves":["Role Play","Water Shuriken","Attract","Shadow Sneak"],
+    "gender": "F"
+   }
+  },
+    "Lampent":
+  {"Teo":
+   {"level":52,
+    "ability":"Infiltrator",
+    "item":"None",
+    "nature":"Quirky",
+    "evs":{"sa":100},
+    "moves":["Shadow Ball","Fire Spin","Hex","Will-O-Wisp"],
+    "gender": "M"
+   }
+  },
+    "Sneasel":
+  {"Cassandra":
+   {"level":53,
+    "ability":"Keen Eye",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "df":100},
+    "moves":["Triple Axel","Metal Claw","Quick Attack","Counter"],
+    "gender": "F"
+   }
+  },
+    "Hatterene":
+  {"Grayson":
+   {"level":51,
+    "ability":"Healer",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"at":100, "sa":100},
+    "moves":["Psybeam","Draining Kiss","Brutal Swing","Charm"],
+    "gender": "M"
+   }
+  },
+    "Unown-Enygma":
+  {"Enygma [-HP]":
+   {"level":51,
+    "ability":"Levitate",
+    "item":"None",
+    "nature":"Quiet",
+    "evs":{"sa":200, "sd":100},
+    "moves":["Hidden Power (Psychic)"],
+   }
+  },
+    "Espeon-Psychic/Ghost":
+  {"Eden":
+   {"level":57,
+    "ability":"Synchronize",
+    "item":"None",
+    "nature":"Quirky",
+    "evs":{"sa":100, "sd":100, "sp":100},
+    "moves":["Will-O-Wisp","Psychic","Hex","Future Sight"],
+    "gender": "F"
    }
   },
 }; //end set_dex
