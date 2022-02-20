@@ -778,7 +778,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         !move.named('Facade');
     desc.isBurned = applyBurn;
     var applyFrostbite = attacker.hasStatus('frz') &&
-        move.category === 'Special' &&
+        move.category === 'Special';
     desc.isFrostbitten = applyFrostbite;
     var finalMods = [];
     if (field.defenderSide.isReflect && move.category === 'Physical' &&
