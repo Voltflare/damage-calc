@@ -8546,6 +8546,12 @@ var SS_PATCH = {
         weightkg: 14.3,
         abilities: { 0: 'Fur Coat' }
     },
+   'Espeon-Psychic/Ghost': {
+        types: ['Psychic', 'Ghost'],
+        bs: { hp: 65, at: 65, df: 60, sa: 130, sd: 95, sp: 110 },
+        weightkg: 26.5,
+        abilities: {0: 'Synchronize'}
+    },
   
     //The Island Updated BST Pokemon
     'Furret-Myo': {
@@ -8566,6 +8572,13 @@ var SS_PATCH = {
         weightkg: 3.9,
         nfe: true,
         abilities: { 0: 'Keen Eye' }
+    },
+    'Unown-Enygma': {
+        types: ['Psychic'],
+        bs: { hp: 80, at: 72, df: 76, sa: 100, sd: 90, sp: 57 },
+        weightkg: 3.9,
+        nfe: true,
+        abilities: { 0: 'Levitate' }
     },
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
