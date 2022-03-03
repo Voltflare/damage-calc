@@ -542,4 +542,37 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+    "Sylveon-Fairy/Dragon":
+  {"Astereaux [-HP]":
+   {"level":57,
+    "ability":"Pixvernate-Fairy",
+    "item":"None",
+    "nature":"Sassy",
+    "evs":{"hp":100, "df":100, "sd":100},
+    "moves":["Dragon Breath","Moonblast","Swift","Light Screen"],
+    "gender": "M"
+   }
+  },
+    "Swadloon":
+  {"Joshua Vensworth":
+   {"level":50,
+    "ability":"Leaf Guard",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sp":100, "sd":100},
+    "moves":["Grass Whistle","Razor Leaf","String Shot","Protect"],
+    "gender": "M"
+   }
+  },
+    "Gallade":
+  {"Zizax":
+   {"level":52,
+    "ability":"Leaf Guard",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"at":100, "sp":100},
+    "moves":["Psychic","Teleport","Life Dew","Draining Kiss"],
+    "gender": "M"
+   }
+  },
 }; //end set_dex
