@@ -809,10 +809,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(field.gameType !== 'Singles' ? 0xaac : 0x800);
         desc.isAuroraVeil = true;
     }
-    if (field.hasStoneBoost(move.type)) {
-        bpMods.push(0x1400);
-        desc.grottoStone = true;
-    }
+//     if (field.hasStoneBoost(move.type)) {
+//         bpMods.push(0x1400);
+//         desc.grottoStone = true;
+//     }
     
     if (attacker.hasAbility('Neuroforce') && typeEffectiveness > 1) {
         bpMods.push(0x1400);
