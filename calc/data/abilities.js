@@ -303,12 +303,15 @@ var SS = SM.concat([
     'Steam Engine',
     'Steely Spirit',
     'Wandering Spirit',
-    'Fire Meld',
+    //type shifted abilities start here
+    'Fire Meld', //Daedalus (Fire/Psychic Espeon)
     'Transistor',
     'Dragons Maw',
-    'Mercury',
-    'The Fae',
-    'Fluffy-Fuel',
+    'Mercury', //Ismini (Steel/Dragon Sliggoo)
+    'The Fae', //Cotton (Bug Ditto)
+    'Fluffy-Fuel', //Spike (Fire/Fighting Stufful)
+    'Pixvernate-Dragon',
+    'Pixvernate-Fairy', //Astereaux (Fairy/Dragon Sylveon)
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Abilities = (function () {
