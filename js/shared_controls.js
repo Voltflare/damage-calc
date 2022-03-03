@@ -726,6 +726,8 @@ function getMoveDetails(moveInfo, ability, item, useMax) {
 function createField() {
 	var gameType = $("input:radio[name='format']:checked").val();
 	var isGravity = $("#gravity").prop("checked");
+	var isGrottoStone = $("#grottostone").prop("checked");
+	var grottoStoneType = $("select#grottostonetype").val();
 	var isSR = [$("#srL").prop("checked"), $("#srR").prop("checked")];
 	var weather;
 	var spikes;
@@ -760,7 +762,7 @@ function createField() {
 		});
 	};
 	return new calc.Field({
-		gameType: gameType, weather: weather, terrain: terrain, isGravity: isGravity,
+		gameType: gameType, weather: weather, terrain: terrain, isGravity: isGravity, isGrottoStone: isGrottoStone, grottoStoneType: grottoStoneType,
 		attackerSide: createSide(0), defenderSide: createSide(1)
 	});
 }
