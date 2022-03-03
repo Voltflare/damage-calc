@@ -8556,7 +8556,7 @@ var SS_PATCH = {
         types: ['Fairy', 'Dragon'],
         bs: { hp: 95, at: 65, df: 65, sa: 110, sd: 130, sp: 60 },
         weightkg: 33.5,
-        abilities: {0: 'Pixvernate-Fairy', 1: 'Pixvernate-Dragon}
+        abilities: {0: 'Pixvernate-Fairy', 1: 'Pixvernate-Dragon'}
     },
   
     //The Island Updated BST Pokemon
