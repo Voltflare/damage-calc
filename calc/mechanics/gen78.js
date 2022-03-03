@@ -810,7 +810,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.isAuroraVeil = true;
     }
     //Grotto Stone Logic
-    if (field.hasStoneBoost(move.type)) {
+    if (field.isGrottoStone && field.hasStoneBoost(move.type)) {
         bpMods.push(0x1400);
         desc.grottoStone = true;
     }
