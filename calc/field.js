@@ -32,16 +32,16 @@ var Field = (function () {
         return this;
     };
     //Stone Boost Logic
-    Field.prototype.hasStoneBoost = function () {
-        var types = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            types[_i] = arguments[_i];
-        }
-        var stoneBoostType = this.grottoStoneType;
-        if (this.types.includes(stoneBoostType))
-                return true;
-        return false;
-    };
+//     Field.prototype.hasStoneBoost = function () {
+//         var types = [];
+//         for (var _i = 0; _i < arguments.length; _i++) {
+//             types[_i] = arguments[_i];
+//         }
+//         var stoneBoostType = this.grottoStoneType;
+//         if (this.types.includes(stoneBoostType))
+//                 return true;
+//         return false;
+//     };
     Field.prototype.clone = function () {
         return new Field({
             gameType: this.gameType,
