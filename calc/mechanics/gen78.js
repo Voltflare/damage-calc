@@ -406,7 +406,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if (!move.isZ && !move.isMax &&
         (isAerilate || isPixilate || isRefrigerate || isGalvanize || isFireMeld || isNormalize)) {
-        bpMods.push(0x1199);
+        bpMods.push(0x1333);
         desc.attackerAbility = attacker.ability;
     }
     //pixvernate
