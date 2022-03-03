@@ -634,6 +634,9 @@ function buildDescription(description, attacker, defender) {
     if (description.isSwitching) {
         output += ' switching boosted ';
     }
+    if (description.grottoStone) {
+        output += ' Grotto Stone boosted ';
+    }
     output += description.moveName + ' ';
     if (description.moveBP && description.moveType) {
         output += '(' + description.moveBP + ' BP ' + description.moveType + ') ';
