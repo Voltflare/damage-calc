@@ -7,6 +7,8 @@ var Field = (function () {
         this.terrain = field.terrain;
         this.weather = field.weather;
         this.isGravity = !!field.isGravity;
+        this.isGrottoStone = !!field.isGrottoStone;
+        this.grottoStoneType = !!field.grottoStoneType;
         this.attackerSide = new Side(field.attackerSide || {});
         this.defenderSide = new Side(field.defenderSide || {});
     }
@@ -35,6 +37,8 @@ var Field = (function () {
             weather: this.weather,
             terrain: this.terrain,
             isGravity: this.isGravity,
+            isGrottoStone: this.isGrottoStone,
+            grottoStoneType: this.grottoStoneType,
             attackerSide: this.attackerSide,
             defenderSide: this.defenderSide
         });
