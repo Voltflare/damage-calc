@@ -412,7 +412,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     //pixvernate
     if (!move.isZ && !move.isMax &&
         (isPixvernateD || isPixvernateF)) {
-        bpMods.push(0x1333);
+        bpMods.push(0x1199);
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
