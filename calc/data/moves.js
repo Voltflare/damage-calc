@@ -3508,7 +3508,7 @@ var SS_PATCH = {
     maxPower: 130,
   },
   'Triple Axel': {
-    bp: 20,
+    bp: 10,
     type: 'Ice',
     category: 'Physical',
     makesContact: true,
