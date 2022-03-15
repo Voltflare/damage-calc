@@ -153,7 +153,7 @@ var SETDEX_SS = {
   },
     "Lucario":
   {"Weyland [+HP]":
-   {"level":57,
+   {"level":59,
     "ability":"Steadfast",
     "item":"None",
     "nature":"Serious",
