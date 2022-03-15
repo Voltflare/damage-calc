@@ -366,6 +366,15 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             basePower = attacker.named('Greninja-Ash') && attacker.hasAbility('Battle Bond') ? 20 : 15;
             desc.moveBP = basePower;
             break;
+        case 'Triple Axel':
+            basePower = move.hits === 2 ? 15 : move.hits === 3 ? 30 : 10;
+            desc.moveBP = basePower;
+            break;
+          // Triple Kick's damage doubles after each consecutive hit (10, 20, 30), this is a hack
+        case 'Triple Kick':
+            basePower = move.hits === 2 ? 15 : move.hits === 3 ? 30 : 10;
+            desc.moveBP = basePower;
+            break;
         case 'Crush Grip':
         case 'Wring Out':
             basePower = 100 * Math.floor((defender.curHP() * 4096) / defender.maxHP());
