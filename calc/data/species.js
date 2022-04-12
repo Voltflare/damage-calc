@@ -8397,6 +8397,8 @@ var SS_PATCH = {
         nfe: true,
         baseSpecies: 'Zigzagoon'
     },
+    
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //The Island- Type Shifted Pokemon
     'Ninetales-Poison': {
     types: ['Poison'],
@@ -8558,7 +8560,24 @@ var SS_PATCH = {
         weightkg: 33.5,
         abilities: {0: 'Pixvernate-Fairy'}
     },
-  
+    
+    "Farfetch'd-Galar-Fighting/Ground": {
+        types: ['Fighting', 'Ground'],
+        bs: { hp: 52, at: 95, df: 55, sa: 58, sd: 62, sp: 55 },
+        weightkg: 20,
+        abilities: { 0: 'Steadfast' },
+        nfe: true,
+        baseSpecies: "Farfetch'd"
+    },
+    'Lucario-Fire/Steel': {
+        types: ['Fire', 'Steel'],
+        bs: { hp: 70, at: 110, df: 70, sa: 115, sd: 70, sp: 90 },
+        weightkg: 54,
+        abilities: { 0: 'Steadfast' }
+    },
+    
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////
     //The Island Updated BST Pokemon
     'Furret-Myo': {
     types: ['Normal'],
