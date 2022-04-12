@@ -477,31 +477,31 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Greninja":
-  {"Azure":
-   {"level":53,
-    "ability":"Protean",
-    "item":"None",
-    "nature":"Jolly",
-    "evs":{"at":100, "sa":100},
-    "moves":["Role Play","Water Shuriken","Attract","Shadow Sneak"],
-    "gender": "F"
-   }
-  },
-    "Lampent":
-  {"Teo":
-   {"level":52,
-    "ability":"Infiltrator",
-    "item":"None",
-    "nature":"Quirky",
-    "evs":{"sa":100},
-    "moves":["Shadow Ball","Fire Spin","Hex","Will-O-Wisp"],
-    "gender": "M"
-   }
-  },
+//     "Greninja":
+//   {"Azure":
+//    {"level":53,
+//     "ability":"Protean",
+//     "item":"None",
+//     "nature":"Jolly",
+//     "evs":{"at":100, "sa":100},
+//     "moves":["Role Play","Water Shuriken","Attract","Shadow Sneak"],
+//     "gender": "F"
+//    }
+//   },
+//     "Lampent":
+//   {"Teo":
+//    {"level":52,
+//     "ability":"Infiltrator",
+//     "item":"None",
+//     "nature":"Quirky",
+//     "evs":{"sa":100},
+//     "moves":["Shadow Ball","Fire Spin","Hex","Will-O-Wisp"],
+//     "gender": "M"
+//    }
+//   },
     "Sneasel":
   {"Cassandra":
-   {"level":53,
+   {"level":55,
     "ability":"Keen Eye",
     "item":"None",
     "nature":"Jolly",
@@ -572,6 +572,71 @@ var SETDEX_SS = {
     "nature":"Timid",
     "evs":{"at":100, "sp":100},
     "moves":["Psychic","Teleport","Life Dew","Draining Kiss"],
+    "gender": "M"
+   }
+  },
+    "Lilligant":
+  {"Louis Mayflower":
+   {"level":52,
+    "ability":"Own Tempo",
+    "item":"None",
+    "nature":"Gentle",
+    "moves":["Sleep Powder","Aromatherapy","Synthesis","Sunny Day"],
+    "gender": "M"
+   }
+  },
+    "Sirfetch'd":
+  {"Sir Roy Ulterege":
+   {"level":57,
+    "ability":"Steadfast",
+    "item":"None",
+    "nature":"Bold",
+    "evs":{"hp":100, "df":100},
+    "moves":["Revenge","Attract","Sunny Day","Leaf Blade"],
+    "gender": "M"
+   }
+  },
+    "Trevenant":
+  {"Hallow":
+   {"level":62,
+    "ability":"Natural Cure",
+    "item":"None",
+    "nature":"Hardy",
+    "evs":{"hp":100, "at":100, "sd":100},
+    "moves":["Horn Leech","Phantom Force","Earthquake","Trick Room"],
+    "gender": "M"
+   }
+  },
+    "Farfetch'd-Galar-Fighting/Ground":
+  {"Zera Strag":
+   {"level":55,
+    "ability":"Steadfast",
+    "item":"None",
+    "nature":"Hasty",
+    "evs":{"sp":200},
+    "moves":["Sandstorm","Rock Smash","Bone Club","Revenge"],
+    "gender": "F"
+   }
+  },
+    "Lucario-Fire/Steel":
+  {"Opal":
+   {"level":59,
+    "ability":"Steadfast",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"at":100},
+    "moves":["Blaze Kick","Fire Punch","Meteor Mash","Flare Blitz"],
+    "gender": "F"
+   }
+  },
+    "Marshtomp":
+  {"Finley (Greaser)":
+   {"level":55,
+    "ability":"Damp",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"sa":100, "sd":100},
+    "moves":["Earth Power","Muddy Water","Rock Slide","Ice Punch"],
     "gender": "M"
    }
   },
