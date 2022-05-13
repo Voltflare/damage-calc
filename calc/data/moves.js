@@ -2834,14 +2834,6 @@ var SS_PATCH = {
         zp: 180,
         maxPower: 130
     },
-    'Bitter Malice': {
-        bp: 80,
-        type: 'Ghost',
-        category: 'Special',
-        secondaries: true,
-        zp: 160,
-        maxPower: 130
-    },
     'Body Press': {
         bp: 80,
         type: 'Fighting',
@@ -3537,6 +3529,174 @@ var SS_PATCH = {
     'Stuff Cheeks': { bp: 0, type: 'Normal' },
     'Tar Shot': { bp: 0, type: 'Rock' },
     Teatime: { bp: 0, type: 'Normal' },
+    
+// ------------- BEGIN HISUIAN MOVES -----------------
+    'Barb Barrage': {
+        bp: 60,
+        type: 'Poison',
+        category: 'Special',
+        secondaries: true,
+        zp: 120,
+        maxPower: 110
+    },
+    'Bitter Malice': {
+        bp: 80,
+        type: 'Ghost',
+        category: 'Special',
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
+    'Bleakwind Storm': {
+        bp: 95,
+        type: 'Flying',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ceaseless Edge': {
+        bp: 65,
+        type: 'Dark',
+        category: 'Physical',
+        zp: 120,
+        maxPower: 110
+    },
+    'Chloroblast': {
+        bp: 130,
+        type: 'Grass',
+        category: 'Special',
+        zp: 195,
+        maxPower: 150
+    },
+    'Dire Claw': {
+        bp: 60,
+        type: 'Poison',
+        category: 'Physical',
+        secondaries: true,
+        zp: 120,
+        maxPower: 110
+    },
+    'Esper Wing': {
+        bp: 75,
+        type: 'Psychic',
+        category: 'Special',
+        secondaries: true,
+        zp: 140,
+        maxPower: 120
+    },
+    'Headlong Rush': {
+        bp: 120,
+        type: 'Ground',
+        category: 'Physical',
+        zp: 190,
+        maxPower: 150
+    },
+    'Infernal Parade': {
+        bp: 80,
+        type: 'Ghost',
+        category: 'Special',
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
+    'Lunar Blessing': {
+        bp: 0,
+        type: 'Psychic',
+    },
+    'Mountain Gale': {
+        bp: 100,
+        type: 'Ice',
+        category: 'Physical',
+        secondaries: true,
+        zp: 180,
+        maxPower: 130
+    },
+    'Mystical Power': {
+        bp: 0,
+        type: 'Psychic',
+    },
+    'Power Swap': {
+        bp: 0,
+        type: 'Normal',
+    },
+    'Psyshield Bash': {
+        bp: 70,
+        type: 'Psychic',
+        category: 'Physical',
+        secondaries: true,
+        zp: 140,
+        maxPower: 120
+    },
+    'Raging Fury': {
+        bp: 120,
+        type: 'Fire',
+        category: 'Physical',
+        zp: 190,
+        maxPower: 140
+    },
+    'Sandsear Storm': {
+        bp: 95,
+        type: 'Ground',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Shelter': {
+        bp: 0,
+        type: 'Steel',
+    },
+    'Springtide Storm': {
+        bp: 95,
+        type: 'Fairy',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Stone Axe': {
+        bp: 65,
+        type: 'Rock',
+        category: 'Physical',
+        zp: 120,
+        maxPower: 110
+    },
+    'Take Heart': {
+        bp: 0,
+        type: 'Psychic',
+    },
+    'Triple Arrows': {
+        bp: 50,
+        type: 'Fighting',
+        category: 'Physical',
+        secondaries: true,
+        zp: 100,
+        maxPower: 110
+    },
+    'Victory Dance': {
+        bp: 0,
+        type: 'Fighting',
+    },
+    'Wave Crash': {
+        bp: 80,
+        type: 'Water',
+        category: 'Physical',
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
+    'Wildbolt Storm': {
+        bp: 95,
+        type: 'Electric',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+// ------------- END HISUIAN MOVES -----------------
+    
+    
     '10,000,000 Volt Thunderbolt': { maxPower: 1 },
     Absorb: { maxPower: 90 },
     Accelerock: { maxPower: 90 },
