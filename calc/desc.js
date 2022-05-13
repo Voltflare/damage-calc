@@ -274,6 +274,8 @@ function combine(damage) {
     return combined.sort();
 }
 var TRAPPING = ['Bind', 'Ceaseless Edge', 'Clamp', 'Fire Spin', 'Infestation', 'Magma Storm', 'Sand Tomb', 'Stone Axe', 'Whirlpool', 'Wrap'];
+var SPLINTERS = ['Stone Axe'];
+var BLEED = ['Ceaseless Edge'];
 function getHazards(gen, defender, defenderSide) {
     var damage = 0;
     var texts = [];
@@ -443,6 +445,26 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         else {
             damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 8) : Math.floor(defender.maxHP() / 16);
             texts.push('trapping damage');
+        }
+    }
+    if (!defender.hasAbility('Magic Guard') && SPLINTERS.includes(move.name)) {
+        if (attacker.hasItem('Binding Band')) {
+            damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 6) : Math.floor(defender.maxHP() / 8);
+            texts.push('splinter damage');
+        }
+        else {
+            damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 8) : Math.floor(defender.maxHP() / 16);
+            texts.push('splinter damage');
+        }
+    }
+    if (!defender.hasAbility('Magic Guard') && BLEED.includes(move.name)) {
+        if (attacker.hasItem('Binding Band')) {
+            damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 6) : Math.floor(defender.maxHP() / 8);
+            texts.push('bleeding damage');
+        }
+        else {
+            damage -= gen.num > 5 ? Math.floor(defender.maxHP() / 8) : Math.floor(defender.maxHP() / 16);
+            texts.push('bleeding damage');
         }
     }
     if (!defender.hasType('Fire') && !defender.hasAbility('Magic Guard') &&
