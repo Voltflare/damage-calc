@@ -273,7 +273,7 @@ function combine(damage) {
     }
     return combined.sort();
 }
-var TRAPPING = ['Bind', 'Clamp', 'Fire Spin', 'Infestation', 'Magma Storm', 'Sand Tomb', 'Whirlpool', 'Wrap'];
+var TRAPPING = ['Bind', 'Ceaseless Edge', 'Clamp', 'Fire Spin', 'Infestation', 'Magma Storm', 'Sand Tomb', 'Stone Axe', 'Whirlpool', 'Wrap'];
 function getHazards(gen, defender, defenderSide) {
     var damage = 0;
     var texts = [];
