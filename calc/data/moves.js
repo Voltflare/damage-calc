@@ -2834,6 +2834,14 @@ var SS_PATCH = {
         zp: 180,
         maxPower: 130
     },
+    'Bitter Malice': {
+        bp: 80,
+        type: 'Ghost',
+        category: 'Special',
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
     'Body Press': {
         bp: 80,
         type: 'Fighting',
