@@ -8397,6 +8397,19 @@ var SS_PATCH = {
         nfe: true,
         baseSpecies: 'Zigzagoon'
     },
+    //Hisuian Pokemon
+    'Sneasler': {
+        types: ['Fighting', 'Poison'],
+        bs: { hp: 80, at: 130, df: 60, sa: 40, sd: 80, sp: 120 },
+        weightkg: 43,
+        abilities: { 0: 'Pressure' }
+    },
+    'Zoroark-Hisui': {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 60, at: 105, df: 60, sa: 120, sd: 60, sp: 105 },
+        weightkg: 73,
+        abilities: { 0: 'Illusion' }
+    },
     
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //The Island- Type Shifted Pokemon
@@ -8405,7 +8418,7 @@ var SS_PATCH = {
     bs: {hp: 73, at: 76, df: 75, sa: 81, sd: 100, sp: 100},
     weightkg: 19.9,
     abilities: {0: 'Corrosion'},
-  },
+   },
    'Espeon-Psychic/Fire': {
         types: ['Psychic', 'Fire'],
         bs: { hp: 65, at: 65, df: 60, sa: 130, sd: 95, sp: 110 },
@@ -8575,6 +8588,18 @@ var SS_PATCH = {
         weightkg: 54,
         abilities: { 0: 'Steadfast' }
     },
+    'Sneasler-Fighting/Ice': {
+        types: ['Fighting', 'Ice'],
+        bs: { hp: 80, at: 130, df: 60, sa: 40, sd: 80, sp: 120 },
+        weightkg: 43,
+        abilities: { 0: 'Cold Shoulder' }
+    },
+    'Serperior-Grass/Psychic': {
+        types: ['Grass', 'Psychic'],
+        bs: { hp: 75, at: 75, df: 95, sa: 75, sd: 95, sp: 113 },
+        weightkg: 63,
+        abilities: { 0: 'Forewarn' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
@@ -8604,6 +8629,13 @@ var SS_PATCH = {
         weightkg: 3.9,
         nfe: true,
         abilities: { 0: 'Levitate' }
+    },
+    'Espurr-Nina': {
+        types: ['Psychic'],
+        bs: { hp: 75, at: 70, df: 60, sa: 81, sd: 65, sp: 70 },
+        weightkg: 3.9,
+        nfe: true,
+        abilities: { 0: 'Infiltrator' }
     },
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
