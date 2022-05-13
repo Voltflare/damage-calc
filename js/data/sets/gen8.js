@@ -22,28 +22,28 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Smeargle-Blot":
-  {"Blot":
-   {"level":50,
-    "ability":"Moody",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"df":100, "sd":100},
-    "moves":["Poltergeist","Phantom Force","Sketch","Sketch"],
-    "gender": "F"
-   }
-  },
-    "Glameow-Narset":
-  {"Narset":
-   {"level":60,
-    "ability":"Keen Eye",
-    "item":"None",
-    "nature":"Lonely",
-    "evs":{"hp":100, "at":100},
-    "moves":["Slash","U-turn","Hypnosis","Aerial Ace"],
-    "gender": "F"
-   }
-  },
+//     "Smeargle-Blot":
+//   {"Blot":
+//    {"level":50,
+//     "ability":"Moody",
+//     "item":"None",
+//     "nature":"Careful",
+//     "evs":{"df":100, "sd":100},
+//     "moves":["Poltergeist","Phantom Force","Sketch","Sketch"],
+//     "gender": "F"
+//    }
+//   },
+//     "Glameow-Narset":
+//   {"Narset":
+//    {"level":60,
+//     "ability":"Keen Eye",
+//     "item":"None",
+//     "nature":"Lonely",
+//     "evs":{"hp":100, "at":100},
+//     "moves":["Slash","U-turn","Hypnosis","Aerial Ace"],
+//     "gender": "F"
+//    }
+//   },
     "Golurk-Ground/Electric":
   {"Colossus":
    {"level":59,
@@ -315,38 +315,38 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Skarmory-Steel/Electric":
-  {"Briar":
-   {"level":59,
-    "ability":"Keen Eye",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"sp":200},
-    "moves":["Steel Wing","Spark","Autotomize","Spikes"],
-    "gender": "M"
-   }
-  },
-    "Ditto-Bug":
-  {"Cotton":
-   {"level":50,
-    "ability":"The Fae",
-    "item":"None",
-    "nature":"Naive",
-    "evs":{"sp":200},
-    "moves":["Pollen Puff"]
-   }
-  },
-    "Mienshao-Dragon/Fighting":
-  {"Gila Hearth":
-   {"level":62,
-    "ability":"Battle Armor",
-    "item":"None",
-    "nature":"Jolly",
-    "evs":{"at":200, "sp":100},
-    "moves":["Bounce","High Jump Kick","Dragon Rush","Bulk Up"],
-    "gender": "F"
-   }
-  },
+//     "Skarmory-Steel/Electric":
+//   {"Briar":
+//    {"level":59,
+//     "ability":"Keen Eye",
+//     "item":"None",
+//     "nature":"Careful",
+//     "evs":{"sp":200},
+//     "moves":["Steel Wing","Spark","Autotomize","Spikes"],
+//     "gender": "M"
+//    }
+//   },
+//     "Ditto-Bug":
+//   {"Cotton":
+//    {"level":50,
+//     "ability":"The Fae",
+//     "item":"None",
+//     "nature":"Naive",
+//     "evs":{"sp":200},
+//     "moves":["Pollen Puff"]
+//    }
+//   },
+//     "Mienshao-Dragon/Fighting":
+//   {"Gila Hearth":
+//    {"level":62,
+//     "ability":"Battle Armor",
+//     "item":"None",
+//     "nature":"Jolly",
+//     "evs":{"at":200, "sp":100},
+//     "moves":["Bounce","High Jump Kick","Dragon Rush","Bulk Up"],
+//     "gender": "F"
+//    }
+//   },
     "Lycanroc-Midday":
   {"Cal":
    {"level":51,
@@ -358,17 +358,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Leafeon":
-  {"Sol [-HP]":
-   {"level":56,
-    "ability":"Chlorophyll",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "df":100},
-    "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"],
-    "gender": "M"
-   }
-  },
+//     "Leafeon":
+//   {"Sol [-HP]":
+//    {"level":56,
+//     "ability":"Chlorophyll",
+//     "item":"None",
+//     "nature":"Brave",
+//     "evs":{"at":100, "df":100},
+//     "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"],
+//     "gender": "M"
+//    }
+//   },
     "Garchomp-Dragon/Steel":
   {"Magnus [HP+]":
    {"level":66,
@@ -412,28 +412,28 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Aggron":
-  {"Coal":
-   {"level":64,
-    "ability":"Heavy Metal",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"at":200, "df":100},
-    "moves":["Sunny Day","Fire Punch","Autotomize","Iron Tail"],
-    "gender": "M"
-   }
-  },
-    "Sliggoo-Dragon/Steel":
-  {"Ismini":
-   {"level":51,
-    "ability":"Mercury",
-    "item":"None",
-    "nature":"Timid",
-    "evs":{"hp":100},
-    "moves":["Protect","Mirror Shot","Rain Dance","Acid Spray"],
-    "gender": "F"
-   }
-  },
+//     "Aggron":
+//   {"Coal":
+//    {"level":64,
+//     "ability":"Heavy Metal",
+//     "item":"None",
+//     "nature":"Careful",
+//     "evs":{"at":200, "df":100},
+//     "moves":["Sunny Day","Fire Punch","Autotomize","Iron Tail"],
+//     "gender": "M"
+//    }
+//   },
+//     "Sliggoo-Dragon/Steel":
+//   {"Ismini":
+//    {"level":51,
+//     "ability":"Mercury",
+//     "item":"None",
+//     "nature":"Timid",
+//     "evs":{"hp":100},
+//     "moves":["Protect","Mirror Shot","Rain Dance","Acid Spray"],
+//     "gender": "F"
+//    }
+//   },
     "Flygon-Fairy/Dragon":
   {"Beacon":
    {"level":65,
@@ -466,17 +466,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Lycanroc-Midnight-Rock/Ice":
-  {"Frost":
-   {"level":56,
-    "ability":"Refrigerate",
-    "item":"None",
-    "nature":"Lonely",
-    "evs":{"at":100, "sa":100},
-    "moves":["Counter","Ice Fang","Tackle","Leer"],
-    "gender": "M"
-   }
-  },
+//     "Lycanroc-Midnight-Rock/Ice":
+//   {"Frost":
+//    {"level":56,
+//     "ability":"Refrigerate",
+//     "item":"None",
+//     "nature":"Lonely",
+//     "evs":{"at":100, "sa":100},
+//     "moves":["Counter","Ice Fang","Tackle","Leer"],
+//     "gender": "M"
+//    }
+//   },
 //     "Greninja":
 //   {"Azure":
 //    {"level":53,
@@ -638,6 +638,60 @@ var SETDEX_SS = {
     "evs":{"sa":100, "sd":100},
     "moves":["Earth Power","Muddy Water","Rock Slide","Ice Punch"],
     "gender": "M"
+   }
+  },
+    "Zoroark-Hisui":
+  {"Izola Megeris":
+   {"level":64,
+    "ability":"Illusion",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"sa":100, "sp":100},
+    "moves":["Bitter Malice","Curse","Hex","Sludge Bomb"],
+    "gender": "F"
+   }
+  },
+    "Nidoqueen":
+  {"Relana Hystrang":
+   {"level":61,
+    "ability":"Poison Point",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"hp":200, "at":100},
+    "moves":["Earth Power","Poison Jab","Flamethrower","Dynamic Punch"],
+    "gender": "F"
+   }
+  },
+    "Serperior-Grass/Psychic":
+  {"Arvis [+HP]":
+   {"level":57,
+    "ability":"Forewarn",
+    "item":"None",
+    "nature":"Quiet",
+    "evs":{"at":100, "sp":100},
+    "moves":["Leaf Blade","Leech Seed","Psychic Fangs","Skill Swap"],
+    "gender": "M"
+   }
+  },
+    "Sneasler-Fighting/Ice":
+  {"Chilblain":
+   {"level":66,
+    "ability":"Cold Shoulder",
+    "item":"None",
+    "nature":"Serious",
+    "evs":{"at":200, "hp":100},
+    "moves":["Triple Axel","Drain Punch","Snarl","Bulk Up"],
+    "gender": "F"
+   }
+  },
+    "Porygon-Z":
+  {"C-PGZ":
+   {"level":51,
+    "ability":"Adaptability",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":100, "df":200},
+    "moves":["Agility","Discharge","Recover"],
    }
   },
 }; //end set_dex
