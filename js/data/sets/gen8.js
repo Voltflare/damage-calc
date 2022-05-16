@@ -694,4 +694,16 @@ var SETDEX_SS = {
     "moves":["Agility","Discharge","Recover"],
    }
   },
+  
+  //Voltflare
+    "The Equilibrium Pokemon":
+  {"Voltflare":
+   {"level":61,
+    "ability":"Static",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sa":200, "sp":100},
+    "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
+   }
+  },
 }; //end set_dex
