@@ -8637,6 +8637,14 @@ var SS_PATCH = {
         nfe: true,
         abilities: { 0: 'Infiltrator' }
     },
+    
+    //Voltflare because I'm petty
+    Voltflare: {
+        types: ['Fire', 'Electric'],
+        bs: { hp: 55, at: 80, df: 85, sa: 130, sd: 85, sp: 115 },
+        weightkg: 28.2,
+        abilities: { 0: 'Static' }
+    },
 };
 var SS = util_1.extend(true, {}, SM, SS_PATCH);
 delete SS['Pikachu-Starter'];
