@@ -696,8 +696,8 @@ var SETDEX_SS = {
   },
   
   //Voltflare
-    "The Equilibrium Pokemon":
-  {"Voltflare":
+    "Voltflare":
+  {"The Equilibrium Pokemon":
    {"level":61,
     "ability":"Static",
     "item":"None",
