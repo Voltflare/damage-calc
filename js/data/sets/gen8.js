@@ -358,17 +358,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-//     "Leafeon":
-//   {"Sol [-HP]":
-//    {"level":56,
-//     "ability":"Chlorophyll",
-//     "item":"None",
-//     "nature":"Brave",
-//     "evs":{"at":100, "df":100},
-//     "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"],
-//     "gender": "M"
-//    }
-//   },
+    "Leafeon":
+  {"Sol [-HP]":
+   {"level":56,
+    "ability":"Chlorophyll",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"at":100, "df":100},
+    "moves":["Sunny Day","Razor Leaf","Dig","Synthesis"],
+    "gender": "M"
+   }
+  },
     "Garchomp-Dragon/Steel":
   {"Magnus [HP+]":
    {"level":66,
