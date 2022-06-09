@@ -3696,6 +3696,34 @@ var SS_PATCH = {
     },
 // ------------- END HISUIAN MOVES -----------------
     
+// ------------- RUINED MOVES ----------------------
+    'Ruined Blitz': {
+        bp: 60,
+        type: 'Ruined',
+        category: 'Physical',
+        secondaries: true,
+        zp: 110,
+        maxPower: 120
+    },
+    'Ruined Sacrifice': {
+        bp: 125,
+        type: 'Ruined',
+        category: 'Physical',
+        zp: 200,
+        maxPower: 140
+    },
+    'Ruined Pierce': {
+        bp: 65,
+        type: 'Ruined',
+        category: 'Physical',
+        secondaries: true,
+        zp: 110,
+        maxPower: 120
+    },
+    
+    
+// ------------- END RUINED MOVES ------------------
+    
     
     '10,000,000 Volt Thunderbolt': { maxPower: 1 },
     Absorb: { maxPower: 90 },
