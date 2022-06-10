@@ -920,6 +920,9 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         finalMods.push(0x800);
         desc.defenderItem = defender.item;
     }
+    if (move.hasType('Ruined') && defender.types.length > 1) {
+        finalMods.push(0xc00);
+    }
     var protect = false;
     if (field.defenderSide.isProtected && move.isZ && attacker.item && attacker.item.includes(' Z')) {
         protect = true;
