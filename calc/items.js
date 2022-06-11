@@ -154,7 +154,7 @@ function getBerryResistType(berry) {
             return 'Steel';
         case 'Roseli Berry':
             return 'Fairy';
-        case: 'Mystery Berry':
+        case 'Mystery Berry':
             return 'Ruined';
         default:
             return undefined;
