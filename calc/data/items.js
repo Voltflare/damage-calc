@@ -340,9 +340,9 @@ var SS = SM.concat([
     'Sylph Stardust',
     'Throat Spray',
 ]);
-for (var i = 0; i < 100; i++) {
-    SS.push("TR" + (i < 10 ? "0" + i : i));
-}
+// for (var i = 0; i < 100; i++) {
+//     SS.push("TR" + (i < 10 ? "0" + i : i));
+// }
 SS.push('Utility Umbrella');
 SS.push.apply(SS, __spreadArrays(GSC_ONLY, ['Old Amber']));
 var BERRIES = {
