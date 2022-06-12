@@ -3720,9 +3720,122 @@ var SS_PATCH = {
         zp: 110,
         maxPower: 120
     },
+    'Ruined Blade': {
+        bp: 80,
+        type: 'Ruined',
+        category: 'Physical',
+        zp: 160,
+        maxPower: 130
+    },
+    'Ruined Slice': {
+        bp: 120,
+        type: 'Water',
+        category: 'Physical',
+        secondaries: true,
+        zp: 190,
+        maxPower: 140
+    },
+    'Ruined Pummel': {
+        bp: 60,
+        type: 'Ruined',
+        category: 'Physical',
+        secondaries: true,
+        zp: 110,
+        maxPower: 120
+    },
+    'Ruined Obstruction': {
+        bp: 80,
+        type: 'Ruined',
+        category: 'Physical',
+        zp: 160,
+        maxPower: 130
+    },
+    'Ruined Panic': {
+        bp: 0,
+        type: 'Ruined',
+    },
+    'Ruined Mist': {
+        bp: 0,
+        type: 'Ruined',
+    },
+    'Ruined Wind': {
+        bp: 80,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
+    'Ruined Wave': {
+        bp: 110,
+        type: 'Ruined',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130
+    },
+    'Ruined Gale': {
+        bp: 175,
+        type: 'Ruined',
+        category: 'Special',
+        zp: 200,
+        maxPower: 140
+    },
+    'Ruined Chill': {
+        bp: 95,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ruined Bolt': {
+        bp: 95,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ruined Flare': {
+        bp: 95,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ruined Tide': {
+        bp: 95,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ruined Verdure': {
+        bp: 95,
+        type: 'Ruined',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
+    'Ruined Will': {
+        bp: 80,
+        type: 'Ruined',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130
+    },
     
     
 // ------------- END RUINED MOVES ------------------
+    
+// ------------- OTHER SPECIAL MOVES ------------------
+    
+    
+    
+// ------------- END SPECIAL MOVES ------------------
     
     
     '10,000,000 Volt Thunderbolt': { maxPower: 1 },
