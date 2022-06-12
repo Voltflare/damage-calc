@@ -3832,7 +3832,38 @@ var SS_PATCH = {
 // ------------- END RUINED MOVES ------------------
     
 // ------------- OTHER SPECIAL MOVES ------------------
-    
+    "Caly'dboln": {
+        bp: 125,
+        type: 'Water',
+        category: 'Special',
+        secondaries: true,
+        zp: 200,
+        maxPower: 140
+    },
+    'Shining Ray': {
+        bp: 100,
+        type: 'Ice',
+        category: 'Special',
+        secondaries: true,
+        zp: 180,
+        maxPower: 130
+    },
+    "Guardian's Focus": {
+        bp: 0,
+        type: 'Psychic',
+    },
+    "Tempest": {
+        bp: 0,
+        type: 'Water',
+    },
+    'Winds of Matoya': {
+        bp: 95,
+        type: 'Flying',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 150
+    },
     
     
 // ------------- END SPECIAL MOVES ------------------
