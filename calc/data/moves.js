@@ -3824,6 +3824,7 @@ var SS_PATCH = {
         bp: 80,
         type: 'Ruined',
         category: 'Special',
+        defensiveCategory: 'Physical',
         zp: 160,
         maxPower: 130
     },
@@ -3862,8 +3863,9 @@ var SS_PATCH = {
         category: 'Special',
         secondaries: true,
         zp: 175,
-        maxPower: 150
+        maxPower: 130
     },
+
     
     
 // ------------- END SPECIAL MOVES ------------------
