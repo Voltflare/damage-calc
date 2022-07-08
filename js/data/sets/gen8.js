@@ -347,7 +347,7 @@ var SETDEX_SS = {
 //     "gender": "F"
 //    }
 //   },
-    "Lycanroc-Midday":
+    "Lycanroc":
   {"Cal":
    {"level":51,
     "ability":"Keen Eye",
