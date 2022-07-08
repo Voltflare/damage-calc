@@ -705,6 +705,16 @@ var SETDEX_SS = {
     "moves":["Agility","Discharge","Recover"],
    }
   },
+    "Espurr-Nina":
+  {"Nina":
+   {"level":56,
+    "ability":"Infiltrator",
+    "item":"None",
+    "nature":"Rash",
+    "evs":{"at":100, "sa":100},
+    "moves":["Disarming Voice","Confusion","Psyshock", "Payback"],
+   }
+  },
   
   //Voltflare
     "Voltflare":
