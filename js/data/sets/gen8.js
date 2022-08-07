@@ -93,7 +93,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Naive",
     "evs":{"sa":200, "sp":100},
-    "moves":["Shadow Claw","Night Daze","Nasty Plot","Confuse Ray"],
+    "moves":["Shadow Claw","Foul Play","Hone Claws","Sludge Bomb"],
     "gender": "F"
    }
   },
