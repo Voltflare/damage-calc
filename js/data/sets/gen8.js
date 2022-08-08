@@ -715,6 +715,17 @@ var SETDEX_SS = {
     "moves":["Disarming Voice","Confusion","Psyshock", "Payback"],
    }
   },
+  "Salazzle":
+  {"Jahara Agusuis":
+   {"level":57,
+    "ability":"Corrosion",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"at":100, "sp":100},
+    "moves":["Toxic","Fire Lash","Breaking Swipe","Skitter Smash"],
+    "gender": "F"
+   }
+  },
   
   //Voltflare
     "Voltflare":
