@@ -726,7 +726,29 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  
+  "Tirtouga":
+  {"Tojoy [+HP]":
+   {"level":51,
+    "ability":"Solid Rock",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sd":100, "sp": 100},
+    "moves":["Aqua Jet","Ancient Power","Ice Beam","Crunch"],
+    "gender": "F"
+   },
+  "Lycanroc-Midnight":
+  {"Dressel":
+   {"level":55,
+    "ability":"Keen Eye",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"at":100, "sp":100},
+    "moves":["Rock Tomb","Taunt","Covet","Sand Attack"],
+    "gender": "M"
+   },
+   
+   
+   
   //Voltflare
     "Voltflare":
   {"The Equilibrium Pokemon":
@@ -737,5 +759,4 @@ var SETDEX_SS = {
     "evs":{"sa":200, "sp":100},
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
    }
-  },
 }; //end set_dex
