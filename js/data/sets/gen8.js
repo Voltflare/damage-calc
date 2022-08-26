@@ -735,7 +735,8 @@ var SETDEX_SS = {
     "evs":{"sd":100, "sp": 100},
     "moves":["Aqua Jet","Ancient Power","Ice Beam","Crunch"],
     "gender": "F"
-   },
+   }
+  },
   "Lycanroc-Midnight":
   {"Dressel":
    {"level":55,
@@ -745,10 +746,10 @@ var SETDEX_SS = {
     "evs":{"at":100, "sp":100},
     "moves":["Rock Tomb","Taunt","Covet","Sand Attack"],
     "gender": "M"
-   },
-   
-   
-   
+   }
+  },
+  
+  
   //Voltflare
     "Voltflare":
   {"The Equilibrium Pokemon":
