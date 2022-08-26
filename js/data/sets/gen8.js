@@ -760,4 +760,5 @@ var SETDEX_SS = {
     "evs":{"sa":200, "sp":100},
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
    }
+  }
 }; //end set_dex
