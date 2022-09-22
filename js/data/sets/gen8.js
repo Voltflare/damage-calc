@@ -737,15 +737,37 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Lycanroc-Midnight":
-  {"Dressel":
-   {"level":55,
-    "ability":"Keen Eye",
+//   "Lycanroc-Midnight":
+//   {"Dressel":
+//    {"level":55,
+//     "ability":"Keen Eye",
+//     "item":"None",
+//     "nature":"Adamant",
+//     "evs":{"at":100, "sp":100},
+//     "moves":["Rock Tomb","Taunt","Covet","Sand Attack"],
+//     "gender": "M"
+//    }
+//   },
+  "Absol-Grass":
+  {"Verdant":
+   {"level":56,
+    "ability":"Super Luck",
     "item":"None",
-    "nature":"Adamant",
-    "evs":{"at":100, "sp":100},
-    "moves":["Rock Tomb","Taunt","Covet","Sand Attack"],
-    "gender": "M"
+    "nature":"Lonely",
+    "evs":{"at":100, "sp": 100},
+    "moves":["Leaf Blade","Detect","Icy Wind","Stone Edge"],
+    "gender": "F"
+   }
+  },
+  "Froslass":
+  {"Aubergine (Aubrey)":
+   {"level":51,
+    "ability":"Snow Cloak",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"sa":100},
+    "moves":["Hex","Will-O-Wisp","Powder Snow","Charm"],
+    "gender": "F"
    }
   },
   
