@@ -8600,6 +8600,12 @@ var SS_PATCH = {
         weightkg: 63,
         abilities: { 0: 'Forewarn' }
     },
+    'Absol-Grass': {
+        types: ['Grass'],
+        bs: { hp: 65, at: 130, df: 60, sa: 75, sd: 60, sp: 75 },
+        weightkg: 47,
+        abilities: { 0: 'Super Luck' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
