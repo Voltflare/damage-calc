@@ -358,7 +358,7 @@ var ADV_PATCH = {
     Surf: { target: 'allAdjacentFoes' },
     Thief: { makesContact: true },
     Thrash: { makesContact: true },
-    'Triple Kick': { makesContact: true, multihit: 3 },
+    'Triple Kick': { makesContact: true, multihit: [1, 3] },
     'Vine Whip': { makesContact: true },
     Waterfall: { makesContact: true },
     Wrap: { makesContact: true },
