@@ -3512,7 +3512,7 @@ var SS_PATCH = {
     type: 'Ice',
     category: 'Physical',
     makesContact: true,
-    multihit: 3,
+    multihit: [1, 3],
     zp: 120,
     maxPower: 140,
   },
