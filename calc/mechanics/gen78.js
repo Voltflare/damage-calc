@@ -270,7 +270,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     var basePower;
     switch (move.name) {
         case 'Payback':
-            basePower = turnOrder === 'last' ? 100 : 50;
+            basePower = turnOrder === 'last' ? 120 : 60;
             desc.moveBP = basePower;
             break;
         case 'Bolt Beak':
@@ -747,6 +747,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     else if (defender.hasItem && items_1.getPlateBoostType(defender.item) === move.type) {
         dfMods.push(0x14cc);
         desc.defenderItem = defender.item;
+    }
+    //returning mechanic from older gens, halving defense when using explosion/self-destruct
+    if (move.named('Explosion', 'Self-Destruct')) {
+        dfMods.push(0x800);
     }
     defense = util_2.OF16(Math.max(1, util_2.pokeRound((defense * util_2.chainMods(dfMods)) / 0x1000)));
     var baseDamage = util_2.getBaseDamage(attacker.level, basePower, attack, defense);
