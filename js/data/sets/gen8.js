@@ -770,6 +770,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Abra":
+  {"Test Dummy":
+   {"level":56,
+    "ability":"Synchronize",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"at":300, "sp": 100},
+    "moves":["Teleport"],
+    "gender": "M"
+   }
+  },
   
   
   //Voltflare
@@ -782,6 +793,7 @@ var SETDEX_SS = {
     //"evs":{"hp:":350, "df":100, "sa":200, "sp":100},
     "evs":{"hp:":350, "df":100},
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
+    "gender": "M"
    }
   }
 }; //end set_dex
