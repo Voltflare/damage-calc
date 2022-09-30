@@ -783,5 +783,27 @@ var SETDEX_SS = {
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
     "gender": "M"
    }
+  },
+    "Voltflare":
+  {"Test":
+   {"level":61,
+    "ability":"Static",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":252, "sa:":300, "df":100},
+    "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
+    "gender": "M"
+   }
+  },
+    "Voltflare":
+  {"Test 2":
+   {"level":61,
+    "ability":"Static",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":300, "sa:":300, "df":100},
+    "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
+    "gender": "M"
+   }
   }
 }; //end set_dex
