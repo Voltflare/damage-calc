@@ -22,7 +22,7 @@ function ExportPokemon(pokeInfo) {
 			if (pokemon.evs[stat]) {
 				EVs_Array.push(pokemon.evs[stat] + " " + calc.Stats.displayStat(stat));
 				EV_counter += pokemon.evs[stat];
-				if (EV_counter > 510) break;
+				//if (EV_counter > 510) break;
 			}
 		}
 		finalText += serialize(EVs_Array, " / ");
@@ -98,6 +98,8 @@ function getStats(currentPoke, rows, offset) {
 			currentPoke.level = parseInt(currentRow[1].trim());
 			break;
 		case 'EVs':
+			//Testing purposes
+			console.log("Current Row: ", currentRow);
 			for (j = 1; j < currentRow.length; j++) {
 				currentEV = currentRow[j].trim().split(" ");
 				currentEV[1] = statToLegacyStat(currentEV[1].toLowerCase());
