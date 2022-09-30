@@ -783,39 +783,17 @@ var SETDEX_SS = {
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
     "gender": "M"
    }
-  },
-    "Voltflare":
-  {"Test":
-   {"level":61,
-    "ability":"Static",
-    "item":"None",
-    "nature":"Timid",
-    "evs":{"hp":252, "sa:":300, "df":100},
-    "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
-    "gender": "M"
-   }
-  },
-    "Voltflare":
-  {"Test 2":
-   {"level":61,
-    "ability":"Static",
-    "item":"None",
-    "nature":"Timid",
-    "evs":{"hp":300, "sa:":300, "df":100},
-    "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
-    "gender": "M"
-   }
-  },
+  }
 //tests
-  "Absol-Grass":
-  {"Test":
-   {"level":56,
-    "ability":"Super Luck",
-    "item":"None",
-    "nature":"Lonely",
-    "evs":{"hp":300, "sp": 100},
-    "moves":["Leaf Blade","Detect","Icy Wind","Stone Edge"],
-    "gender": "F"
-   }
-  },
+//   "Absol-Grass":
+//   {"Test":
+//    {"level":56,
+//     "ability":"Super Luck",
+//     "item":"None",
+//     "nature":"Lonely",
+//     "evs":{"hp":300, "sp": 100},
+//     "moves":["Leaf Blade","Detect","Icy Wind","Stone Edge"],
+//     "gender": "F"
+//    }
+//   },
 }; //end set_dex
