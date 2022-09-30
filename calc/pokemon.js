@@ -21,7 +21,7 @@ var Pokemon = (function () {
         this.item = options.item;
         this.nature = options.nature || 'Serious';
         this.ivs = Pokemon.withDefault(gen, options.ivs, 31);
-        this.evs = Pokemon.withDefault(gen, options.evs, gen.num >= 3 ? 0 : 252);
+        this.evs = Pokemon.withDefault(gen, options.evs, gen.num >= 3 ? 0 : 500);
         this.boosts = Pokemon.withDefault(gen, options.boosts, 0);
         if (gen.num < 3) {
             this.ivs.hp = stats_1.Stats.DVToIV(stats_1.Stats.getHPDV({
