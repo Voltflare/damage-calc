@@ -805,5 +805,17 @@ var SETDEX_SS = {
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
     "gender": "M"
    }
-  }
+  },
+//tests
+  "Absol-Grass":
+  {"Test":
+   {"level":56,
+    "ability":"Super Luck",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"hp":300, "sp": 100},
+    "moves":["Leaf Blade","Detect","Icy Wind","Stone Edge"],
+    "gender": "F"
+   }
+  },
 }; //end set_dex
