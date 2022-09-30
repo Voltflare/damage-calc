@@ -779,7 +779,7 @@ var SETDEX_SS = {
     "ability":"Static",
     "item":"None",
     "nature":"Timid",
-    "evs":{"sa":200, "sp":100},
+    "evs":{"hp:":350, "sa":200, "sp":100},
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
    }
   }
