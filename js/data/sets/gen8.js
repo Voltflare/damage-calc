@@ -770,28 +770,6 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Abra":
-  {"Test Dummy":
-   {"level":56,
-    "ability":"Synchronize",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"at":300, "df":300,"sp": 100},
-    "moves":["Teleport"],
-    "gender": "M"
-   }
-  },
-  "Absol-Grass":
-  {"Test Dummy 2":
-   {"level":56,
-    "ability":"Synchronize",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"at":300, "df":300,"sp": 100},
-    "moves":["Teleport"],
-    "gender": "M"
-   }
-  },
   
   
   //Voltflare
@@ -801,7 +779,7 @@ var SETDEX_SS = {
     "ability":"Static",
     "item":"None",
     "nature":"Timid",
-    "evs":{"hp:":300, "df":100},
+    "evs":{"hp":200, "sa:":300, "df":100},
     "moves":["Fire Blast","Thunder Wave","Energy Ball", "Thunderbolt"],
     "gender": "M"
    }
