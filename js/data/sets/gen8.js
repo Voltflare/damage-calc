@@ -770,6 +770,28 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Miltank-Normal/Dragon":
+  {"Joka":
+   {"level":56,
+    "ability":"Thick Fat",
+    "item":"None",
+    "nature":"Rash",
+    "evs":{"at": 100, "sa": 100, "sp":100},
+    "moves":["Surf","Milk Drink","Heal Bell","Outrage"],
+    "gender": "F"
+   }
+  },
+  "Mienshao":
+  {"Mayumi Higasa [-HP]":
+   {"level":59,
+    "ability":"Inner Focus",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sp":200},
+    "moves":["Force Palm","U-Turn","Acrobatics","Calm Mind"],
+    "gender": "F"
+   }
+  },
   
   
   //Voltflare
