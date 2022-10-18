@@ -8606,6 +8606,11 @@ var SS_PATCH = {
         weightkg: 47,
         abilities: { 0: 'Super Luck' }
     },
+    'Miltank-Normal/Dragon': {
+        types: ['Normal', 'Dragon'],
+        bs: { hp: 95, at: 80, df: 105, sa: 40, sd: 70, sp: 100 },
+        weightkg: 98.2
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
