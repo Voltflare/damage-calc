@@ -788,7 +788,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":100, "sp":200},
-    "moves":["Force Palm","U-Turn","Acrobatics","Calm Mind"],
+    "moves":["Force Palm","U-turn","Acrobatics","Calm Mind"],
     "gender": "F"
    }
   },
