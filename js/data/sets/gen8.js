@@ -792,6 +792,72 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Furret":
+  {"Kima":
+   {"level":53,
+    "ability":"Run Away",
+    "item":"None",
+    "nature":"Bold",
+    "evs":{"sd":100, "sp":100},
+    "moves":["Defense Curl","Helping Hand","Baby-Doll Eyes","Dig"],
+    "gender": "F"
+   }
+ },
+  "Lapras-Water/Dark":
+  {"Ecco Altwin":
+   {"level":53,
+    "ability":"Strong Jaw",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"at": 100, "df": 100},
+    "moves":["Jaw Lock","Life Dew","Brine","Sing"],
+    "gender": "M"
+   }
+  },
+  "Oricorio-Dark":
+  {"Dormani ['Brande']":
+   {"level":57,
+    "ability":"Dancer",
+    "item":"None",
+    "nature":"Docile",
+    "evs":{"sp":200},
+    "moves":["Revelation Dance","Teeter Dance","Role Play","Fake Tears"],
+    "gender": "F"
+   }
+  },
+  "Oricorio-Pa'u-Dark":
+  {"Dormani ['Elysia']":
+   {"level":57,
+    "ability":"Dancer",
+    "item":"None",
+    "nature":"Docile",
+    "evs":{"sp":200},
+    "moves":["Revelation Dance","Teeter Dance","Role Play","Fake Tears"],
+    "gender": "F"
+   }
+  },
+  "Oricorio-Pom-Pom-Dark":
+  {"Dormani ['Auriel']":
+   {"level":57,
+    "ability":"Dancer",
+    "item":"None",
+    "nature":"Docile",
+    "evs":{"sp":200},
+    "moves":["Revelation Dance","Teeter Dance","Role Play","Fake Tears"],
+    "gender": "F"
+   }
+  },
+  "Oricorio-Sensu-Dark":
+  {"Dormani ['Elysia']":
+   {"level":57,
+    "ability":"Dancer",
+    "item":"None",
+    "nature":"Docile",
+    "evs":{"sp":200},
+    "moves":["Revelation Dance","Teeter Dance","Role Play","Fake Tears"],
+    "gender": "F"
+   }
+  },
   
   
   //Voltflare
