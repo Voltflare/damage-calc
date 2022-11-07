@@ -8611,6 +8611,40 @@ var SS_PATCH = {
         bs: { hp: 95, at: 80, df: 105, sa: 40, sd: 70, sp: 100 },
         weightkg: 98.2
     },
+    'Lapras-Water/Dark': {
+        types: ['Water', 'Dark'],
+        bs: { hp: 130, at: 85, df: 80, sa: 85, sd: 95, sp: 60 },
+        abilities: { 0: 'Strong Jaw' },
+        weightkg: 220
+    },
+    'Oricorio-Dark': {
+        types: ['Fire', 'Dark'],
+        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        weightkg: 3.4,
+        abilities: { 0: 'Dancer' },
+        otherFormes: ["Oricorio-Pa'u-Dark", 'Oricorio-Pom-Pom-Dark', 'Oricorio-Sensu-Dark']
+    },
+    "Oricorio-Pa'u-Dark": {
+        types: ['Psychic', 'Dark'],
+        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        weightkg: 3.4,
+        abilities: { 0: 'Dancer' },
+        baseSpecies: 'Oricorio-Dark'
+    },
+    'Oricorio-Pom-Pom-Dark': {
+        types: ['Electric', 'Dark'],
+        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        weightkg: 3.4,
+        abilities: { 0: 'Dancer' },
+        baseSpecies: 'Oricorio-Dark'
+    },
+    'Oricorio-Sensu-Dark': {
+        types: ['Ghost', 'Dark'],
+        bs: { hp: 75, at: 70, df: 70, sa: 98, sd: 70, sp: 93 },
+        weightkg: 3.4,
+        abilities: { 0: 'Dancer' },
+        baseSpecies: 'Oricorio-Dark'
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
