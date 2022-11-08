@@ -8645,6 +8645,13 @@ var SS_PATCH = {
         abilities: { 0: 'Dancer' },
         baseSpecies: 'Oricorio-Dark'
     },
+    'Servine-Grass/Ghost': {
+        types: ['Grass', 'Ghost'],
+        bs: { hp: 60, at: 60, df: 75, sa: 60, sd: 75, sp: 83 },
+        weightkg: 16,
+        nfe: true,
+        abilities: { 0: 'Overgrow' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
