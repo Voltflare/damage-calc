@@ -858,6 +858,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Servine-Grass/Ghost":
+  {"Fabrixo":
+   {"level":52,
+    "ability":"Overgrow",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sa":100},
+    "moves":["Aerial Ace","Substitute","Confuse Ray","Leaf Tornado"],
+    "gender": "M"
+   }
+  },
   
   
   //Voltflare
