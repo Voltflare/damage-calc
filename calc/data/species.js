@@ -8588,7 +8588,7 @@ var SS_PATCH = {
   },
   Farigiraf: {
     types: ['Normal', 'Psychic'],
-    bs: {hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 60},
+    bs: {hp: 120, at: 100, df: 70, sa: 110, sd: 70, sp: 60},
     weightkg: 160,
     abilities: {0: 'Sap Sipper'},
   },
@@ -9224,6 +9224,13 @@ var SS_PATCH = {
         abilities: {0: 'Sheer Force'},
         nfe: true
     },
+    'Farigiraf-Dragon/Psychic': {
+    types: ['Normal', 'Psychic'],
+    bs: {hp: 120, at: 100, df: 70, sa: 110, sd: 70, sp: 60},
+    weightkg: 160,
+    abilities: {0: 'Armor Tail'},
+    baseSpecies: 'Girafarig-Dragon/Psychic',
+  },
     'Jigglypuff-Normal/Dark': {
         types: ['Normal', 'Dark'],
         bs: { hp: 115, at: 45, df: 20, sa: 45, sd: 25, sp: 20 },
