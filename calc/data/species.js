@@ -9225,7 +9225,7 @@ var SS_PATCH = {
         nfe: true
     },
     'Farigiraf-Dragon/Psychic': {
-    types: ['Normal', 'Psychic'],
+    types: ['Dragon', 'Psychic'],
     bs: {hp: 120, at: 100, df: 70, sa: 110, sd: 70, sp: 60},
     weightkg: 160,
     abilities: {0: 'Armor Tail'},
