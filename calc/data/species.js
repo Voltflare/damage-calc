@@ -9224,7 +9224,7 @@ var SS_PATCH = {
         abilities: {0: 'Sheer Force'},
         nfe: true
     },
-        'Farigiraf-Dragon/Psychic': {
+        'Farigiraf-Dragon/Psychic-Neroh': {
         types: ['Dragon', 'Psychic'],
         bs: { hp: 120, at: 100, df: 70, sa: 110, sd: 70, sp: 60 },
         weightkg: 160,
