@@ -85,7 +85,7 @@ function getStats(currentPoke, rows, offset) {
 	var currentEV;
 	var currentIV;
 	var currentNature;
-	currentPoke.level = 100;
+	currentPoke.level = 50;
 	for (var x = offset; x < offset + 8; x++) {
 		var currentRow = rows[x] ? rows[x].split(/[/:]/) : '';
 		var evs = {};
