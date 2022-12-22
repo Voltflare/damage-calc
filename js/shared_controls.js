@@ -463,7 +463,7 @@ $(".set-selector").change(function () {
 				$(this).closest('.poke-info').find(".extraSetMoves").html(formatMovePool(randset.moves));
 			}
 		} else {
-			pokeObj.find(".level").val(100);
+			pokeObj.find(".level").val(55); 
 			pokeObj.find(".hp .evs").val(0);
 			pokeObj.find(".hp .ivs").val(31);
 			pokeObj.find(".hp .dvs").val(15);
