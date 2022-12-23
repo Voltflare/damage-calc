@@ -737,6 +737,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
       (move.category === 'Special' && getMostProficientStat(attacker) === 'spa')
     ) {
       atMods.push(0x14cc);
+      desc.attackerAbility = attacker.ability;
     }
   }
   if (
@@ -809,6 +810,7 @@ if (
       (!hitsPhysical && getMostProficientStat(defender, gen) === 'spd')
     ) {
       dfMods.push(0x14cc);
+      desc.defenderAbility = defender.ability;
     }
   }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) {
