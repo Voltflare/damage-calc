@@ -869,6 +869,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Goodra-Hisui":
+  {"Emily":
+   {"level":59,
+    "ability":"Overcoat",
+    "item":"None",
+    "nature":"Relaxed",
+    "evs":{"hp":100, "df":100, "sd":100},
+    "moves":["Acid Spray","Rest","Shelter","Water Pulse"],
+    "gender": "F"
+   }
+  },
   
   
   //Voltflare
