@@ -791,8 +791,8 @@ if (
     (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))
   ) {
     if (
-      (hitsPhysical && getMostProficientStat(defender) === 'def') ||
-      (!hitsPhysical && getMostProficientStat(defender) === 'spd')
+      (hitsPhysical && getMostProficientStat(defender, gen) === 'def') ||
+      (!hitsPhysical && getMostProficientStat(defender, gen) === 'spd')
     ) {
       dfMods.push(5324);
     }
