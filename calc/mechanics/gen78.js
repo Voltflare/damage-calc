@@ -543,7 +543,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.moveBP = basePower / 2;
         desc.weather = field.weather;
     }
-  } else if (move.named('Collision Course', 'Electro Drift')) {
+   else if (move.named('Collision Course', 'Electro Drift')) {
     const isGhostRevealed =
       attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     const isRingTarget =
