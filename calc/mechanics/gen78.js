@@ -206,7 +206,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
             !field.isGravity && !move.named('Thousand Arrows') && defender.hasAbility('Levitate')) ||
         (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
         (move.flags.sound && defender.hasAbility('Soundproof')) ||
-        (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling'))) {
+        (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail')) ||
+             (move.hasType('Ground') && defender.hasAbility('Earth Eater')) ||
+      (move.flags.wind && defender.hasAbility('Wind Rider'))) 
+    {
         desc.defenderAbility = defender.ability;
         return result;
     }
@@ -473,6 +476,11 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x14cd);
         desc.attackerAbility = attacker.ability;
     }
+    
+        if (attacker.hasAbility('Rocky Payload') && move.hasType('Rock')) {
+        bpMods.push(0x14cd);
+        desc.attackerAbility = attacker.ability;
+    }
     if (gen.num === 7) {
         var bp = util_2.pokeRound((basePower * util_2.chainMods(bpMods)) / 0x1000);
         if (attacker.hasAbility('Technician') && bp <= 60) {
@@ -669,6 +677,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         atMods.push(0x1800);
         desc.attackerAbility = 'Flash Fire';
     }
+    else if (attacker.hasAbility('Well-Baked Body') && attacker.abilityOn && move.hasType('Fire')) {
+        atMods.push(0x1800);
+        desc.attackerAbility = 'Well-Baked Body';
+    }
     else if (attacker.hasAbility('Steelworker') && move.hasType('Steel')) {
         atMods.push(0x1800);
         desc.attackerAbility = attacker.ability;
@@ -712,6 +724,13 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         atMods.push(0x1800);
         desc.attackerItem = attacker.item;
     }
+  if (
+    (field.isTabletsOfRuin && move.category === 'Physical') ||
+    (field.isVesselOfRuin && move.category === 'Special')
+  ) {
+    atMods.push(3072);
+  }
+
     attack = util_2.OF16(Math.max(1, util_2.pokeRound((attack * util_2.chainMods(atMods)) / 0x1000)));
     var defense;
     var hitsPhysical = move.defensiveCategory === 'Physical';
@@ -757,6 +776,26 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         desc.defenderAbility = defender.ability;
     }
+if (
+    (field.isSwordOfRuin && hitsPhysical) ||
+    (field.isBeadsOfRuin && !hitsPhysical)
+  ) {
+    dfMods.push(3072);
+  }
+
+  if (
+    (defender.hasAbility('Protosynthesis') &&
+    (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
+    (defender.hasAbility('Quark Drive') &&
+    (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))
+  ) {
+    if (
+      (hitsPhysical && getMostProficientStat(defender) === 'def') ||
+      (!hitsPhysical && getMostProficientStat(defender) === 'spd')
+    ) {
+      dfMods.push(5324);
+    }
+  }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) {
         dfMods.push(0x1800);
         desc.defenderItem = defender.item;
@@ -778,6 +817,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     if (move.named('Explosion', 'Self-Destruct')) {
         dfMods.push(0x800);
     }
+
+
     defense = util_2.OF16(Math.max(1, util_2.pokeRound((defense * util_2.chainMods(dfMods)) / 0x1000)));
     var baseDamage = util_2.getBaseDamage(attacker.level, basePower, attack, defense);
     var isSpread = field.gameType !== 'Singles' &&
