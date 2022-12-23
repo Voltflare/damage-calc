@@ -870,8 +870,8 @@ var SETDEX_SS = {
    }
   },
   "Goodra-Hisui":
-  {"Emily":
-   {"level":59,
+  {"Emily Roen":
+   {"level":57,
     "ability":"Overcoat",
     "item":"None",
     "nature":"Relaxed",
