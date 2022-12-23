@@ -311,6 +311,25 @@ function getBaseDamage(level, basePower, attack, defense) {
     return Math.floor(OF32(Math.floor(OF32(OF32(Math.floor((2 * level) / 5 + 2) * basePower) * attack) / defense) / 50 + 2));
 }
 exports.getBaseDamage = getBaseDamage;
+
+function getMostProficientStat(
+  pokemon: Pokemon,
+  gen?: Generation
+): StatID {
+  let bestStat: StatID = 'atk';
+  for (const stat of ['def', 'spa', 'spd', 'spe'] as StatID[]) {
+    if (
+      getModifiedStat(pokemon.rawStats[stat], pokemon.boosts[stat], gen) >
+      getModifiedStat(pokemon.rawStats[bestStat], pokemon.boosts[bestStat], gen)
+    ) {
+      bestStat = stat;
+    }
+  }
+  return bestStat;
+}
+exports.getMostProficientStat = getMostProficientStat;
+
+
 function getFinalDamage(baseAmount, i, effectiveness, isBurned, isFrostbitten, stabMod, finalMod, protect) {
     var damageAmount = Math.floor(OF32(baseAmount * (85 + i)) / 100);
     if (stabMod !== 0x1000)
