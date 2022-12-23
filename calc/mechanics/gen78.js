@@ -725,11 +725,25 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         atMods.push(0x1800);
         desc.attackerItem = attacker.item;
     }
+    if (
+    (attacker.hasAbility('Protosynthesis') &&
+      (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
+    (attacker.hasAbility('Quark Drive') &&
+      (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))
+  ) {
+    if (
+      (move.category === 'Physical' &&
+        getMostProficientStat(attacker) === 'atk') ||
+      (move.category === 'Special' && getMostProficientStat(attacker) === 'spa')
+    ) {
+      atMods.push(0x14cc);
+    }
+  }
   if (
     (field.isTabletsOfRuin && move.category === 'Physical') ||
     (field.isVesselOfRuin && move.category === 'Special')
   ) {
-    atMods.push(3072);
+    atMods.push(0xc00);
   }
 
     attack = util_2.OF16(Math.max(1, util_2.pokeRound((attack * util_2.chainMods(atMods)) / 0x1000)));
@@ -781,7 +795,7 @@ if (
     (field.isSwordOfRuin && hitsPhysical) ||
     (field.isBeadsOfRuin && !hitsPhysical)
   ) {
-    dfMods.push(3072);
+    dfMods.push(0xc00);
   }
 
   if (
@@ -794,7 +808,7 @@ if (
       (hitsPhysical && getMostProficientStat(defender, gen) === 'def') ||
       (!hitsPhysical && getMostProficientStat(defender, gen) === 'spd')
     ) {
-      dfMods.push(5324);
+      dfMods.push(0x14cc);
     }
   }
     if ((defender.hasItem('Eviolite') && ((_a = gen.species.get(util_1.toID(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe))) {
