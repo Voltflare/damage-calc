@@ -312,10 +312,7 @@ function getBaseDamage(level, basePower, attack, defense) {
 }
 exports.getBaseDamage = getBaseDamage;
 
-function getMostProficientStat(
-  pokemon: Pokemon,
-  gen?: Generation
-): StatID {
+function getMostProficientStat(pokemon, gen?) {
   let bestStat: StatID = 'atk';
   for (const stat of ['def', 'spa', 'spd', 'spe'] as StatID[]) {
     if (
