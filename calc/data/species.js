@@ -8416,6 +8416,12 @@ var SS_PATCH = {
         weightkg: 73,
         abilities: { 0: 'Illusion' }
     },
+    'Goodra-Hisui': {
+        types: ['Steel', 'Dragon'],
+        bs: { hp: 90, at: 100, df: 70, sa: 110, sd: 150, sp: 80 },
+        weightkg: 334.1,
+        abilities: { 0: 'Sap Sipper' }
+    },
     
     
     // Gen 9 Pokemon
