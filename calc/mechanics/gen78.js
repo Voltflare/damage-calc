@@ -535,6 +535,32 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         desc.moveBP = basePower / 2;
         desc.weather = field.weather;
     }
+  } else if (move.named('Collision Course', 'Electro Drift')) {
+    const isGhostRevealed =
+      attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
+    const isRingTarget =
+      defender.hasItem('Ring Target') && !defender.hasAbility('Klutz');
+    const type1Effectiveness = getMoveEffectiveness(
+      gen,
+      move,
+      defender.types[0],
+      isGhostRevealed,
+      field.isGravity,
+      isRingTarget
+    );
+    const type2Effectiveness = defender.types[1] ? getMoveEffectiveness(
+      gen,
+      move,
+      defender.types[0],
+      isGhostRevealed,
+      field.isGravity,
+      isRingTarget
+    ) : 1;
+    if (type1Effectiveness * type2Effectiveness >= 2) {
+      bpMods.push(5461);
+      desc.moveBP = basePower * (5461 / 4096);
+    }
+  }
     else if ((move.named('Knock Off') && !resistedKnockOffDamage) ||
     (move.named('Expanding Force') && util_2.isGrounded(attacker, field) && field.hasTerrain('Psychic')) ||
     (move.named('Misty Explosion') && util_2.isGrounded(attacker, field) && field.hasTerrain('Misty')) ||
@@ -586,7 +612,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     basePower = util_2.OF16(Math.max(1, util_2.pokeRound((basePower * util_2.chainMods(bpMods)) / 0x1000)));
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm')) {
+    if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm', 'Tera Blast')) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     var attackStat = move.category === 'Special' ? 'spa' : move.named('Body Press') ? 'def' : 'atk';
