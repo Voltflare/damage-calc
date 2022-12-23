@@ -312,9 +312,9 @@ function getBaseDamage(level, basePower, attack, defense) {
 }
 exports.getBaseDamage = getBaseDamage;
 
-function getMostProficientStat(pokemon, gen?) {
-  let bestStat: StatID = 'atk';
-  for (const stat of ['def', 'spa', 'spd', 'spe'] as StatID[]) {
+function getMostProficientStat(pokemon, gen) {
+  let bestStat = 'atk';
+  for (const stat in ['def', 'spa', 'spd', 'spe']) {
     if (
       getModifiedStat(pokemon.rawStats[stat], pokemon.boosts[stat], gen) >
       getModifiedStat(pokemon.rawStats[bestStat], pokemon.boosts[bestStat], gen)
