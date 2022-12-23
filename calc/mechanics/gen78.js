@@ -493,7 +493,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         (attacker.hasAbility('Toxic Boost') &&
             attacker.hasStatus('psn', 'tox') && move.category === 'Physical') ||
         (attacker.hasAbility('Mega Launcher') && move.flags.pulse) ||
-        (attacker.hasAbility('Strong Jaw') && move.flags.bite)) {
+        (attacker.hasAbility('Strong Jaw') && move.flags.bite) ||
+       (attacker.hasAbility('Sharpness') && move.flags.slicing)) {
         bpMods.push(0x1800);
         desc.attackerAbility = attacker.ability;
     }
