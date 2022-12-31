@@ -12,7 +12,7 @@ var Pokemon = (function () {
         this.name = options.name || name;
         this.types = this.species.types;
         this.weightkg = this.species.weightkg;
-        this.level = 50 || options.level;
+        this.level = options.level || 53;
         this.gender = options.gender || this.species.gender || 'M';
         this.ability =
             options.ability || (this.species.abilities && this.species.abilities[0]) || undefined;
