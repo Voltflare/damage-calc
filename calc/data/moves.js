@@ -4003,7 +4003,7 @@ var SS_PATCH = {
     zp: 100,
     maxPower: 90,
     makesContact: true,
-    multihit: 10,
+    multihit: [2,10],
   },
   Pounce: {
     bp: 50,
@@ -4251,7 +4251,7 @@ var SS_PATCH = {
     multihit: 3,
   },
   'Twin Beam': {
-    bp: 40,
+    bp: 50,
     type: 'Psychic',
     category: 'Special',
     zp: 100,
