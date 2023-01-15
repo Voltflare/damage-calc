@@ -9436,6 +9436,12 @@ var SS_PATCH = {
         weightkg: 58,
         abilities: {0: 'Moody'},
     },
+    'Smeargle-Picasso': {
+        types: ['Normal'],
+        bs: { hp: 90, at: 70, df: 75, sa: 70, sd: 70, sp: 100 },
+        weightkg: 58,
+        abilities: {0: 'Own Tempo'},
+    },
     'Glameow-Narset': {
         types: ['Normal'],
         bs: { hp: 70, at: 85, df: 60, sa: 60, sd: 50, sp: 90 },
