@@ -880,6 +880,29 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Smeargle-Picasso":
+  {"Picasso":
+   {"level":57,
+    "ability":"Technician",
+    "item":"None",
+    "nature":"Hasty",
+    "evs":{"sp":200},
+    "moves": ["Copycat", "Sketch"],
+    "gender": "M"
+   }
+  },
+  "Vaporeon":
+  {"Abrams":
+   {"level":51,
+    "ability":"Water Absorb",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"hp":100, "sd":100},
+    "moves": ["Water Gun", "Wish", "Charm", "Baby-Doll Eyes"],
+    "gender": "M"
+   }
+  },
+
   
   
   //Voltflare
