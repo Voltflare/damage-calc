@@ -769,6 +769,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         defense = util_2.pokeRound((defense * 3) / 2);
         desc.weather = field.weather;
     }
+    if (field.hasWeather('Hail') && defender.hasType('Ice') && hitsPhysical) {
+        defense = util_2.pokeRound((defense * 3) / 2);
+        desc.weather = field.weather;
+    }
     var dfMods = [];
     if (defender.hasAbility('Marvel Scale') && defender.status && hitsPhysical) {
         dfMods.push(0x1800);
