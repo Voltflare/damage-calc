@@ -621,7 +621,9 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     basePower = util_2.OF16(Math.max(1, util_2.pokeRound((basePower * util_2.chainMods(bpMods)) / 0x1000)));
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
-    if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm', 'Tera Blast')) {
+    if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm', 'Tera Blast', 'Tera Blast Bug', 'Tera Blast Dark', 'Tera Blast Dragon', 'Tera Blast Electric',
+                  'Tera Blast Fairy', 'Tera Blast Fighting', 'Tera Blast Fire', 'Tera Blast Flying', 'Tera Blast Ghost', 'Tera Blast Grass', 'Tera Blast Ground', 'Tera Blast Ice',
+                  'Tera Blast Poison', 'Tera Blast Psychic', 'Tera Blast Rock', 'Tera Blast Steel', 'Tera Blast Water')) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     var attackStat = move.category === 'Special' ? 'spa' : move.named('Body Press') ? 'def' : 'atk';
