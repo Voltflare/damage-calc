@@ -622,8 +622,8 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     var attack;
     var attackSource = move.named('Foul Play') ? defender : attacker;
     if (move.named('Photon Geyser', 'Light That Burns The Sky', 'Shell Side Arm', 'Tera Blast', 'Tera Blast Bug', 'Tera Blast Dark', 'Tera Blast Dragon', 'Tera Blast Electric',
-                  'Tera Blast Fairy', 'Tera Blast Fighting', 'Tera Blast Fire', 'Tera Blast Flying', 'Tera Blast Ghost', 'Tera Blast Grass', 'Tera Blast Ground', 'Tera Blast Ice',
-                  'Tera Blast Poison', 'Tera Blast Psychic', 'Tera Blast Rock', 'Tera Blast Steel', 'Tera Blast Water')) {
+ 'Tera Blast Fairy', 'Tera Blast Fighting', 'Tera Blast Fire', 'Tera Blast Flying', 'Tera Blast Ghost', 'Tera Blast Grass', 'Tera Blast Ground', 'Tera Blast Ice',
+ 'Tera Blast Poison', 'Tera Blast Psychic', 'Tera Blast Rock', 'Tera Blast Steel', 'Tera Blast Water')) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     var attackStat = move.category === 'Special' ? 'spa' : move.named('Body Press') ? 'def' : 'atk';
@@ -751,7 +751,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
 
     attack = util_2.OF16(Math.max(1, util_2.pokeRound((attack * util_2.chainMods(atMods)) / 0x1000)));
     var defense;
-    var hitsPhysical = move.defensiveCategory === 'Physical';
+    var hitsPhysical = move.category === 'Physical';
     var defenseStat = hitsPhysical ? 'def' : 'spd';
     desc.defenseEVs = util_2.getEVDescriptionText(gen, defender, defenseStat, defender.nature);
     if (defender.boosts[defenseStat] === 0 ||
