@@ -625,6 +625,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
  'Tera Blast Fairy', 'Tera Blast Fighting', 'Tera Blast Fire', 'Tera Blast Flying', 'Tera Blast Ghost', 'Tera Blast Grass', 'Tera Blast Ground', 'Tera Blast Ice',
  'Tera Blast Poison', 'Tera Blast Psychic', 'Tera Blast Rock', 'Tera Blast Steel', 'Tera Blast Water')) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
+        move.defensiveCategory = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
     var attackStat = move.category === 'Special' ? 'spa' : move.named('Body Press') ? 'def' : 'atk';
     desc.attackEVs =
@@ -751,7 +752,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
 
     attack = util_2.OF16(Math.max(1, util_2.pokeRound((attack * util_2.chainMods(atMods)) / 0x1000)));
     var defense;
-    var hitsPhysical = move.category === 'Physical';
+    var hitsPhysical = move.defensiveCategory === 'Physical';
     var defenseStat = hitsPhysical ? 'def' : 'spd';
     desc.defenseEVs = util_2.getEVDescriptionText(gen, defender, defenseStat, defender.nature);
     if (defender.boosts[defenseStat] === 0 ||
