@@ -3773,10 +3773,10 @@ var SS_PATCH = {
     makesContact: true,
   },
   'Bitter Blade': {
-    bp: 90,
+    bp: 80,
     type: 'Fire',
     category: 'Physical',
-    zp: 175,
+    zp: 160,
     maxPower: 130,
     makesContact: true, // TODO add recovery [50%]
     isSlicing: true,
