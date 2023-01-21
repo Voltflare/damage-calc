@@ -72,7 +72,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Sassy",
     "evs":{"sa":200, "sd":100},
-    "moves":["Psychic","Scald","Reflect","Ally Switch"]
+    "moves":["Telekinesis","Scald","Reflect","Ally Switch"]
    }
   },
     "Charizard-Electric/Flying":
