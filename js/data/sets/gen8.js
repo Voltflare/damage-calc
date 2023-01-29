@@ -902,6 +902,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Duraludon":
+  {"Shear":
+   {"level":57,
+    "ability":"Light Metal",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"df":100, "sp":100},
+    "moves": ["Heavy Slam", "Iron Defense", "Thunderbolt"],
+    "gender": "F"
+   }
+  },
 
   
   
