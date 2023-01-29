@@ -304,14 +304,14 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Ralts":
+    "Kirlia":
   {"Paklin Costur":
    {"level":50,
     "ability":"Trace",
     "item":"None",
     "nature":"Timid",
     "evs":{"sa":100, "sp":100},
-    "moves":["Disarming Voice","Psybeam","Teleport","Shadow Sneak"],
+    "moves":["Disarming Voice","Psychic","Teleport","Shadow Sneak"],
     "gender": "M"
    }
   },
