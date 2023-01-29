@@ -8418,7 +8418,7 @@ var SS_PATCH = {
     },
     'Goodra-Hisui': {
         types: ['Steel', 'Dragon'],
-        bs: { hp: 90, at: 100, df: 70, sa: 110, sd: 150, sp: 80 },
+        bs: { hp: 80, at: 100, df: 100, sa: 110, sd: 150, sp: 60 },
         weightkg: 334.1,
         abilities: { 0: 'Sap Sipper' }
     },
