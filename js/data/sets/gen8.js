@@ -913,7 +913,39 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-
+    "Breloom":
+  {"Mint Swift [+HP]":
+   {"level":56,
+    "ability":"Poison Heal",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"hp":100},
+    "moves":["Feint","Return","Protect","Low Sweep"],
+    "gender": "M"
+   }
+  },
+    "Rampardos-Normal":
+  {"Fluffy":
+   {"level":61,
+    "ability":"Mold Breaker",
+    "item":"None",
+    "nature":"Modest",
+    "evs":{"sa":100, "sd":100},
+    "moves":["Copycat","Metronome","Explosion","Zen Headbutt"],
+    "gender": "M"
+   }
+  },
+    "Lapras-Ground/Ice":
+  {"Ripley":
+   {"level":55,
+    "ability":"Shell Armor",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"sd":200, "sp":100},
+    "moves":["Ice Beam","Body Slam","Confuse Ray","Magnitude"],
+    "gender": "M"
+   }
+  },
   
   
   //Voltflare
