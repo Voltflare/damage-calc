@@ -9420,6 +9420,18 @@ var SS_PATCH = {
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
+    'Lapras-Ground-Ice': {
+        types: ['Ground', 'Ice'],
+        bs: { hp: 130, at: 85, df: 80, sa: 85, sd: 95, sp: 60 },
+        abilities: { 0: 'Shell Armor' },
+        weightkg: 280
+    },
+    'Rampardos-Normal': {
+        types: ['Normal'],
+        bs: { hp: 97, at: 165, df: 60, sa: 65, sd: 50, sp: 58 },
+        weightkg: 128.5,
+        abilities: { 0: 'Mold Breaker' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
