@@ -937,7 +937,7 @@ var SETDEX_SS = {
   },
     "Lapras-Ground/Ice":
   {"Ripley":
-   {"level":55,
+   {"level":53,
     "ability":"Shell Armor",
     "item":"None",
     "nature":"Careful",
