@@ -9432,6 +9432,17 @@ var SS_PATCH = {
         weightkg: 128.5,
         abilities: { 0: 'Mold Breaker' }
     },
+    "Farigiraf-Fairy/Psychic": {
+        types: ['Dragon', 'Psychic'],
+        bs: {hp: 120, at: 100, df: 70, sa: 110, sd: 70, sp: 60},
+        weightkg: 160,
+        abilities: {0: 'Cud Chew'},
+    },
+    'Tyranitar-Rock/Fighting': {
+        types: ['Rock', 'Fighting'],
+        bs: { hp: 100, at: 134, df: 110, sa: 95, sd: 100, sp: 61 },
+        weightkg: 252
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
