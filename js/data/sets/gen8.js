@@ -913,7 +913,7 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Breloom":
+  "Breloom":
   {"Mint Swift [+HP]":
    {"level":56,
     "ability":"Poison Heal",
@@ -924,7 +924,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Rampardos-Normal":
+  "Rampardos-Normal":
   {"Fluffy":
    {"level":61,
     "ability":"Mold Breaker",
@@ -935,7 +935,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Lapras-Ground/Ice":
+  "Lapras-Ground/Ice":
   {"Ripley":
    {"level":53,
     "ability":"Shell Armor",
@@ -943,6 +943,28 @@ var SETDEX_SS = {
     "nature":"Careful",
     "evs":{"sd":200, "sp":100},
     "moves":["Ice Beam","Body Slam","Confuse Ray","Magnitude"],
+    "gender": "M"
+   }
+  },
+  "Farigiraf-Fairy/Psychic":
+  {"Skelly Bonett":
+   {"level":53,
+    "ability":"Cud Chew",
+    "item":"None",
+    "nature":"Impish",
+    "evs":{"sd":100, "sa":100},
+    "moves":["Psychic", "Confusion", "Astonish", "Nasty Plot"],
+    "gender": "F"
+   }
+  },
+  "Tyranitar-Rock/Fighting":
+  {"Baishan":
+   {"level":66,
+    "ability":"Immunity",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"hp":200, "df":100},
+    "moves":["Sandstorm", "Coaching", "Stone Edge", "Detect"],
     "gender": "M"
    }
   },
