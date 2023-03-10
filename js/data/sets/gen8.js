@@ -968,7 +968,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-  
+  "Ambipom":
+  {"Citizen 424":
+   {"level":57,
+    "ability":"Pickup",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"sa":100, "sp":100},
+    "moves":["Nasty Plot", "Sand Attack", "Last Resort", "Agility"],
+    "gender": "M"
+   }
+  },
   
   //Voltflare
     "Voltflare":
