@@ -979,6 +979,16 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+    "Weavile":
+  {"Glacia [-HP]":
+   {"level":62,
+    "ability":"Pressure",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"sp":100, "at":200},
+    "moves":["Night Slash","Icicle Crash","Poison Jab","Screech"]
+   }
+  },
   
   //Voltflare
     "Voltflare":
