@@ -380,17 +380,6 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Breloom":
-  {"Ayden":
-   {"level":57,
-    "ability":"Effect Spore",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "df":100},
-    "moves":["Seed Bomb","Feint","Iron Tail","Drain Punch"],
-    "gender": "M"
-   }
-  },
     "Slowking":
   {"Seaghdha":
    {"level":59,
@@ -986,7 +975,19 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Brave",
     "evs":{"sp":100, "at":200},
-    "moves":["Night Slash","Icicle Crash","Poison Jab","Screech"]
+    "moves":["Night Slash","Icicle Crash","Poison Jab","Screech"],
+    "gender": "F"
+   }
+  },
+    "Breloom":
+  {"Ayden":
+   {"level":57,
+    "ability":"Effect Spore",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"at":100, "df":100},
+    "moves":["Seed Bomb","Feint","Iron Tail","Drain Punch"],
+    "gender": "M"
    }
   },
   
