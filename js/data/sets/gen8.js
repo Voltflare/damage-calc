@@ -990,6 +990,22 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+
+
+
+//NPCs
+    "Milotic":
+  {"Amawrys":
+   {"level":58,
+    "ability":"Cute Charm",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":100, "sa":100, "sd":100},
+    "moves":["Hypnosis","Water Pulse","Life Dew","Disarming Voice"],
+    "gender": "F"
+   }
+  },
+
   
   //Voltflare
     "Voltflare":
