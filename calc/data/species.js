@@ -9486,6 +9486,13 @@ var SS_PATCH = {
         nfe: true,
         abilities: { 0: 'Infiltrator' }
     },
+    'Houndour-Walker': {
+        types: ['Dark', 'Fire'],
+        bs: { hp: 60, at: 70, df: 60, sa: 85, sd: 60, sp: 85 },
+        weightkg: 10.8,
+        nfe: true,
+        abilities: { 0: 'Early Bird' }
+    },    
     
     //Voltflare because I'm petty
     Voltflare: {
