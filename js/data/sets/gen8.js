@@ -979,14 +979,14 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Breloom":
-  {"Ayden":
+    "Houndour-Walker":
+  {"Walker [+HP]":
    {"level":57,
-    "ability":"Effect Spore",
+    "ability":"Early Bird",
     "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "df":100},
-    "moves":["Seed Bomb","Feint","Iron Tail","Drain Punch"],
+    "nature":"Sassy",
+    "evs":{"sp":200},
+    "moves":["Incinerate","Psychic Fangs","Detect","Comeuppance"],
     "gender": "M"
    }
   },
