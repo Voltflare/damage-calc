@@ -321,11 +321,11 @@ var XY = BW.concat(__spreadArrays(Object.keys(exports.MEGA_STONES), [
     'Weakness Policy',
 ]).sort());
 var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
-    'Adrenaline Orb',
+//     'Adrenaline Orb',
     'Electric Seed',
     'Grassy Seed',
     'Misty Seed',
-    'Protective Pads',
+//     'Protective Pads',
     'Psychic Seed',
 //     'Terrain Extender',
 ]);
