@@ -74,6 +74,17 @@ function getFinalSpeed(gen, pokemon, field, side) {
     if (pokemon.hasItem('Choice Scarf')) {
         mods *= 1.5;
     }
+    if ((pokemon.hasItem('Sunny Ribbon') && weather.includes('Sun')) || 
+        (pokemon.hasItem('Rainy Ribbon') && weather.includes('Rain')) ||
+        (pokemon.hasItem('Smooth Ribbon') && weather === 'Sand') ||
+        (pokemon.hasItem('Icy Ribbon') && weather === 'Hail')) {
+        mods *= 1.5;
+    }
+    if (pokemon.hasItem('Pragmatic Sash') && !weather) {
+        mods *= 1.5;
+    } else {
+        mods *= 0.5;
+    }
     else if (pokemon.hasItem.apply(pokemon, __spreadArrays(['Iron Ball'], EV_ITEMS))) {
         mods *= 0.5;
     }
