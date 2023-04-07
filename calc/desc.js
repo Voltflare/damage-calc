@@ -366,6 +366,16 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         damage += Math.floor(defender.maxHP() / 16);
         texts.push('Leftovers recovery');
     }
+    if (defender.hasItem('Sunglasses') && !loseItem) {
+        if (field.hasWeather('Sun', 'Harsh Sunshine', 'Sand')) {
+            damage += Math.floor(defender.maxHP() / 16);
+            texts.push('Sunglasses recovery');
+        }
+        else if (field.hasWeather('Hail', 'Rain', 'Heavy Rain')) {
+            damage -= Math.floor(defender.maxHP() / 16);
+            texts.push('Sunglasses recovery');
+        }
+    }
     else if (defender.hasItem('Black Sludge') && !loseItem) {
         if (defender.hasType('Poison')) {
             damage += Math.floor(defender.maxHP() / 16);
