@@ -82,7 +82,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     }
     if (pokemon.hasItem('Pragmatic Sash') && !weather) {
         mods *= 1.5;
-    } else {
+    } else if (pokemon.hasItem('Pragmatic Sash') && weather){
         mods *= 0.5;
     }
     else if (pokemon.hasItem.apply(pokemon, __spreadArrays(['Iron Ball'], EV_ITEMS))) {
