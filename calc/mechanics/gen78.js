@@ -542,6 +542,10 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         bpMods.push(0x14cd);
         desc.attackerItem = attacker.item;
     }
+    else if (attacker.hasItem('Caleas Berry') || defender.hasType('Ruined')) {
+        bpMods.push(0x2000);
+        desc.attackerItem = attacker.item;
+    }    
     if (move.named('Solar Beam', 'Solar Blade') &&
         field.hasWeather('Rain', 'Heavy Rain', 'Sand', 'Hail')) {
         bpMods.push(0x800);
