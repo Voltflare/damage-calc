@@ -512,7 +512,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if (attacker.item && items_1.getItemSmallBoostType(attacker.item) === move.type) {
         bpMods.push(0x1199);
-        description.attackerItem = attacker.item;
+        desc.attackerItem = attacker.item;
     }
     else if (attacker.item && move.hasType(items_1.getItemBoostType(attacker.item))) {
         bpMods.push(0x1333);
@@ -801,15 +801,15 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if (defender.hasItem('Buddy Rock')) {
         dfMods.push(0x1199);
-        description.defenderItem = defender.item;
+        descr.defenderItem = defender.item;
     }
     if (defender.hasItem('Friend Gemstone')) {
         dfMods.push(0x14cd);
-        description.defenderItem = defender.item;
+        desc.defenderItem = defender.item;
     }
     if ((defender.hasItem('Comet Shard') && (move.type === 'Fairy' || move.type === 'Psychic' || move.type === 'Steel'))) {
         dfMods.push(0x1199);
-        description.defenderItem = defender.item;
+        desc.defenderItem = defender.item;
     }
     else if (defender.hasAbility('Fur Coat') && hitsPhysical) {
         dfMods.push(0x2000);
