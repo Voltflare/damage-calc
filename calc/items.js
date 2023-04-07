@@ -116,6 +116,49 @@ function getItemBoostType(item) {
     }
 }
 exports.getItemBoostType = getItemBoostType;
+function getItemSmallBoostType(item) {
+    switch (item) {
+        case 'Dragon Scale':
+            return 'Dragon';
+        case 'Broken Glasses':
+            return 'Dark';
+        case 'Ground Clay':
+            return 'Ground';
+        case 'Ripped Belt':
+            return 'Fighting';
+        case 'Cinders':
+            return 'Fire';
+        case 'Historic Icecap':
+            return 'Ice';
+        case 'Grey Powder':
+            return 'Bug';
+        case 'Steel Feather':
+            return 'Steel';
+        case 'Magic Leaf':
+            return 'Grass';
+        case 'Cracked Spoon':
+            return 'Psychic';
+        case 'Fae Antennae':
+            return 'Fairy';
+        case 'Sharp Talon':
+            return 'Flying';
+        case 'Aged Vial':
+            return 'Water';
+        case 'Shady Dust':
+            return 'Ghost';
+        case 'Granite Stone':
+            return 'Rock';
+        case 'Tainted Hook':
+            return 'Poison';
+        case 'Marble':
+            return 'Electric';
+        case 'Ripped Silk Scarf':
+            return 'Normal';
+        default:
+            return undefined;
+    }
+}
+exports.getItemSmallBoostType = getItemSmallBoostType;
 function getBerryResistType(berry) {
     switch (berry) {
         case 'Chilan Berry':
@@ -154,7 +197,7 @@ function getBerryResistType(berry) {
             return 'Steel';
         case 'Roseli Berry':
             return 'Fairy';
-        case 'Mystery Berry':
+        case 'Igneas Berry':
             return 'Ruined';
         default:
             return undefined;
