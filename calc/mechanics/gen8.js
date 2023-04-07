@@ -768,7 +768,7 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x14cd);
         description.defenderItem = defender.item;
     }
-    if ((defender.hasItem('Comet Shard') && (move.type === 'Fairy' || move.type === 'Psychic' || move.type === 'Steel')) {
+    if ((defender.hasItem('Comet Shard') && (move.type === 'Fairy' || move.type === 'Psychic' || move.type === 'Steel'))) {
         dfMods.push(0x1199);
         description.defenderItem = defender.item;
     }
