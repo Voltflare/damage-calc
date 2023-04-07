@@ -483,6 +483,10 @@ function calculateGen8(gen, attacker, defender, move, field) {
         bpMods.push(0x1333);
         description.attackerItem = attacker.item;
     }
+    if (attacker.item && items_1.getItemSmallBoostType(attacker.item) === move.type) {
+        bpMods.push(0x1199);
+        description.attackerItem = attacker.item;
+    }
     else if ((attacker.hasItem('Muscle Band') && move.category === 'Physical') ||
         (attacker.hasItem('Wise Glasses') && move.category === 'Special')) {
         bpMods.push(0x1199);
@@ -756,6 +760,18 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         description.defenderItem = defender.item;
     }
+    if (defender.hasItem('Buddy Rock') {
+        dfMods.push(0x1199);
+        description.defenderItem = defender.item;
+    }
+    if (defender.hasItem('Friend Gemstone') {
+        dfMods.push(0x14cd);
+        description.defenderItem = defender.item;
+    }
+    if ((defender.hasItem('Comet Shard') && (move.type === 'Fairy' || move.type === 'Psychic' || move.type === 'Steel')) {
+        dfMods.push(0x1199);
+        description.defenderItem = defender.item;
+    }
     if (defender.hasAbility('Fur Coat') && hitsPhysical) {
         dfMods.push(0x2000);
         description.defenderAbility = defender.ability;
@@ -763,6 +779,14 @@ function calculateGen8(gen, attacker, defender, move, field) {
     if (defender.hasAbility('Dauntless Shield') && hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderAbility = defender.ability;
+    }
+    if (defender.hasItem('Iron Band') && hitsPhysical) {
+        dfMods.push(0x1800);
+        description.defenderItem = defender.item;
+    }
+    if (defender.hasAbility('Zinc Band') && !(hitsPhysical)) {
+        dfMods.push(0x1800);
+        description.defenderItem = defender.item;
     }
     defense = Math.max(1, util_1.pokeRound((defense * chainMods(dfMods)) / 0x1000));
     var baseDamage = getBaseDamage(attacker.level, basePower, attack, defense);
