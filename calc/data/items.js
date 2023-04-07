@@ -362,6 +362,7 @@ var SS = SM.concat([
     'Marble',
     'Pecha Scarf',
     'Persim Band',
+    'Pragmatic Sash',
     'Rainy Ribbon',
     'Rebound Band',
     'Return Band',
