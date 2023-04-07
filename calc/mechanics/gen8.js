@@ -760,11 +760,11 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x2000);
         description.defenderItem = defender.item;
     }
-    if (defender.hasItem('Buddy Rock') {
+    if (defender.hasItem('Buddy Rock')) {
         dfMods.push(0x1199);
         description.defenderItem = defender.item;
     }
-    if (defender.hasItem('Friend Gemstone') {
+    if (defender.hasItem('Friend Gemstone')) {
         dfMods.push(0x14cd);
         description.defenderItem = defender.item;
     }
@@ -780,11 +780,11 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x1800);
         description.defenderAbility = defender.ability;
     }
-    if (defender.hasItem('Iron Band') && hitsPhysical) {
+    if (defender.hasItem('Iron Band') && move.category === 'Physical') {
         dfMods.push(0x1800);
         description.defenderItem = defender.item;
     }
-    if (defender.hasAbility('Zinc Band') && !(hitsPhysical)) {
+    if (defender.hasAbility('Zinc Band') && move.category === 'Special') {
         dfMods.push(0x1800);
         description.defenderItem = defender.item;
     }
