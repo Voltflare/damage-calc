@@ -801,7 +801,7 @@ function calculateSMSS(gen, attacker, defender, move, field) {
     }
     if (defender.hasItem('Buddy Rock')) {
         dfMods.push(0x1199);
-        descr.defenderItem = defender.item;
+        desc.defenderItem = defender.item;
     }
     if (defender.hasItem('Friend Gemstone')) {
         dfMods.push(0x14cd);
