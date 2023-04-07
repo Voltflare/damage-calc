@@ -331,6 +331,7 @@ var SM = XY.filter(function (i) { return i !== 'Old Amber'; }).concat([
 ]);
 var SS = SM.concat([
     'Aged Vial',
+    'Blast Band',
     'Blunder Policy',
     'Broken Classes',
     'Buddy Rock',
