@@ -990,7 +990,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-
+"Jolteon-Electric/Ghost":
+  {"Mercer":
+   {"level":52,
+    "ability":"Volt Absorb",
+    "item":"None",
+    "nature":"Hasty",
+    "evs":{"sp":100},
+    "moves":["Thunder Fang","Quick Attack","Lick","Shadow Sneal"],
+    "gender": "M"
+   }
+  },
 
 
 //NPCs
