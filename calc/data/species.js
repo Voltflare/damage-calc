@@ -9443,6 +9443,11 @@ var SS_PATCH = {
         bs: { hp: 100, at: 134, df: 110, sa: 95, sd: 100, sp: 61 },
         weightkg: 252
     },
+    'Jolteon-Electric/Ghost': {
+        types: ['Electric', 'Ghost'],
+        bs: { hp: 65, at: 65, df: 60, sa: 110, sd: 95, sp: 130 },
+        weightkg: 24.5
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
