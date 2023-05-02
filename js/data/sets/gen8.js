@@ -997,7 +997,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Hasty",
     "evs":{"sp":100},
-    "moves":["Thunder Fang","Quick Attack","Lick","Shadow Sneal"],
+    "moves":["Thunder Fang","Quick Attack","Lick","Shadow Sneak"],
     "gender": "M"
    }
   },
