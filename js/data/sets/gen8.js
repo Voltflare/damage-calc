@@ -216,17 +216,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-//     "Jigglypuff-Normal/Dark":
-//   {"Jolanda Smit":
-//    {"level":50,
-//     "ability":"Cute Charm",
-//     "item":"None",
-//     "nature":"Jolly",
-//     "evs":{"hp":100},
-//     "moves":["Sing","Attract","Echoed Voice","Fake Tears"],
-//     "gender": "F"
-//    }
-//   },
+    "Jigglypuff-Normal/Dark":
+  {"Jolanda Smit":
+   {"level":50,
+    "ability":"Cute Charm",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"hp":100},
+    "moves":["Sing","Attract","Echoed Voice","Fake Tears"],
+    "gender": "F"
+   }
+  },
 //     "Salandit":
 //   {"Iris":
 //    {"level":50,
