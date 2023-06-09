@@ -216,17 +216,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Jigglypuff-Normal/Dark":
-  {"Jolanda Smit":
-   {"level":50,
-    "ability":"Cute Charm",
-    "item":"None",
-    "nature":"Jolly",
-    "evs":{"hp":100},
-    "moves":["Sing","Attract","Echoed Voice","Fake Tears"],
-    "gender": "F"
-   }
-  },
+//     "Jigglypuff-Normal/Dark":
+//   {"Jolanda Smit":
+//    {"level":50,
+//     "ability":"Cute Charm",
+//     "item":"None",
+//     "nature":"Jolly",
+//     "evs":{"hp":100},
+//     "moves":["Sing","Attract","Echoed Voice","Fake Tears"],
+//     "gender": "F"
+//    }
+//   },
 //     "Salandit":
 //   {"Iris":
 //    {"level":50,
@@ -293,17 +293,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-    "Zangoose":
-  {"Zoja Kalnins":
-   {"level":64,
-    "ability":"Toxic Boost",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "sp":100},
-    "moves":["Hone Claws","Slash","Night Slash","Revenge"],
-    "gender": "F"
-   }
-  },
+//     "Zangoose":
+//   {"Zoja Kalnins":
+//    {"level":64,
+//     "ability":"Toxic Boost",
+//     "item":"None",
+//     "nature":"Brave",
+//     "evs":{"at":100, "sp":100},
+//     "moves":["Hone Claws","Slash","Night Slash","Revenge"],
+//     "gender": "F"
+//    }
+//   },
     "Kirlia":
   {"Paklin Costur":
    {"level":50,
@@ -381,16 +381,16 @@ var SETDEX_SS = {
    }
   },
     "Slowking":
-  {"Seaghdha":
-   {"level":59,
-    "ability":"Own Tempo",
-    "item":"None",
-    "nature":"Calm",
-    "evs":{"sp":100, "sd":200},
-    "moves":["Heal Pulse","Calm Mind","Trick Room","Psychic"],
-    "gender": "M"
-   }
-  },
+//   {"Seaghdha":
+//    {"level":59,
+//     "ability":"Own Tempo",
+//     "item":"None",
+//     "nature":"Calm",
+//     "evs":{"sp":100, "sd":200},
+//     "moves":["Heal Pulse","Calm Mind","Trick Room","Psychic"],
+//     "gender": "M"
+//    }
+//   },
     "Metang-Rock/Psychic":
   {"Ricochet":
    {"level":50,
@@ -575,16 +575,16 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Lilligant":
-  {"Louis Mayflower":
-   {"level":52,
-    "ability":"Own Tempo",
-    "item":"None",
-    "nature":"Gentle",
-    "moves":["Sleep Powder","Aromatherapy","Synthesis","Sunny Day"],
-    "gender": "M"
-   }
-  },
+//     "Lilligant":
+//   {"Louis Mayflower":
+//    {"level":52,
+//     "ability":"Own Tempo",
+//     "item":"None",
+//     "nature":"Gentle",
+//     "moves":["Sleep Powder","Aromatherapy","Synthesis","Sunny Day"],
+//     "gender": "M"
+//    }
+//   },
     "Sirfetch'd":
   {"Sir Roy Ulterege":
    {"level":57,
@@ -640,17 +640,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Zoroark-Hisui":
-  {"Izola Megeris":
-   {"level":64,
-    "ability":"Illusion",
-    "item":"None",
-    "nature":"Lonely",
-    "evs":{"sa":100, "sp":100},
-    "moves":["Bitter Malice","Curse","Hex","Sludge Bomb"],
-    "gender": "F"
-   }
-  },
+//     "Zoroark-Hisui":
+//   {"Izola Megeris":
+//    {"level":64,
+//     "ability":"Illusion",
+//     "item":"None",
+//     "nature":"Lonely",
+//     "evs":{"sa":100, "sp":100},
+//     "moves":["Bitter Malice","Curse","Hex","Sludge Bomb"],
+//     "gender": "F"
+//    }
+//   },
     "Nidoqueen":
   {"Relana Hystrang":
    {"level":61,
