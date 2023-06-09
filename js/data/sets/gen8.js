@@ -380,7 +380,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Slowking":
+//     "Slowking":
 //   {"Seaghdha":
 //    {"level":59,
 //     "ability":"Own Tempo",
