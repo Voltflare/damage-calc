@@ -1001,7 +1001,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-
+"Gardevoir":
+  {"Espa Darklight":
+   {"level":56,
+    "ability":"Telepathy",
+    "item":"None",
+    "nature":"Serious",
+    "evs":{"hp":200, "sd":100},
+    "moves":["Heal Pulse","Hypnosis","Double Team","Psychic"],
+    "gender": "F"
+   }
+  },
 
 //NPCs
     "Milotic":
