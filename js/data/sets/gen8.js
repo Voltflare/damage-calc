@@ -653,12 +653,12 @@ var SETDEX_SS = {
 //   },
     "Nidoqueen":
   {"Relana Hystrang":
-   {"level":61,
+   {"level":59,
     "ability":"Poison Point",
     "item":"None",
     "nature":"Naive",
-    "evs":{"hp":200, "at":100},
-    "moves":["Earth Power","Poison Jab","Flamethrower","Dynamic Punch"],
+    "evs":{"hp":100, "at":100, "sa":100},
+    "moves":["Earth Power","Flamethrower","Shadow Claw","Dynamic Punch"],
     "gender": "F"
    }
   },
