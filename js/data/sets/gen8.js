@@ -1012,6 +1012,28 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Cofagrigus":
+  {"Mephisto":
+   {"level":57,
+    "ability":"Mummy",
+    "item":"None",
+    "nature":"Quiet",
+    "evs":{"df":100},
+    "moves":["Hex","Will-O-Wisp","Calm Mind","Trick Room"],
+    "gender": "M"
+   }
+  },
+  "Scolipede":
+  {"Whirl":
+   {"level":50,
+    "ability":"Poison Point",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sa": 100},
+    "moves":["Rollout","Bulldoze","Venoshock","Steamroller"],
+    "gender": "M"
+   }
+  },
 
 //NPCs
     "Milotic":
