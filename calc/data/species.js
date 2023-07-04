@@ -9454,7 +9454,13 @@ var SS_PATCH = {
         weightkg: 1.5,
         nfe: true,
         abilities: { 0: 'Slush Rush' }
-    },
+  },
+  'Tinkaton-Fairy/Normal': {
+    types: ['Fairy', 'Normal'],
+    bs: {hp: 85, at: 75, df: 77, sa: 70, sd: 105, sp: 94},
+    weightkg: 112.8,
+    abilities: {0: 'Own Tempo'},
+  },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
