@@ -1047,6 +1047,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Fomantis-Ice":
+  {"Frosta":
+   {"level":51,
+    "ability":"Slush Rush",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sa":100,},
+    "moves":["Icy Wind","Haze","Powder Snow","Growth"],
+    "gender": "F"
+   }
+  },
 
   
   //Voltflare
