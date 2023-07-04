@@ -9448,6 +9448,13 @@ var SS_PATCH = {
         bs: { hp: 65, at: 65, df: 60, sa: 110, sd: 95, sp: 130 },
         weightkg: 24.5
     },
+    'Fomantis-Ice': {
+        types: ['Ice'],
+        bs: { hp: 40, at: 55, df: 35, sa: 50, sd: 35, sp: 35 },
+        weightkg: 1.5,
+        nfe: true,
+        abilities: { 0: 'Slush Rush' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
