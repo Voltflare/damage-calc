@@ -267,7 +267,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Naughty",
     "evs":{"at":100, "df":100},
-    "moves":["Will-O-Wisp","Fire Lash","Payback","Thunder Punch"],
+    "moves":["Will-O-Wisp","Blaze Kick","Payback","Thunder Punch"],
     "gender": "M"
    }
   },
