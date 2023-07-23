@@ -153,7 +153,7 @@ var SETDEX_SS = {
   },
     "Lucario":
   {"Weyland [+HP]":
-   {"level":59,
+   {"level":60,
     "ability":"Steadfast",
     "item":"None",
     "nature":"Serious",
@@ -1034,6 +1034,16 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Breloom":
+  {"Ayden":
+   {"level":57,
+    "ability":"Effect Spore",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"at":100, "df":100},
+    "moves":["Seed Bomb","Counter","Iron Tail","Drain Punch"],
+    "gender": "M"
+   }
 
 //NPCs
     "Milotic":
