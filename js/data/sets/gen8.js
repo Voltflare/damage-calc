@@ -1034,16 +1034,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-  "Breloom":
-  {"Ayden":
-   {"level":57,
-    "ability":"Effect Spore",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "df":100},
-    "moves":["Seed Bomb","Counter","Iron Tail","Drain Punch"],
-    "gender": "M"
-   },
+
 
 //NPCs
     "Milotic":
