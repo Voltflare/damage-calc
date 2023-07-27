@@ -653,7 +653,7 @@ var SETDEX_SS = {
 //   },
     "Nidoqueen":
   {"Relana Hystrang":
-   {"level":59,
+   {"level":61,
     "ability":"Poison Point",
     "item":"None",
     "nature":"Naive",
