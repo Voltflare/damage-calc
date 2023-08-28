@@ -9472,7 +9472,7 @@ var SS_PATCH = {
         bs: { hp: 75, at: 80, df: 110, sa: 65, sd: 90, sp: 50 },
         weightkg: 89,
         abilities: { 0: 'Fire Face' },
-        otherFormes: ['Eiscue-Noice']
+        otherFormes: ['Eiscue-Fire-Noice']
     },
     'Eiscue-Fire-Noice': {
         types: ['Fire'],
