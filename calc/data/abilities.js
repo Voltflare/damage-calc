@@ -346,7 +346,8 @@ var SS = SM.concat([
     'Fluffy-Fuel', //Spike (Fire/Fighting Stufful)
     'Pixvernate-Dragon',
     'Pixvernate-Fairy', //Astereaux (Fairy/Dragon Sylveon)
-    'Cold Shoulder' //Chilblain (Fighting/Ice Sneasler)
+    'Cold Shoulder', //Chilblain (Fighting/Ice Sneasler)
+    'Fire Face', //Stravinsky (Fire Eiscue)
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Abilities = (function () {
