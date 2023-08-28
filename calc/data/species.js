@@ -9467,6 +9467,20 @@ var SS_PATCH = {
         weightkg: 31.0,
         abilities: { 0: 'Dragons Maw' }
     },
+    'Eiscue-Fire': {
+        types: ['Fire'],
+        bs: { hp: 75, at: 80, df: 110, sa: 65, sd: 90, sp: 50 },
+        weightkg: 89,
+        abilities: { 0: 'Fire Face' },
+        otherFormes: ['Eiscue-Noice']
+    },
+    'Eiscue-Fire-Noice': {
+        types: ['Fire'],
+        bs: { hp: 75, at: 80, df: 70, sa: 65, sd: 50, sp: 130 },
+        weightkg: 89,
+        abilities: { 0: 'Fire Face' },
+        baseSpecies: 'Eiscue-Fire'
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
