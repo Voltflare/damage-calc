@@ -9461,6 +9461,12 @@ var SS_PATCH = {
     weightkg: 112.8,
     abilities: {0: 'Own Tempo'},
   },
+  'Mawile-Steel/Dragon': {
+        types: ['Steel', 'Dragon'],
+        bs: { hp: 70, at: 90, df: 100, sa: 80, sd: 75, sp: 50 },
+        weightkg: 31.0,
+        abilities: { 0: 'Dragons Maw' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
