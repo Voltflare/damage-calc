@@ -1070,6 +1070,39 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Mawile-Steel/Dragon":
+  {"Olivia":
+   {"level":57,
+    "ability":"Dragons Maw",
+    "item":"None",
+    "nature":"Relaxed",
+    "evs":{"df":100, "sa":100},
+    "moves":["Iron Head","Twister","Dragon Hammer","Stockpile"],
+    "gender": "F"
+   }
+  },
+  "Rattata-Alola":
+  {"Silas [-HP]":
+   {"level":51,
+    "ability":"Hustle",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":100,},
+    "moves":["Hyper Fang","Bite","Crunch","Tail Whip"],
+    "gender": "M"
+   }
+  },
+  "Eiscue-Fire":
+  {"Stravinsky":
+   {"level":57,
+    "ability":"Fire Face",
+    "item":"None",
+    "nature":"Rash",
+    "evs":{"sa":200,},
+    "moves":["Smokescreen","Sunny Day","Incinerate","Weather Ball"],
+    "gender": "M"
+   }
+  },
 
   
   //Voltflare
