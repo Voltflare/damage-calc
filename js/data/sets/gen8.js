@@ -288,7 +288,7 @@ var SETDEX_SS = {
     "ability":"Cursed Body",
     "item":"None",
     "nature":"Naughty",
-    "evs":{"at":100, "sp:100},
+    "evs":{"at":100, "sp":100},
     "moves":["Phantom Force","Shadow Sneak","Quick Attack","Rock Smash"],
     "gender": "F"
    }
