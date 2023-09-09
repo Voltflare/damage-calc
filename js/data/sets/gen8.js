@@ -288,7 +288,7 @@ var SETDEX_SS = {
     "ability":"Cursed Body",
     "item":"None",
     "nature":"Naughty",
-    "evs":{"hp":100, "at":100},
+    "evs":{"at":100, "sp:100},
     "moves":["Phantom Force","Shadow Sneak","Quick Attack","Rock Smash"],
     "gender": "F"
    }
@@ -1103,6 +1103,16 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Marowak-Alola":
+  {"Akamai":
+   {"level":61,
+    "ability":"Static",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"at":100, "sp:":200},
+    "moves":["Shadow Bone","Flame Wheel","Focus Energy", "Bonemerang"],
+    "gender": "M"
+   }
 
   
   //Voltflare
