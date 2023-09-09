@@ -9535,7 +9535,7 @@ var SS_PATCH = {
         types: ['Fire', 'Ghost'],
         bs: { hp: 60, at: 90, df: 110, sa: 50, sd: 85, sp: 60 },
         weightkg: 34,
-        abilities: { 0: 'Lightning Rod' },
+        abilities: { 0: 'Lightning Rod' }
     },
     
     //Voltflare because I'm petty
