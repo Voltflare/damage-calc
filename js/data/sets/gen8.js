@@ -1103,7 +1103,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-  "Marowak-Alola":
+  "Marowak-Alola-Akamai":
   {"Akamai":
    {"level":61,
     "ability":"Static",
