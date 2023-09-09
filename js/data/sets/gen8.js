@@ -1112,7 +1112,7 @@ var SETDEX_SS = {
     "evs":{"at":100, "sp:":200},
     "moves":["Shadow Bone","Flame Wheel","Focus Energy", "Bonemerang"],
     "gender": "M"
-   }
+   },
 
   
   //Voltflare
