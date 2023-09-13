@@ -1106,10 +1106,10 @@ var SETDEX_SS = {
   "Marowak-Alola-Akamai":
   {"Akamai":
    {"level":61,
-    "ability":"Static",
+    "ability":"Lightning Rod",
     "item":"None",
-    "nature":"Timid",
-    "evs":{"at":100, "sp:":200},
+    "nature":"Serious",
+    "evs":{"at":100, "sp":200},
     "moves":["Shadow Bone","Flame Wheel","Focus Energy", "Bonemerang"],
     "gender": "M"
    },
