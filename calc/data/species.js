@@ -9420,7 +9420,7 @@ var SS_PATCH = {
         nfe: true,
         abilities: { 0: 'Overgrow' }
     },
-    'Lapras-Ground-Ice': {
+    'Lapras-Ground/Ice': {
         types: ['Ground', 'Ice'],
         bs: { hp: 130, at: 85, df: 80, sa: 85, sd: 95, sp: 60 },
         abilities: { 0: 'Shell Armor' },
