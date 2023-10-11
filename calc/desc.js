@@ -656,6 +656,9 @@ function buildDescription(description, attacker, defender) {
     if (description.isFrostbitten) {
         output += 'frostbitten ';
     }
+    else if (description.disarmed) {
+        output += 'disarmed';
+    }    
     output += description.attackerName + ' ';
     if (description.isHelpingHand) {
         output += 'Helping Hand ';
