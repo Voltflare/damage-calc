@@ -1114,6 +1114,17 @@ var SETDEX_SS = {
     "gender": "M"
    },
   },
+"Dragalge-Poison/Dark":
+  {"Flow Kelp":
+   {"level":57,
+    "ability":"Unnerve",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"sp":100, "sd":100},
+    "moves":["Poison Tail","Acid","Water Gun","Smokescreen"],
+    "gender": "M"
+   }
+  },
 
   
   //Voltflare
