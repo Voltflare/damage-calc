@@ -1116,7 +1116,7 @@ var SETDEX_SS = {
   },
 "Dragalge-Poison/Dark":
   {"Flow Kelp":
-   {"level":57,
+   {"level":53,
     "ability":"Unnerve",
     "item":"None",
     "nature":"Timid",
