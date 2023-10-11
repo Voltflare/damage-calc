@@ -1018,6 +1018,10 @@ if (
     //     atMods.push(0x1199);
     //     desc.defenderAbility = defender.ability;
     // }
+    if (attacker.hasStatus('dis')) {
+        finalMods.push(0xc00);
+        desc.disarmed = true;
+    }
     if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
         finalMods.push(0x14cc);
         desc.attackerItem = attacker.item;
