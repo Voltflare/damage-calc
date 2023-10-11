@@ -1008,15 +1008,16 @@ if (
         desc.defenderAbility = defender.ability;
     }
     //new effect: Pressure reduces all incoming damage by 20%
-    if (defender.hasAbility('Pressure') && defender.curHP() <= (defender.maxHP()/2)) {
+    // if (defender.hasAbility('Pressure') && defender.curHP() <= (defender.maxHP()/2)) {
+    if (defender.hasAbility('Pressure')) {
         finalMods.push(0xc00);
         desc.defenderAbility = defender.ability;
     }
     //And lowers the attacker's power by 15%
-    if (attacker.hasAbility('Pressure') && attacker.curHP() <= (attacker.maxHP()/2)) {
-        atMods.push(0x1199);
-        desc.defenderAbility = defender.ability;
-    }
+    // if (attacker.hasAbility('Pressure') && attacker.curHP() <= (attacker.maxHP()/2)) {
+    //     atMods.push(0x1199);
+    //     desc.defenderAbility = defender.ability;
+    // }
     if (attacker.hasItem('Expert Belt') && typeEffectiveness > 1 && !move.isZ) {
         finalMods.push(0x14cc);
         desc.attackerItem = attacker.item;
