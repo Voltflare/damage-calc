@@ -9481,6 +9481,12 @@ var SS_PATCH = {
         abilities: { 0: 'Fire Face' },
         baseSpecies: 'Eiscue-Fire'
     },
+  'Dragalge-Poison/Dark': {
+        types: ['Poison', 'Dark'],
+        bs: { hp: 65, at: 75, df: 90, sa: 97, sd: 123, sp: 44 },
+        weightkg: 81.5,
+        abilities: { 0: 'Unnerve' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
