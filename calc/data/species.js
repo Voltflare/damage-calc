@@ -9844,6 +9844,12 @@ Ogerpon: {
         weightkg: 34,
         abilities: { 0: 'Lightning Rod' }
     },
+    'Diggersby-Horudo': {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 95, at: 63, df: 87, sa: 56, sd: 87, sp: 87 },
+        weightkg: 42.4,
+        abilities: { 0: 'Pickup' }
+    },
     
     //Voltflare because I'm petty
     Voltflare: {
