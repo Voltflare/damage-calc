@@ -1125,7 +1125,39 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-
+"Diggersby-Horudo":
+  {"Horudo":
+   {"level":53,
+    "ability":"Pickup",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"df":100, "sd":100},
+    "moves":["Bulldoze","Dig","Flail","Protect"],
+    "gender": "M"
+   }
+  },
+  "Corphish":
+  {"Corus":
+   {"level":50,
+    "ability":"Shell Armor",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"sp":200},
+    "moves":["Protect","Double Hit","Knock Off","Bubble Beam"],
+    "gender": "M"
+   }
+  },
+"Tinkaton":
+  {"Marteau":
+   {"level":61,
+    "ability":"Pickup",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"at":100, "df":100, "sd":100},
+    "moves":["Gigaton Hammer","Skitter Smack","Helping Hand","Play Rough"],
+    "gender": "M"
+   }
+  },
   
   //Voltflare
     "Voltflare":
