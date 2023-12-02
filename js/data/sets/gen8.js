@@ -957,6 +957,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Braixen":
+  {"William":
+   {"level":59,
+    "ability":"Magician",
+    "item":"None",
+    "nature":"Bold",
+    "evs":{"sa":100, "sd":100},
+    "moves":["Magic Room", "Psybeam", "Light Screen", "Psyshock"],
+    "gender": "M"
+   }
+  },
   "Ambipom":
   {"Citizen 424":
    {"level":57,
