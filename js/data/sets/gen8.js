@@ -1169,7 +1169,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-  
+"Togekiss":
+  {"Titania Lazulion":
+   {"level":56,
+    "ability":"Serene Grace",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"sp":100, "sd":100},
+    "moves":["Tailwind","Baton Pass","Psychic","Ancient Power"],
+    "gender": "M"
+   }
+  },  
   //Voltflare
     "Voltflare":
   {"The Equilibrium Pokemon":
