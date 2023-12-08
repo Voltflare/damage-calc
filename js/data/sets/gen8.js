@@ -1177,7 +1177,7 @@ var SETDEX_SS = {
     "nature":"Naive",
     "evs":{"sp":100, "sd":100},
     "moves":["Tailwind","Baton Pass","Psychic","Ancient Power"],
-    "gender": "M"
+    "gender": "F"
    }
   },  
   //Voltflare
