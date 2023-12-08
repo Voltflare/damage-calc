@@ -1179,7 +1179,18 @@ var SETDEX_SS = {
     "moves":["Tailwind","Baton Pass","Psychic","Ancient Power"],
     "gender": "F"
    }
-  },  
+  },
+"Aurorus":
+  {"Oasis":
+   {"level":53,
+    "ability":"Refrigerate",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"at":100, "sa":100},
+    "moves":["Mist","Freeze-Dry","Thunder Wave","Hyper Beam"],
+    "gender": "F"
+   }
+  }, 
   //Voltflare
     "Voltflare":
   {"The Equilibrium Pokemon":
