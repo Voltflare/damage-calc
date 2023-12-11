@@ -333,7 +333,7 @@ var SS = SM.concat([
     'Aged Vial',
     'Blast Band',
     'Blunder Policy',
-    'Broken Classes',
+    'Broken Glasses',
     'Buddy Rock',
     'Cheri Scarf',
     'Cinders',
