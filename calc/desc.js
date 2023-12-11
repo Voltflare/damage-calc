@@ -401,6 +401,10 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
             damage -= Math.floor(attacker.maxHP() / (gen.num >= 2 ? 8 : 16));
             texts.push('Liquid Ooze damage');
         }
+        if (attacker.hasAbility('Chilling Essence')) {
+            damage -= Math.floor(attacker.maxHP() / (gen.num >= 2 ? 8 : 16));
+            texts.push('Chilling Essence damage');
+        }            
         else {
             damage += Math.floor(attacker.maxHP() / (gen.num >= 2 ? 8 : 16));
             texts.push('Leech Seed recovery');
