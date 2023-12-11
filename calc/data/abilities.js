@@ -348,6 +348,11 @@ var SS = SM.concat([
     'Pixvernate-Fairy', //Astereaux (Fairy/Dragon Sylveon)
     'Cold Shoulder', //Chilblain (Fighting/Ice Sneasler)
     'Fire Face', //Stravinsky (Fire Eiscue)
+    'Berserk Shell', //Psycopod (Bug/Psychic Golisopod)
+
+    //Revealed other abilities
+    'Chilling Essence',
+    'Grim Essence'
 ]);
 exports.ABILITIES = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Abilities = (function () {
