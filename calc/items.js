@@ -310,6 +310,8 @@ var FLING_70 = new Set([
     'Power Bracer',
     'Power Lens',
     'Power Weight',
+    'Iron Band',
+    'Zinc Band',
 ]);
 var FLING_60 = new Set([
     'Adamant Orb',
