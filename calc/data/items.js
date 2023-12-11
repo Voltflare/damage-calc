@@ -385,6 +385,7 @@ var SS = SM.concat([
     'Twist Band',
     'Weather Band',
     'Weather Cape',
+    'Zinc Band',
     'Zinc Cape',
     
     'Nupeat Berry',
