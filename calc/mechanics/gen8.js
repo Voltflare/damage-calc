@@ -780,11 +780,11 @@ function calculateGen8(gen, attacker, defender, move, field) {
         dfMods.push(0x1800);
         description.defenderAbility = defender.ability;
     }
-    if (defender.hasItem('Iron Band') && move.category === 'Physical') {
+    if (defender.hasItem('Iron Band') && hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderItem = defender.item;
     }
-    if (defender.hasAbility('Zinc Band') && move.category === 'Special') {
+    if (defender.hasItem('Zinc Band') && !hitsPhysical) {
         dfMods.push(0x1800);
         description.defenderItem = defender.item;
     }
