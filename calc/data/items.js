@@ -394,7 +394,7 @@ var SS = SM.concat([
     'Astalea Berry',
     'Igneas Berry',
     'Caleas Berry',
-    'Aspelon Berry'
+    'Aspelon Berry',
 ]);
 // for (var i = 0; i < 100; i++) {
 //     SS.push("TR" + (i < 10 ? "0" + i : i));
