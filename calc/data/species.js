@@ -9788,6 +9788,12 @@ Ogerpon: {
         weightkg: 81.5,
         abilities: { 0: 'Unnerve' }
     },
+    'Golisopod-Bug/Psychic': {
+        types: ['Bug', 'Psychic'],
+        bs: { hp: 75, at: 125, df: 140, sa: 60, sd: 90, sp: 40 },
+        weightkg: 108,
+        abilities: { 0: 'Berserk Shell' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
