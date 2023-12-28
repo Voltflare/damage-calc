@@ -1212,6 +1212,28 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+"Chip":
+  {"Sableye":
+   {"level":60,
+    "ability":"Prankster",
+    "item":"Weather Cape",
+    "nature":"Sassy",
+    "evs":{"hp":100, "df":200, "sa":100},
+    "moves":["Thunder Wave","Will-O-Wisp","Hex","Energy Ball"],
+    "gender": "M"
+   }
+  },
+"Gogoat":
+  {"Wren":
+   {"level":60,
+    "ability":"Sap Sipper",
+    "item":"Life Orb",
+    "nature":"Adamant",
+    "evs":{"hp":200, "at":100, "df":100},
+    "moves":["Seed Bomb","Bulk Up","Milk Drink","Bounce"],
+    "gender": "F"
+   }
+  },
 
 
 
