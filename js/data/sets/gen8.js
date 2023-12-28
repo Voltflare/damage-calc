@@ -1012,64 +1012,6 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-"Gardevoir":
-  {"Espa Darklight":
-   {"level":56,
-    "ability":"Telepathy",
-    "item":"None",
-    "nature":"Serious",
-    "evs":{"hp":200, "sd":100},
-    "moves":["Heal Pulse","Hypnosis","Double Team","Psychic"],
-    "gender": "F"
-   }
-  },
-  "Cofagrigus":
-  {"Mephisto":
-   {"level":57,
-    "ability":"Mummy",
-    "item":"None",
-    "nature":"Quiet",
-    "evs":{"df":100},
-    "moves":["Hex","Will-O-Wisp","Calm Mind","Trick Room"],
-    "gender": "M"
-   }
-  },
-  "Scolipede":
-  {"Whirl":
-   {"level":50,
-    "ability":"Poison Point",
-    "item":"None",
-    "nature":"Jolly",
-    "evs":{"at":100, "sa": 100},
-    "moves":["Rollout","Bulldoze","Venoshock","Steamroller"],
-    "gender": "M"
-   }
-  },
-    "Breloom":
-  {"Ayden":
-   {"level":57,
-    "ability":"Effect Spore",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100, "df":100},
-    "moves":["Seed Bomb","Counter","Iron Tail","Drain Punch"],
-    "gender": "M"
-    }
-   },
-
-
-//NPCs
-    "Milotic":
-  {"Amawrys":
-   {"level":58,
-    "ability":"Cute Charm",
-    "item":"None",
-    "nature":"Timid",
-    "evs":{"hp":100, "sa":100, "sd":100},
-    "moves":["Hypnosis","Water Pulse","Life Dew","Disarming Voice"],
-    "gender": "F"
-   }
-  },
   "Fomantis-Ice":
   {"Frosta":
    {"level":51,
@@ -1169,6 +1111,50 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+"Gardevoir":
+  {"Espa Darklight":
+   {"level":56,
+    "ability":"Telepathy",
+    "item":"None",
+    "nature":"Serious",
+    "evs":{"hp":200, "sd":100},
+    "moves":["Heal Pulse","Hypnosis","Double Team","Psychic"],
+    "gender": "F"
+   }
+  },
+  "Cofagrigus":
+  {"Mephisto":
+   {"level":57,
+    "ability":"Mummy",
+    "item":"None",
+    "nature":"Quiet",
+    "evs":{"df":100},
+    "moves":["Hex","Will-O-Wisp","Calm Mind","Trick Room"],
+    "gender": "M"
+   }
+  },
+  "Scolipede":
+  {"Whirl":
+   {"level":50,
+    "ability":"Poison Point",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sa": 100},
+    "moves":["Rollout","Bulldoze","Venoshock","Steamroller"],
+    "gender": "M"
+   }
+  },
+"Breloom":
+  {"Ayden":
+   {"level":59,
+    "ability":"Effect Spore",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"at":100, "df":100},
+    "moves":["Seed Bomb","Counter","Iron Tail","Drain Punch"],
+    "gender": "M"
+    }
+   },
 "Togekiss":
   {"Titania Lazulion":
    {"level":56,
@@ -1190,7 +1176,46 @@ var SETDEX_SS = {
     "moves":["Mist","Freeze-Dry","Thunder Wave","Hyper Beam"],
     "gender": "F"
    }
-  }, 
+  },
+"Golisopod-Bug/Psychic"
+    {"Psycopod":
+   {"level":63,
+    "ability":"Berserk Shell",
+    "item":"None",
+    "nature":"Bashful",
+    "evs":{"at":100, "sa":100},
+    "moves":["Psycho Cut","Slash","First Impression","Fury Cutter"],
+    "gender": "M"
+   }
+  },
+"Carbink"
+    {"Echo":
+   {"level":52,
+    "ability":"Sturdy",
+    "item":"None",
+    "nature":"Hardy",
+    "evs":{"hp":200, "df":100},
+    "moves":["Dazzling Gleam","Sandstorm","Rock Polish","Light Screen"],
+   }
+  },
+
+
+//NPCs
+    "Milotic":
+  {"Amawrys":
+   {"level":58,
+    "ability":"Cute Charm",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"hp":100, "sa":100, "sd":100},
+    "moves":["Hypnosis","Water Pulse","Life Dew","Disarming Voice"],
+    "gender": "F"
+   }
+  },
+
+
+
+  
   //Voltflare
     "Voltflare":
   {"The Equilibrium Pokemon":
