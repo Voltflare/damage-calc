@@ -1177,7 +1177,7 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-"Golisopod-Bug/Psychic"
+"Golisopod-Bug/Psychic":
     {"Psycopod":
    {"level":63,
     "ability":"Berserk Shell",
@@ -1188,7 +1188,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-"Carbink"
+"Carbink":
     {"Echo":
    {"level":52,
     "ability":"Sturdy",
