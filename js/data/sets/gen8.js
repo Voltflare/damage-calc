@@ -60,7 +60,7 @@ var SETDEX_SS = {
     "ability":"Fire Meld",
     "item":"None",
     "nature":"Sassy",
-    "evs":{"hp":100, "sd":100},
+    "evs":{"hp":100, "sa":100, "sd":100},
     "moves":["Future Sight","Swift","Helping Hand","Copycat"],
     "gender": "M"
    }
@@ -71,7 +71,7 @@ var SETDEX_SS = {
     "ability":"Steam Engine",
     "item":"None",
     "nature":"Sassy",
-    "evs":{"sa":200, "sd":100},
+    "evs":{"sa":200, "df":100, "sd":100},
     "moves":["Telekinesis","Scald","Reflect","Ally Switch"]
    }
   },
@@ -310,7 +310,7 @@ var SETDEX_SS = {
     "ability":"Trace",
     "item":"None",
     "nature":"Timid",
-    "evs":{"sa":100, "sp":100},
+    "evs":{"sa":100, "sp":200},
     "moves":["Disarming Voice","Psychic","Teleport","Shadow Sneak"],
     "gender": "M"
    }
@@ -353,7 +353,7 @@ var SETDEX_SS = {
     "ability":"Keen Eye",
     "item":"None",
     "nature":"Jolly",
-    "evs":{"hp":100, "sd":200},
+    "evs":{"hp":100, "df":100, "sd":200},
     "moves":["Stone Edge","Protect","Rock Tomb"],
     "gender": "M"
    }
@@ -602,7 +602,7 @@ var SETDEX_SS = {
     "ability":"Natural Cure",
     "item":"None",
     "nature":"Hardy",
-    "evs":{"hp":100, "at":100, "sd":100},
+    "evs":{"hp":200, "at":100, "sd":100},
     "moves":["Horn Leech","Phantom Force","Earthquake","Trick Room"],
     "gender": "M"
    }
@@ -743,7 +743,7 @@ var SETDEX_SS = {
     "ability":"Super Luck",
     "item":"None",
     "nature":"Lonely",
-    "evs":{"at":100, "sp": 100},
+    "evs":{"at":100, "sp": 200},
     "moves":["Leaf Blade","Detect","Icy Wind","Stone Edge"],
     "gender": "F"
    }
@@ -776,7 +776,7 @@ var SETDEX_SS = {
     "ability":"Inner Focus",
     "item":"None",
     "nature":"Jolly",
-    "evs":{"at":100, "sp":200},
+    "evs":{"at":100, "sp":300},
     "moves":["Force Palm","U-turn","Acrobatics","Calm Mind"],
     "gender": "F"
    }
@@ -930,7 +930,7 @@ var SETDEX_SS = {
     "ability":"Shell Armor",
     "item":"None",
     "nature":"Careful",
-    "evs":{"sd":200, "sp":100},
+    "evs":{"sd":200, "df":100, "sp":100},
     "moves":["Ice Beam","Body Slam","Confuse Ray","Magnitude"],
     "gender": "M"
    }
@@ -1207,7 +1207,7 @@ var SETDEX_SS = {
     "ability":"Cute Charm",
     "item":"None",
     "nature":"Timid",
-    "evs":{"hp":100, "sa":100, "sd":100},
+    "evs":{"hp":100, "sa":100, "sd":200},
     "moves":["Hypnosis","Water Pulse","Life Dew","Disarming Voice"],
     "gender": "F"
    }
