@@ -861,7 +861,7 @@ var SETDEX_SS = {
   "Goodra-Hisui":
   {"Emily Roen":
    {"level":53,
-    "ability":"Overcoat",
+    "ability":"Shell Armor",
     "item":"None",
     "nature":"Relaxed",
     "evs":{"hp":100, "df":100, "sd":100},
@@ -984,7 +984,7 @@ var SETDEX_SS = {
    {"level":62,
     "ability":"Pressure",
     "item":"None",
-    "nature":"Brave",
+    "nature":"Adamant",
     "evs":{"sp":100, "at":200},
     "moves":["Night Slash","Icicle Crash","Poison Jab","Screech"],
     "gender": "F"
