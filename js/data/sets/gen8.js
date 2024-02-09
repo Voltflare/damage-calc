@@ -1157,11 +1157,11 @@ var SETDEX_SS = {
    },
 "Togekiss":
   {"Titania Lazulion":
-   {"level":56,
+   {"level":57,
     "ability":"Serene Grace",
     "item":"None",
     "nature":"Naive",
-    "evs":{"sp":100, "sd":100},
+    "evs":{"sp":100, "hp":100},
     "moves":["Tailwind","Baton Pass","Psychic","Ancient Power"],
     "gender": "F"
    }
