@@ -1179,7 +1179,7 @@ var SETDEX_SS = {
   },
 "Golisopod-Bug/Psychic":
     {"Psycopod":
-   {"level":63,
+   {"level":64,
     "ability":"Berserk Shell",
     "item":"None",
     "nature":"Bashful",
@@ -1196,6 +1196,17 @@ var SETDEX_SS = {
     "nature":"Hardy",
     "evs":{"hp":200, "df":100},
     "moves":["Dazzling Gleam","Sandstorm","Rock Polish","Light Screen"],
+   }
+  },
+    "Galvantula [-HP]":
+  {"Tula":
+   {"level":53,
+    "ability":"Swarm",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"df":200},
+    "moves":["Electroweb","String Shot","Bug Bite","Sticky Web"],
+    "gender": "F"
    }
   },
 
