@@ -9856,6 +9856,12 @@ Ogerpon: {
         weightkg: 42.4,
         abilities: { 0: 'Pickup' }
     },
+    'Sableye-Chip': {
+        types: ['Dark', 'Ghost'],
+        bs: { hp: 70, at: 80, df: 80, sa: 95, sd: 85, sp: 70 },
+        weightkg: 11,
+        abilities: { 0: 'Prankster' }
+    },
     
     //Voltflare because I'm petty
     Voltflare: {
