@@ -1234,7 +1234,7 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-"Sableye":
+"Sableye-Chip":
   {"Chip":
    {"level":60,
     "ability":"Prankster",
