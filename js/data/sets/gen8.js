@@ -1209,6 +1209,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+  "Whimsicott":
+  {"Hyacinth":
+   {"level":59,
+    "ability":"Infiltrator",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"df":100, "sp":100},
+    "moves":["Tailwind","Hurricane","Substitute","Giga Drain"],
+    "gender": "F"
+   }
+  },
 
 
 //NPCs
