@@ -506,7 +506,7 @@ var SETDEX_SS = {
     "item":"None",
     "nature":"Jolly",
     "evs":{"at":100, "df":100},
-    "moves":["Triple Axel","Metal Claw","Quick Attack","Counter"],
+    "moves":["Triple Axel","Metal Claw","Knock Off","Counter"],
     "gender": "F"
    }
   },
