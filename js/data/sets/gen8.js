@@ -685,13 +685,13 @@ var SETDEX_SS = {
    }
   },
     "Porygon-Z":
-  {"C-PGZ":
+  {"Zephyr":
    {"level":51,
     "ability":"Adaptability",
     "item":"None",
     "nature":"Timid",
     "evs":{"hp":100, "df":200},
-    "moves":["Agility","Discharge","Recover"],
+    "moves":["Agility","Discharge","Recover", "Psybeam"],
    }
   },
     "Espurr-Nina":
