@@ -631,12 +631,12 @@ var SETDEX_SS = {
   },
     "Marshtomp":
   {"Finley (Greaser)":
-   {"level":55,
+   {"level":59,
     "ability":"Damp",
     "item":"None",
     "nature":"Brave",
-    "evs":{"sa":100, "sd":100},
-    "moves":["Earth Power","Muddy Water","Rock Slide","Ice Punch"],
+    "evs":{"at":200, "hp":100},
+    "moves":["Dig","Take Down","Rock Slide","Liquidation"],
     "gender": "M"
    }
   },
