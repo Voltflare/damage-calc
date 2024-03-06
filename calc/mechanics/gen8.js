@@ -949,6 +949,8 @@ function calculateGen8(gen, attacker, defender, move, field) {
         finalMods.push(0x400);
         description.isProtected = true;
     }
+    //In the Island, everything should be 50% weaker, so we can use 100% as a final HP total.
+    finalMods.push(0x800);
     var finalMod = chainMods(finalMods);
     for (var i = 0; i < 16; i++) {
         damage[i] = getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod);
