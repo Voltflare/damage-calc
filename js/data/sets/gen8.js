@@ -1220,7 +1220,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-
+"Vaporeon":
+    {"Basque":
+   {"level":64,
+    "ability":"Water Absorb",
+    "item":"None",
+    "nature":"Bold",
+    "evs":{"hp":100, "df":100, "sa":100},
+    "moves":["Muddy Water","Ice Beam","Acid Armor","Rest"],
+    "gender": "M"
+   }
+  },
 
 //NPCs
     "Milotic":
