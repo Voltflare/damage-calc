@@ -1057,7 +1057,7 @@ function getFinalDamage(baseAmount, i, effectiveness, isBurned, stabMod, finalMo
     if (isBurned) {
         damageAmount = Math.floor(damageAmount / 2);
     }
-    return util_1.pokeRound(Math.max(1, (damageAmount * finalMod) / 0x1000));
+    return util_1.pokeRound(Math.max(1, (damageAmount * finalMod) / 0x1000)) * 0.5;
 }
 function getWeightFactor(pokemon) {
     return pokemon.hasAbility('Heavy Metal') ? 2 : pokemon.hasAbility('Light Metal') ? 0.5 : 1;
