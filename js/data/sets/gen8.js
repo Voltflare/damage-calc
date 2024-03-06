@@ -880,17 +880,6 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-  "Vaporeon":
-  {"Abrams":
-   {"level":51,
-    "ability":"Water Absorb",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"hp":100, "sd":100},
-    "moves": ["Water Gun", "Wish", "Charm", "Baby-Doll Eyes"],
-    "gender": "M"
-   }
-  },
   "Duraludon":
   {"Shear":
    {"level":57,
@@ -1220,16 +1209,27 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Vaporeon":
-  {"Basque":
-   {"level":64,
-    "ability":"Water Absorb",
-    "item":"None",
-    "nature":"Bold",
-    "evs":{"hp":100, "df":100, "sa":100},
-    "moves": ["Muddy Water", "Ice Beam", "Rest", "Acid Armor"],
-    "gender": "M"
-   }
+  {"Vaporeon":
+    {"Basque":
+     {"level":64,
+      "ability":"Water Absorb",
+      "item":"None",
+      "nature":"Bold",
+      "evs":{"hp":100, "df":100, "sa":100},
+      "moves": ["Muddy Water", "Ice Beam", "Rest", "Acid Armor"],
+      "gender": "M"
+     }
+    },
+  {"Abrams":
+     {"level":51,
+      "ability":"Water Absorb",
+      "item":"None",
+      "nature":"Careful",
+      "evs":{"hp":100, "sd":100},
+      "moves": ["Water Gun", "Wish", "Charm", "Baby-Doll Eyes"],
+      "gender": "M"
+     }
+    }
   },
 
 //NPCs
