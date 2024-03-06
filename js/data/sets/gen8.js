@@ -1209,7 +1209,7 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  {"Vaporeon":
+   "Vaporeon":
     {"Basque":
      {"level":64,
       "ability":"Water Absorb",
@@ -1218,9 +1218,8 @@ var SETDEX_SS = {
       "evs":{"hp":100, "df":100, "sa":100},
       "moves": ["Muddy Water", "Ice Beam", "Rest", "Acid Armor"],
       "gender": "M"
-     }
-    },
-  {"Abrams":
+     },
+  "Abrams":
      {"level":51,
       "ability":"Water Absorb",
       "item":"None",
@@ -1229,7 +1228,6 @@ var SETDEX_SS = {
       "moves": ["Water Gun", "Wish", "Charm", "Baby-Doll Eyes"],
       "gender": "M"
      }
-    }
   },
 
 //NPCs
