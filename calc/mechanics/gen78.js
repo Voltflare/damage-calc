@@ -1053,6 +1053,8 @@ if (
         protect = true;
         desc.isProtected = true;
     }
+    //In the Island, everything should be 50% weaker, so we can use 100% as a final HP total.
+    finalMods.push(0x800);
     var finalMod = util_2.chainMods(finalMods);
     var childDamage;
     if (attacker.hasAbility('Parental Bond') && move.hits === 1 && !isSpread) {
