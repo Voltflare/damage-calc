@@ -1229,6 +1229,28 @@ var SETDEX_SS = {
       "gender": "M"
      }
   },
+"Swampert":
+  {"Boris":
+   {"level":53,
+    "ability":"Torrent",
+    "item":"None",
+    "nature":"Docile",
+    "evs":{"at":100, "sa":100, "sp":100},
+    "moves":["Muddy Water","Mud Shot","Bide","Take Down"],
+    "gender": "M"
+   }
+  },
+"Crobat":
+  {"Jake":
+   {"level":51,
+    "ability":"Inner Focus",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sp":100},
+    "moves":["Poison Fang","Wing Attack","Confuse Ray","Bite"],
+    "gender": "M"
+   }
+  },
 
 //NPCs
     "Milotic":
