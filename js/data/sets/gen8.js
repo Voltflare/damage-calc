@@ -891,17 +891,6 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Breloom":
-  {"Mint Swift [+HP]":
-   {"level":56,
-    "ability":"Poison Heal",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"hp":100},
-    "moves":["Feint","Return","Protect","Low Sweep"],
-    "gender": "M"
-   }
-  },
   "Rampardos-Normal":
   {"Fluffy":
    {"level":61,
@@ -1142,8 +1131,26 @@ var SETDEX_SS = {
     "evs":{"at":100, "df":100},
     "moves":["Seed Bomb","Counter","Iron Tail","Drain Punch"],
     "gender": "M"
-    }
+    },
+  "Mint Swift [+HP]":
+   {"level":56,
+    "ability":"Poison Heal",
+    "item":"None",
+    "nature":"Brave",
+    "evs":{"hp":100},
+    "moves":["Feint","Return","Protect","Low Sweep"],
+    "gender": "M"
    },
+  "Patch":
+   {"level":60,
+    "ability":"Effect Spore",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"hp":100, "at":100, "sa":100},
+    "moves":["Mega Drain","Sky Uppercut","Leech Seed","Thunder Punch"],
+    "gender": "M"
+   }   
+  },  
 "Togekiss":
   {"Titania Lazulion":
    {"level":57,
@@ -1248,6 +1255,17 @@ var SETDEX_SS = {
     "nature":"Jolly",
     "evs":{"at":100, "sp":100},
     "moves":["Poison Fang","Wing Attack","Confuse Ray","Bite"],
+    "gender": "M"
+   }
+  },
+"Eevee":
+  {"Anisette":
+   {"level":56,
+    "ability":"Adaptability",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"df":100, "sp":100},
+    "moves":["Trailblaze","Copycat","Covet","Swift"],
     "gender": "M"
    }
   },
