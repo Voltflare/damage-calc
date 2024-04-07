@@ -1269,6 +1269,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+"Sirfetch'd [+HP]":
+  {"Roy Ulterege":
+   {"level":56,
+    "ability":"Scrappy",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"df":100, "hp":100},
+    "moves":["Attract","Sunny Day","Rest","Sky Attack"],
+    "gender": "M"
+   }
+  },
 
 //NPCs
     "Milotic":
