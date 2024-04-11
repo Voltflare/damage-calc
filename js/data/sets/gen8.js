@@ -656,7 +656,7 @@ var SETDEX_SS = {
    {"level":61,
     "ability":"Poison Point",
     "item":"None",
-    "nature":"Naive",
+    "nature":"Brave",
     "evs":{"hp":100, "at":100, "sa":100},
     "moves":["Earth Power","Flamethrower","Shadow Claw","Dynamic Punch"],
     "gender": "F"
