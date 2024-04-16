@@ -1269,8 +1269,8 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-"Sirfetch'd [+HP]":
-  {"Roy Ulterege":
+"Sirfetch'd":
+  {"Roy Ulterege [+HP]":
    {"level":56,
     "ability":"Scrappy",
     "item":"None",
@@ -1280,6 +1280,18 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+"Alakazam":
+  {"Hector":
+   {"level":60,
+    "ability":"Synchronize",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"at":100, "sa":100, "sp":100},
+    "moves":["Thunder Wave","Calm Mind","Psychic","Dazzling Gleam"],
+    "gender": "M"
+   }
+  },
+  
 
 //NPCs
     "Milotic":
