@@ -4251,11 +4251,11 @@ var SS_PATCH = {
     multihit: 3,
   },
   'Twin Beam': {
-    bp: 50,
+    bp: 40,
     type: 'Psychic',
     category: 'Special',
     zp: 100,
-    maxPower: 90,
+    maxPower: 100,
     multihit: 2,
   },
   'Wicked Torque': {
