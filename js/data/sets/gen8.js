@@ -1291,6 +1291,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Lycanroc-Midnight":
+  {"Kayt": 
+    {"level":55,
+      "ability":"Keen Eye",
+      "item":"None",
+      "nature":"Careful",
+      "evs":{"hp":100, "sp":100},
+      "moves":["Howl","Endure","Reversal","Rock Slide"],
+      "gender": "M"
+    }
+  },
   
 
 //NPCs
