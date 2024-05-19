@@ -1302,6 +1302,28 @@ var SETDEX_SS = {
       "gender": "M"
     }
   },
+"Snom":
+  {"Sled":
+   {"level":50,
+    "ability":"Shield Dust",
+    "item":"None",
+    "nature":"Lax",
+    "evs":{"at":100, "sa":100},
+    "moves":["Protect","Pounce","Struggle Bug","Powder Snow"],
+    "gender": "M"
+   }
+  },
+"Meowscarada":
+  {"Jester":
+   {"level":56,
+    "ability":"Overgrow",
+    "item":"None",
+    "nature":"Naughty",
+    "evs":{"sp":100, "df":100},
+    "moves":["Flower Trick","Double Team","Trick","Night Slash"],
+    "gender": "F"
+   }
+  },
   
 
 //NPCs
