@@ -9490,6 +9490,7 @@ Ogerpon: {
     weightkg: 156,
     gender: 'N',
     abilities: {0: 'Quark Drive'},
+  },
  'Iron Leaves': {
     types: ['Grass', 'Psychic'],
     bs: {hp: 90, at: 130, df: 88, sa: 70, sd: 108, sp: 104},
@@ -9504,6 +9505,21 @@ Ogerpon: {
     gender: 'N',
     abilities: {0: 'Protosynthesis'},
   },
+  'Raging Bolt': {
+    types: ['Electric', 'Dragon'],
+    bs: {hp: 125, at: 73, df: 91, sa: 137, sd: 89, sp: 75},
+    weightkg: 480,
+    gender: 'N',
+    abilities: {0: 'Protosynthesis'},
+  },
+  'Gouging Fire': {
+    types: ['Fire', 'Dragon'],
+    bs: {hp: 105, at: 115, df: 121, sa: 65, sd: 93, sp: 91},
+    weightkg: 590,
+    gender: 'N',
+    abilities: {0: 'Protosynthesis'},
+  },
+
     
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //The Island- Type Shifted Pokemon
