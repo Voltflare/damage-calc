@@ -326,6 +326,7 @@ var SS = SM.concat([
     'Rocky Payload',
     'Seed Sower',
     'Sharpness',
+    'Supersweet Syrup',
     'Supreme Overlord',
     'Sword of Ruin',
     'Tablets of Ruin',
