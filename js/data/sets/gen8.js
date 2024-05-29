@@ -1324,6 +1324,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+"Golisopod":
+    {"Lambda":
+   {"level":64,
+    "ability":"Emergency Exit",
+    "item":"None",
+    "nature":"Careful",
+    "evs":{"hp":200, "df":100},
+    "moves":["First Impression","Spite","Spikes","Wide Guard"],
+    "gender": "M"
+   }
+  },
   
 
 //NPCs
