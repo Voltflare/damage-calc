@@ -1285,8 +1285,8 @@ var SETDEX_SS = {
    {"level":60,
     "ability":"Synchronize",
     "item":"None",
-    "nature":"Lonely",
-    "evs":{"at":100, "sa":100, "sp":100},
+    "nature":"Modest",
+    "evs":{"hp":100, "sa":100},
     "moves":["Thunder Wave","Calm Mind","Psychic","Dazzling Gleam"],
     "gender": "M"
    }
