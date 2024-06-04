@@ -9663,9 +9663,15 @@ Ogerpon: {
         types: ['Fire', 'Fighting'],
         bs: {hp: 85, at:95, df:70, sa:45, sd:55, sp:50 },
         weightkg: 6.8,
-        abilities: { 0: 'Fluffy' },
+        abilities: { 0: 'Fluffy-Fuel' },
         nfe: true
     },
+    'Bewear-Fire/Fighting': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 120, at: 125, df: 80, sa: 55, sd: 60, sp: 60 },
+        abilities: { 0: 'Fluffy-Fuel' },
+        weightkg: 135
+    },    
     'Lycanroc-Midnight-Rock/Ice': {
         types: ['Rock','Ice'],
         bs: { hp: 85, at: 115, df: 75, sa: 55, sd: 75, sp: 82 },
