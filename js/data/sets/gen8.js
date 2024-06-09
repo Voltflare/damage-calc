@@ -1313,17 +1313,17 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-"Meowscarada":
-  {"Jester":
-   {"level":56,
-    "ability":"Overgrow",
-    "item":"None",
-    "nature":"Naughty",
-    "evs":{"sp":100, "df":100},
-    "moves":["Flower Trick","Double Team","Trick","Night Slash"],
-    "gender": "F"
-   }
-  },
+// "Meowscarada":
+//   {"Jester":
+//    {"level":56,
+//     "ability":"Overgrow",
+//     "item":"None",
+//     "nature":"Naughty",
+//     "evs":{"sp":100, "df":100},
+//     "moves":["Flower Trick","Double Team","Trick","Night Slash"],
+//     "gender": "F"
+//    }
+//   },
 "Golisopod":
     {"Lambda":
    {"level":64,
@@ -1332,6 +1332,17 @@ var SETDEX_SS = {
     "nature":"Careful",
     "evs":{"hp":200, "df":100},
     "moves":["First Impression","Spite","Spikes","Wide Guard"],
+    "gender": "M"
+   }
+  },
+    "Luxio":
+  {"Icarus":
+   {"level":51,
+    "ability":"Guts",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"sp":100},
+    "moves":["Spark","Bite","Leer","Trailblaze"],
     "gender": "M"
    }
   },
