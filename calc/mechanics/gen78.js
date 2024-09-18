@@ -966,7 +966,7 @@ if (
     if (defender.isDynamaxed && move.named('Dynamax Cannon', 'Behemoth Blade', 'Behemoth Bash')) {
         finalMods.push(0x2000);
     }
-    if (defender.hasAbility('Multiscale', 'Shadow Shield') &&
+    if (defender.hasAbility('Multiscale', 'Shadow Shield', 'Tera Shell') &&
         defender.curHP() === defender.maxHP() &&
         !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
         !attacker.hasAbility('Parental Bond (Child)')) {
