@@ -3881,7 +3881,7 @@ var SS_PATCH = {
     category: 'Special',
     zp: 195,
     maxPower: 140,
-  }
+  },
   'Fickle Beam': {
     bp: 80,
     type: 'Dragon',
