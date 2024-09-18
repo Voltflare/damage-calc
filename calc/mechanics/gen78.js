@@ -111,7 +111,21 @@ function calculateSMSS(gen, attacker, defender, move, field) {
         else if (attacker.named('Morpeko-Hangry')) {
             move.type = 'Dark';
         }
+  } else if (move.named('Ivy Cudgel')) {
+    if (attacker.name.includes('Ogerpon-Cornerstone')) {
+      type = 'Rock';
+    } else if (attacker.name.includes('Ogerpon-Hearthflame')) {
+      type = 'Fire';
+    } else if (attacker.name.includes('Ogerpon-Wellspring')) {
+      type = 'Water';
     }
+  } 
+// }else if (
+//     move.named('Tera Starstorm') && attacker.name === 'Terapagos-Stellar'
+//   ) {
+//     move.target = 'allAdjacentFoes';
+//     type = 'Stellar';
+//   }    
     var isAerilate = false;
     var isPixilate = false;
     var isRefrigerate = false;
