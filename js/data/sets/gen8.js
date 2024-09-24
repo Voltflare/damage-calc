@@ -653,7 +653,7 @@ var SETDEX_SS = {
 //   },
     "Nidoqueen":
   {"Relana Hystrang":
-   {"level":61,
+   {"level":64,
     "ability":"Poison Point",
     "item":"None",
     "nature":"Brave",
@@ -959,7 +959,7 @@ var SETDEX_SS = {
   },
     "Weavile":
   {"Glacia [-HP]":
-   {"level":62,
+   {"level":64,
     "ability":"Pressure",
     "item":"None",
     "nature":"Adamant",
