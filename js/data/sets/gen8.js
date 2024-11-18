@@ -1381,13 +1381,13 @@ var SETDEX_SS = {
   },
 "Gengar":
   {"Reggie":
-   {"level":56,
+   {"level":57,
     "ability":"Cursed Body",
     "item":"None",
     "nature":"Naive",
     "evs":{"sp":200},
     "moves":["Toxic","Hex","Will-o-Wisp","Dark Pulse"],
-    "gender": "M"
+    "gender": "F"
    }
   },
 "Zweilous":
