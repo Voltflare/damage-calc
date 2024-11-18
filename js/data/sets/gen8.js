@@ -531,17 +531,17 @@ var SETDEX_SS = {
     "moves":["Hidden Power (Psychic)"],
    }
   },
-    "Espeon-Psychic/Ghost":
-  {"Eden":
-   {"level":57,
-    "ability":"Synchronize",
-    "item":"None",
-    "nature":"Quirky",
-    "evs":{"sa":100, "sd":100, "sp":100},
-    "moves":["Will-O-Wisp","Psychic","Hex","Future Sight"],
-    "gender": "F"
-   }
-  },
+  //   "Espeon-Psychic/Ghost":
+  // {"Eden":
+  //  {"level":57,
+  //   "ability":"Synchronize",
+  //   "item":"None",
+  //   "nature":"Quirky",
+  //   "evs":{"sa":100, "sd":100, "sp":100},
+  //   "moves":["Will-O-Wisp","Psychic","Hex","Future Sight"],
+  //   "gender": "F"
+  //  }
+  // },
     "Sylveon-Fairy/Dragon":
   {"Astereaux [-HP]":
    {"level":57,
@@ -607,28 +607,28 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Farfetch'd-Galar-Fighting/Ground":
-  {"Zera Strag":
-   {"level":55,
-    "ability":"Steadfast",
-    "item":"None",
-    "nature":"Hasty",
-    "evs":{"sp":200},
-    "moves":["Sandstorm","Rock Smash","Bone Club","Revenge"],
-    "gender": "F"
-   }
-  },
-    "Lucario-Fire/Steel":
-  {"Opal":
-   {"level":59,
-    "ability":"Steadfast",
-    "item":"None",
-    "nature":"Brave",
-    "evs":{"at":100},
-    "moves":["Blaze Kick","Fire Punch","Meteor Mash","Flare Blitz"],
-    "gender": "F"
-   }
-  },
+  //   "Farfetch'd-Galar-Fighting/Ground":
+  // {"Zera Strag":
+  //  {"level":55,
+  //   "ability":"Steadfast",
+  //   "item":"None",
+  //   "nature":"Hasty",
+  //   "evs":{"sp":200},
+  //   "moves":["Sandstorm","Rock Smash","Bone Club","Revenge"],
+  //   "gender": "F"
+  //  }
+  // },
+  //   "Lucario-Fire/Steel":
+  // {"Opal":
+  //  {"level":59,
+  //   "ability":"Steadfast",
+  //   "item":"None",
+  //   "nature":"Brave",
+  //   "evs":{"at":100},
+  //   "moves":["Blaze Kick","Fire Punch","Meteor Mash","Flare Blitz"],
+  //   "gender": "F"
+  //  }
+  // },
     "Marshtomp":
   {"Finley (Greaser)":
    {"level":59,
@@ -792,17 +792,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
  },
-  "Lapras-Water/Dark":
-  {"Ecco Altwin":
-   {"level":53,
-    "ability":"Strong Jaw",
-    "item":"None",
-    "nature":"Lonely",
-    "evs":{"at": 100, "df": 100},
-    "moves":["Jaw Lock","Life Dew","Brine","Sing"],
-    "gender": "M"
-   }
-  },
+  // "Lapras-Water/Dark":
+  // {"Ecco Altwin":
+  //  {"level":53,
+  //   "ability":"Strong Jaw",
+  //   "item":"None",
+  //   "nature":"Lonely",
+  //   "evs":{"at": 100, "df": 100},
+  //   "moves":["Jaw Lock","Life Dew","Brine","Sing"],
+  //   "gender": "M"
+  //  }
+  // },
   "Oricorio-Dark":
   {"Dormani ['Brande']":
    {"level":57,
@@ -924,17 +924,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Tyranitar-Rock/Fighting":
-  {"Baishan":
-   {"level":66,
-    "ability":"Immunity",
-    "item":"None",
-    "nature":"Careful",
-    "evs":{"hp":200, "df":100},
-    "moves":["Sandstorm", "Coaching", "Stone Edge", "Detect"],
-    "gender": "M"
-   }
-  },
+  // "Tyranitar-Rock/Fighting":
+  // {"Baishan":
+  //  {"level":66,
+  //   "ability":"Immunity",
+  //   "item":"None",
+  //   "nature":"Careful",
+  //   "evs":{"hp":200, "df":100},
+  //   "moves":["Sandstorm", "Coaching", "Stone Edge", "Detect"],
+  //   "gender": "M"
+  //  }
+  // },
   "Braixen":
   {"William":
    {"level":59,
@@ -1100,17 +1100,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
-  "Cofagrigus":
-  {"Mephisto":
-   {"level":57,
-    "ability":"Mummy",
-    "item":"None",
-    "nature":"Quiet",
-    "evs":{"df":100},
-    "moves":["Hex","Will-O-Wisp","Calm Mind","Trick Room"],
-    "gender": "M"
-   }
-  },
+  // "Cofagrigus":
+  // {"Mephisto":
+  //  {"level":57,
+  //   "ability":"Mummy",
+  //   "item":"None",
+  //   "nature":"Quiet",
+  //   "evs":{"df":100},
+  //   "moves":["Hex","Will-O-Wisp","Calm Mind","Trick Room"],
+  //   "gender": "M"
+  //  }
+  // },
   "Scolipede":
   {"Whirl":
    {"level":50,
@@ -1335,7 +1335,7 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
-    "Luxio":
+"Luxio":
   {"Icarus":
    {"level":51,
     "ability":"Guts",
@@ -1346,6 +1346,85 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+"Floragato":
+  {"Ren Myoga":
+   {"level":57,
+    "ability":"Protean",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"at":100, "sp":100},
+    "moves":["U-Turn","Seed Bomb","Acrobatics","Taunt"],
+    "gender": "F"
+   }
+  },
+"Mimikyu":
+  {"Frost":
+   {"level":52,
+    "ability":"Disguise",
+    "item":"None",
+    "nature":"Serious",
+    "evs":{"sp":100},
+    "moves":["Shadow Claw","Play Rough","Wood Hammer","Trailblaze"],
+    "gender": "M"
+   }
+  },
+"Ninetales-Alola":
+  {"Byrilaes":
+   {"level":65,
+    "ability":"Snow Warning",
+    "item":"None",
+    "nature":"Serious",
+    "evs":{"hp":100,"def":100,"sd":100},
+    "moves":["Blizzard","Aurora Veil","Disable","Howl"],
+    "gender": "M"
+   }
+  },
+"Gengar":
+  {"Reggie":
+   {"level":56,
+    "ability":"Cursed Body",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"sp":200},
+    "moves":["Toxic","Hex","Will-o-Wisp","Dark Pulse"],
+    "gender": "M"
+   }
+  },
+"Zweilous":
+  {"Marco Polo":
+   {"level":57,
+    "ability":"Hustle",
+    "item":"None",
+    "nature":"Quirky",
+    "evs":{"hp":100, "at":100},
+    "moves":["Crunch","Fire Fang","Dragon Pulse","Roar"],
+    "gender": "M"
+   }
+  },
+"Lurantis-Grass/Steel":
+  {"Valkyrie":
+   {"level":61,
+    "ability":"Leaf Guard",
+    "item":"None",
+    "nature":"Timid",
+    "evs":{"at":100, "df":200},
+    "moves":["Sunny Day","Solar Blade","Magnet Bomb","Dual Chop"],
+    "gender": "M"
+   }
+  },
+"Buizel-Tripp":
+  {"Tripp":
+   {"level":55,
+    "ability":"Water Veil",
+    "item":"None",
+    "nature":"Impish",
+    "evs":{"hp":100, "sp":100},
+    "moves":["Quick Attack","Wave Crash","Waterfall","Helping Hand"],
+    "gender": "M"
+   }
+  },
+
+
   
 
 //NPCs
