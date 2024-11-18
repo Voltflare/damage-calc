@@ -9849,6 +9849,12 @@ Ogerpon: {
         weightkg: 108,
         abilities: { 0: 'Berserk Shell' }
     },
+    'Lurantis-Grass/Steel': {
+        types: ['Grass', 'Steel'],
+        bs: { hp: 70, at: 105, df: 90, sa: 80, sd: 90, sp: 45 },
+        weightkg: 18.5,
+        abilities: { 0: 'Leaf Guard' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
@@ -9916,6 +9922,13 @@ Ogerpon: {
         bs: { hp: 70, at: 80, df: 80, sa: 95, sd: 85, sp: 70 },
         weightkg: 11,
         abilities: { 0: 'Prankster' }
+    },
+    'Buizel-Tripp': {
+        types: ['Water'],
+        bs: { hp: 80, at: 85, df: 55, sa: 65, sd: 50, sp: 85},
+        weightkg: 29.5,
+        nfe: true,
+        abilities: { 0: 'Water Veil' }
     },
     
     //Voltflare because I'm petty
