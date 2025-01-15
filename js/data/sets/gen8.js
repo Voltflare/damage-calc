@@ -67,7 +67,7 @@ var SETDEX_SS = {
   },
     "Porygon-Z-Normal/Water":
   {"Lizzy":
-   {"level":61,
+   {"level":57,
     "ability":"Steam Engine",
     "item":"None",
     "nature":"Sassy",
@@ -706,7 +706,7 @@ var SETDEX_SS = {
   },
   "Salazzle":
   {"Jahara Agusuis":
-   {"level":57,
+   {"level":59,
     "ability":"Corrosion",
     "item":"None",
     "nature":"Adamant",
@@ -1293,7 +1293,7 @@ var SETDEX_SS = {
   },
   "Lycanroc-Midnight":
   {"Kayt": 
-    {"level":55,
+    {"level":59,
       "ability":"Keen Eye",
       "item":"None",
       "nature":"Careful",
@@ -1423,6 +1423,62 @@ var SETDEX_SS = {
     "gender": "M"
    }
   },
+  "Ninetales":
+  {"Homura Labelle":
+   {"level":56,
+    "ability":"Flash Fire",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"sa":200,"sp":100},
+    "moves":["Laser Focus","Flamethrower","Iron Tail","Psyshock"],
+    "gender": "F"
+   }
+  },
+ "Garganacl":
+  {"Malik [+HP]":
+   {"level":62,
+    "ability":"Purifying Salt",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"hp":100, "at":100, "df":100},
+    "moves":["Salt Cure","Hammer Arm","Fire Punch","Recover"],
+    "gender": "M"
+   }
+  },
+"Kirlia":
+  {"Toma Pine":
+   {"level":50,
+    "ability":"Telepathy",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"sa":100},
+    "moves":["Confusion","Life Dew","Draining Kiss","Double Team"],
+    "gender": "F"
+   }
+  },
+"Emolga-Ground/Flying-Abygael":
+  {"Abygael":
+   {"level":60,
+    "ability":"Sand Spit",
+    "item":"None",
+    "nature":"Lonely",
+    "evs":{"hp":100, "at":100, "sp":100},
+    "moves":["Dig","Bulldoze","Scorching Sands","Encore"],
+    "gender": "F"
+   }
+  },
+"Espathra":
+  {"Frida":
+   {"level":55,
+    "ability":"Guts",
+    "item":"None",
+    "nature":"Naive",
+    "evs":{"hp":100, "sd":200},
+    "moves":["Lumina Crash","Dazzling Gleam","Aerial Ace","Rest"],
+    "gender": "F"
+   }
+  },
+
 
 
   
