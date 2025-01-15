@@ -9855,6 +9855,12 @@ Ogerpon: {
         weightkg: 18.5,
         abilities: { 0: 'Leaf Guard' }
     },
+    'Emolga-Ground/Flying-Abygael': {
+        types: ['Ground', 'Flying'],
+        bs: { hp: 70, at: 90, df: 64, sa: 85, sd: 63, sp: 103 },
+        weightkg: 5,
+        abilities: { 0: 'Sand Spit' }
+    },
     
     
     /////////////////////////////////////////////////////////////////////////////////////////////
