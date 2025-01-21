@@ -304,8 +304,17 @@ var SETDEX_SS = {
 //     "gender": "F"
 //    }
 //   },
-    "Kirlia":
-  {"Paklin Costur":
+ "Kirlia":
+{"Toma Pine":
+   {"level":50,
+    "ability":"Telepathy",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"sa":100},
+    "moves":["Confusion","Life Dew","Draining Kiss","Double Team"],
+    "gender": "F"
+   },
+  "Paklin Costur":
    {"level":50,
     "ability":"Trace",
     "item":"None",
@@ -1443,17 +1452,6 @@ var SETDEX_SS = {
     "evs":{"hp":100, "at":100, "df":100},
     "moves":["Salt Cure","Hammer Arm","Fire Punch","Recover"],
     "gender": "M"
-   }
-  },
-"Kirlia":
-  {"Toma Pine":
-   {"level":50,
-    "ability":"Telepathy",
-    "item":"None",
-    "nature":"Adamant",
-    "evs":{"sa":100},
-    "moves":["Confusion","Life Dew","Draining Kiss","Double Team"],
-    "gender": "F"
    }
   },
 "Emolga-Ground/Flying-Abygael":
