@@ -1476,6 +1476,39 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+"Pikachu-Remukko":
+  {"Remukko":
+   {"level":55,
+    "ability":"Lightning Rod",
+    "item":"None",
+    "nature":"Rash",
+    "evs":{"at":100, "sp":100},
+    "moves":["Grass Knot","Iron Tail","Thunder Punch","Quick Attack"],
+    "gender": "M"
+   }
+  },
+"Combusken-Brooklyn":
+  {"Brooklyn [+HP]":
+   {"level":55,
+    "ability":"Blaze",
+    "item":"None",
+    "nature":"Jolly",
+    "evs":{"at":100, "sa":100},
+    "moves":["Fire Blast","Aerial Ace","Double Kick","Coaching"],
+    "gender": "F"
+   }
+  },
+"Mawile-Limos":
+  {"Limos":
+   {"level":56,
+    "ability":"Intimidate",
+    "item":"None",
+    "nature":"Bold",
+    "evs":{"at":100, "sp":100},
+    "moves":["Iron Head","Play Rough","Rock Tomb","Crunch"],
+    "gender": "F"
+   }
+  },
 
 
 
