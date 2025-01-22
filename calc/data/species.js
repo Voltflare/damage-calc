@@ -9936,6 +9936,25 @@ Ogerpon: {
         nfe: true,
         abilities: { 0: 'Water Veil' }
     },
+    'Pikachu-Remukko': {
+        types: ['Electric'],
+        bs: { hp: 55, at: 95, df: 60, sa: 60, sd: 50, sp: 100 },
+        weightkg: 6,
+        abilities: { 0: 'Lightning Rod' },
+    },
+    'Combusken-Brooklyn': {
+        types: ['Fire', 'Fighting'],
+        bs: { hp: 65, at: 85, df: 60, sa: 85, sd: 60, sp: 55 },
+        weightkg: 19.5,
+        nfe: true,
+        abilities: { 0: 'Blaze' }
+    },
+    'Mawile-Limos': {
+        types: ['Steel'],
+        bs: { hp: 75, at: 100, df: 85, sa: 55, sd: 70, sp: 80 },
+        weightkg: 11.5,
+        abilities: { 0: 'Intimidate' }
+    },
     
     //Voltflare because I'm petty
     Voltflare: {
