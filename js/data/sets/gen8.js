@@ -1509,6 +1509,17 @@ var SETDEX_SS = {
     "gender": "F"
    }
   },
+"Machamp":
+  {"Rocky":
+   {"level":59,
+    "ability":"Guts",
+    "item":"None",
+    "nature":"Adamant",
+    "evs":{"hp":100, "at":200},
+    "moves":["Dynamic Punch","Stone Edge","Bullet Punch","Knock Off"],
+    "gender": "M"
+   }
+  },
 
 
 
