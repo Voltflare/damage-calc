@@ -314,7 +314,9 @@ var SETDEX_SS = {
     "moves":["Confusion","Life Dew","Draining Kiss","Double Team"],
     "gender": "F"
    },
-  "Paklin Costur":
+  },
+  "Kirlia":
+  ("Paklin Costur":
    {"level":50,
     "ability":"Trace",
     "item":"None",
@@ -322,8 +324,8 @@ var SETDEX_SS = {
     "evs":{"sa":100, "sp":200},
     "moves":["Disarming Voice","Psychic","Teleport","Shadow Sneak"],
     "gender": "M"
-   }
-  },
+   },
+},
 //     "Skarmory-Steel/Electric":
 //   {"Briar":
 //    {"level":59,
