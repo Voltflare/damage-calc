@@ -316,7 +316,7 @@ var SETDEX_SS = {
    }
   },
   "Kirlia":
-  ("Paklin Costur":
+  {"Paklin Costur":
    {"level":50,
     "ability":"Trace",
     "item":"None",
