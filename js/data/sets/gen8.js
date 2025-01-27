@@ -313,7 +313,7 @@ var SETDEX_SS = {
     "evs":{"sa":100},
     "moves":["Confusion","Life Dew","Draining Kiss","Double Team"],
     "gender": "F"
-   },
+   }
   },
   "Kirlia":
   ("Paklin Costur":
@@ -324,7 +324,7 @@ var SETDEX_SS = {
     "evs":{"sa":100, "sp":200},
     "moves":["Disarming Voice","Psychic","Teleport","Shadow Sneak"],
     "gender": "M"
-   },
+   }
 },
 //     "Skarmory-Steel/Electric":
 //   {"Briar":
