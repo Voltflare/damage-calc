@@ -304,7 +304,7 @@ var SETDEX_SS = {
 //     "gender": "F"
 //    }
 //   },
- "Kirlia":
+ "Kirlia-Toma":
 {"Toma Pine":
    {"level":50,
     "ability":"Telepathy",
